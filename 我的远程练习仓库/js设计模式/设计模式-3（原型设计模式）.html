@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计模式-3(原型设计模式1)</title>
+</head>
+<body>
+<div id="test1"></div>
+<script>
+    var fn = function(){
+        this.age = 4;
+        this.name = 'liangwei';
+        this.make = 'china';
+    };
+    fn.prototype = {
+        sex : function(){
+            this.sex = 'male';
+            alert(1);
+        },
+        height: function(){
+            this.height = '1.75m';
+        }
+    }
+    var people = new fn();
+    console.log(people.sex());
+</script>
+</body>
+</html>

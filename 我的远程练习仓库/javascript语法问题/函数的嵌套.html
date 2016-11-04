@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数的嵌套</title>
+</head>
+<body>
+<a href="javascript:void(0)">Click here to do nothing</a>
+<a href="javascript:void(document.form.submit())">
+    Click here to submit</a>
+<script>
+    var getCode = (function(){
+        var secureCode = "0]Eal(eh&2";    // A code we do not want outsiders to be able to modify...
+
+        return function () {
+            return secureCode;
+        };
+    })();
+
+//    console.log(getCode());    // Returns the secret code
+    var str = '["this", "is", "a", "apple"]';
+//    console.log(eval("("+str+")"));
+//    console.log(isNaN('-320.23'));
+//    console.log(isNaN('-1q2 is0 a .aso0 52'));
+//    console.log(parseFloat('-1q2 is0 a .aso0 52'));
+//    console.log(parseFloat('-12.25000'));
+//    console.log(parseInt('-12.75000'));
+//    console.log(decodeURI('https://m.wangcaigu.com/site/getlists?appparams=dmlld3R5cGU9bGlzdCZzZWxlY3RfaW5kZXg9MA=='))
+//    https://m.wangcaigu.com/site/getlists?appparams=dmlld3R5cGU9bGlzdCZzZWxlY3RfaW5kZXg9MA==
+//    var trees = new Array("redwood", "bay", "cedar", "oak", "maple");
+//    delete trees[3];
+//    console.log(trees);
+//    console.log(trees[3]);
+//    if (3 in trees) {
+//        // this does not get executed（不会被执行）
+//        alert('无trees[3]')
+//    }
+//    var trees = new Array("redwood", "bay", "cedar", "oak", "maple");
+//    trees[3] = undefined;
+//    if (3 in trees) {
+//        // this gets executed（会被执行）
+//        alert('有trees[3]')
+//    }
+//    console.log(window.length);
+    var a = [1,1,1,1,1,1];
+    delete a[0];
+//    console.log(a.length);
+//    for(var i  in a ){
+//        console.log(a[i]);
+//    }
+//    for(var i=0 ; i<a.length ; i++ ){
+//        console.log(a[i]);
+//    }
+//    function test(a){
+//        return a;
+//    }
+//    console.log(test instanceof Function);
+//    console.log(a instanceof Array);
+//    var str = ' my name \n is liangwei   ';
+//    var str1 = ' my name \n is liangwei   ';
+//    console.log(str);
+//    console.log(` my name
+//is liangwei`);
+//    console.log(str.trim());
+    var a = ['a', 'b', 'c'];
+    var b = a.forEach(function(element) {console.log(typeof element); return element.toUpperCase();} );
+    console.log(b);
+
+    var a = ['a', 'b', 'c'];
+    var b = a.map(function(element) {console.log(typeof element); return element.toUpperCase();} );
+    console.log(b);
+</script>
+</body>
+</html>

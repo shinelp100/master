@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计模式-闭包</title>
+</head>
+<body>
+<div id="test1"></div>
+<div id="test">7</div>
+<script>
+    var fn = (function(){
+        var content = 'testcontent';
+        var fn1 = function(){
+            var element = document.getElementById('test1');
+            element.innerHTML = content;
+        }
+        return {
+            fn2 : function(){
+                fn1();
+                console.log('haha');
+            }
+        }
+    })();
+    fn.fn2();
+</script>
+</body>
+</html>

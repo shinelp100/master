@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js语法问题</title>
+</head>
+<body>
+<select id="select">
+    <option selected="selected" value="12"></option>
+    <option value="34"></option>
+    <option value="56"></option>
+    <option value="78"></option>
+    <option value="910"></option>
+</select>
+<script>
+    console.log(document.getElementById('select').options[0].attributes.selected);
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    var f1 = fso.createtextfile("d://work/练习/lw.txt", "true");
+    var f1 = fso.GetFile("d://work/练习/lw.txt");
+    alert("File last modified: " + f1.DateLastModified);
+</script>
+</body>
+</html>

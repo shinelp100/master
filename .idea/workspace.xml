@@ -2,8 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3283aa-1cdd-44b8-b850-e2797118ab2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/练习" afterPath="$PROJECT_DIR$/练习" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/dot_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/dot_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/dictionaries/pc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/.idea/练习.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/canvas/canvas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/css3动画效果/aa.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/css3动画效果/aa.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/css3动画效果/css3-animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/css3动画效果/css3样式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/dot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/Git_log高级用法.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/Git图解.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/Git提交引用.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/Git简易指南(上).md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/Git钩子.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/代码合并Merge还是Rebase.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/使用分支.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/保存你的更改.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/保持代码同步.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/创建PullRequest.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/创建代码仓库.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/回滚命令Reset、Checkout、Revert辨析.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/回滚错误的修改.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/常见工作流比较.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/果壳中的Git.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/查看仓库状态.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/检出以前的提交.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/sources/重写项目历史.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/wiki/about.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/wiki/catagory.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/git-recipes/wiki/footer.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/inviteRule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/javascript语法问题/js语法问题.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/javascript语法问题/nodeDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/javascript语法问题/函数的嵌套.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/aa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/设计模式-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/设计模式-3（原型设计模式1）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/设计模式-3（原型设计模式）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/设计模式-闭包.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/js设计模式/设计模式2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/rule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/我的远程练习仓库/浏览器检测/userAgent.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/练习" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,22 +76,12 @@
     <favorites_list name="master" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/练习/animate.css">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="练习.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/我的远程练习仓库/.idea/练习.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dot.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/练习/dot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,7 +125,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1932" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -110,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -130,22 +172,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="练习" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,115 +184,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\我的远程练习仓库" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -284,6 +208,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -317,7 +247,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478241953355</updated>
-      <workItem from="1478241954756" duration="503000" />
+      <workItem from="1478241954756" duration="574000" />
+      <workItem from="1478242538905" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="这是我的第一次提交到自己的git上">
       <created>1478242073296</created>
@@ -326,31 +257,38 @@
       <option name="project" value="LOCAL" />
       <updated>1478242073296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="我是测试的小尾巴">
+      <created>1478242481861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478242481861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503000" />
+    <option name="totallyTimeSpent" value="642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25242195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -369,13 +307,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="这是我的第一次提交到自己的git上" />
     <MESSAGE value="我要把练习也提交上去" />
-    <option name="LAST_COMMIT_MESSAGE" value="我要把练习也提交上去" />
+    <MESSAGE value="我是测试的小尾巴" />
+    <option name="LAST_COMMIT_MESSAGE" value="我是测试的小尾巴" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/练习/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/dot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -389,7 +355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/练习/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
+        <state relative-caret-position="459">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
@@ -397,8 +363,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/练习/dot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="297">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我的远程练习仓库/.idea/练习.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

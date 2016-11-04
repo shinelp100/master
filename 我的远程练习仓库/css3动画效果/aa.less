@@ -1,0 +1,41 @@
+.box {
+  background-color: red;
+  font-size:14px;
+  position: absolute;
+  align-content: center;
+  display: table-cell;
+  color: @base;
+  margin-left: @mr-l;
+  line-height: 100px;
+  padding:30px;
+}
+@base: #f938ab;
+@mr-l:20px;
+.rounded-corners(@radius:5px){
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -o-border-radius: @radius;
+  -ms-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#header {
+  .rounded-corners
+}
+#footer {
+  .rounded-corners(10px)
+}
+
+.mixin (dark, @color) {
+  color: darken(@color, 10%);
+}
+.mixin (light, @color) {
+  color: lighten(@color, 10%);
+}
+.mixin (@_, @color) {
+  display: block;
+}
+@switch:light;
+.class {
+  .mixin(@switch, #888);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计模式-3(原型设计模式1)</title>
+</head>
+<body>
+<div id="test1"></div>
+<script>
+    var fn = function(){
+        this.age = 4;
+        this.name = 'liangwei';
+        this.make = 'china';
+    };
+    fn.prototype.sex = function(){
+        this.sex = 'male';
+    }
+    var people = new fn();
+    console.log(people.sex());
+
+//    方式一
+//    var createMask = function(){
+//        var mask;
+//        return function(){
+//            return mask || ( mask = document.body.appendChild( document.createElement('div') ) )
+//        }
+//    }();
+//    alert(createMask());
+
+//    方式二
+    var createMask = function(){
+        var mask;
+        var fn = function(){
+            return mask || ( mask = document.body.appendChild( document.createElement('div') ) )
+        }
+        return {
+            first:fn
+        }
+    }();
+    alert(createMask.first());
+</script>
+</body>
+</html>

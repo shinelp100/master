@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计模式-2</title>
+</head>
+<body>
+<div id="test1"></div>
+<script>
+    var fn = (function () {
+        var content = 'testcontent';
+        var fn1 = function () {
+            var element = document.getElementById('test1');
+            element.innerHTML = content;
+        }
+        return {
+            first: fn1
+        }
+    })();
+    fn.first();
+</script>
+</body>
+</html>
