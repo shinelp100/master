@@ -21,4 +21,4 @@ git最简单的操作：
 检出提交会使工作目录和这个提交完全匹配。你可以用它来查看项目之前的状态，而不改变当前的状态。
 检出文件使你能够查看某个特定文件的旧版本，而工作目录中剩下的文件不变。
 
-hahhah git
+看到回滚：https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9
