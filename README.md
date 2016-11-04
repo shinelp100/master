@@ -12,4 +12,3 @@ $ git config --global core.autocrlf false  //禁用自动转换
 然后重新执行：
 $ git init    
 $ git add .
-ha 
