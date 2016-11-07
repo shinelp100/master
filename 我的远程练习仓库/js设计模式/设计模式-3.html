@@ -19,13 +19,13 @@
     console.log(people.sex());
 
 //    方式一
-//    var createMask = function(){
-//        var mask;
-//        return function(){
-//            return mask || ( mask = document.body.appendChild( document.createElement('div') ) )
-//        }
-//    }();
-//    alert(createMask());
+    var createMask = function(){
+        var mask;
+        return function(){
+            return mask || ( mask = document.body.appendChild( document.createElement('div') ) )
+        }
+    }();
+    alert(createMask());
 
 //    方式二
     var createMask = function(){
