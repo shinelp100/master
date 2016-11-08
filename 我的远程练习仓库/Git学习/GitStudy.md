@@ -42,4 +42,14 @@ git remote rm <name>移除名为的远程仓库的连接。
 git remote rename <old-name> <new-name> 将远程连接从重命名为。
 
 17、git fetch命令将提交从远程仓库导入到你的本地仓库。拉取下来的提交储存为远程分支，而不是我们一直使用的普通的本地分支。你因此可以在整合进你的项目副本之前查看更改。
+
+18、git merge origin/master 合并代码
+
+19、git branch 查看分支
+
+20、git log --oneline master..origin/master
+
+21、我们已经知道应该使用git fetch，然后是git merge，但是git pull将这两个命令合二为一。
+
+
 看到回滚：https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9
