@@ -26,4 +26,6 @@ git最简单的操作：
 12、理解这一点很重要——git revert回滚了『单独一个提交』——它没有移除后面的提交，然后回到项目之前的状态。
 在Git中，后者实际上被称为reset，而不是revert。
 
+13、我就是测试一下
+
 看到回滚：https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9
