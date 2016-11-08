@@ -2,198 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/合作媒体.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/品牌介绍.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/安全保障.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/平台优势.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/联系我们.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/领导寄语.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/.hsdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/Gruntfile.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/intro.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/lib/color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/lib/themes.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/lib/themes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/resources/barber-pole-orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/resources/flash-white.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/resources/templates/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/resources/templates/page.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/welcome/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/install.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/pace.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/pace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/pace.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-barber-shop.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-big-counter.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-bounce.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-center-atom.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-center-circle.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-center-radar.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-center-simple.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-corner-indicator.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-fill-left.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-flash.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-flat-top.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-loading-bar.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-mac-osx.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/templates/pace-theme-minimal.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/tests/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/black/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/blue/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/green/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/orange/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/pink/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/purple/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/red/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/silver/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/white/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-barber-shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-big-counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-bounce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-center-atom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-center-circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-center-radar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-center-simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-corner-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-fill-left.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-flash.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-flat-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-mac-osx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/themes/yellow/pace-theme-minimal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/body-onload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/btn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/circle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/dataurl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/dataurl1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/line.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/pace-theme-barber-shop.tmpl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/进度条专栏/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/分页插件/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/分页插件/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/分页插件/jquery.page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/分页插件/jquery.page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/分页插件/分页插件.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="master.iws" />
@@ -215,11 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="body-onload.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="body-onload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photos/进度条专栏/body-onload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-567">
               <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="分页插件.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/分页插件/分页插件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/分页插件/jquery.page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -300,6 +133,8 @@
         <option value="$PROJECT_DIR$/photos/pace-theme-barber-shop.tmpl.css" />
         <option value="$PROJECT_DIR$/photos/body-onload.html" />
         <option value="$PROJECT_DIR$/photos/进度条专栏/body-onload.html" />
+        <option value="$PROJECT_DIR$/分页插件/jquery.page.css" />
+        <option value="$PROJECT_DIR$/分页插件/分页插件.html" />
       </list>
     </option>
   </component>
@@ -439,7 +274,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
+              <option name="myItemId" value="分页插件" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,10 +289,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="photos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="进度条专栏" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,6 +310,7 @@
       <recent name="D:\work\master\photos\进度条专栏" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\分页插件" />
       <recent name="D:\work\master\photos\进度条专栏" />
       <recent name="D:\work\master\photos" />
       <recent name="D:\work\master" />
@@ -544,7 +376,7 @@
       <updated>1478247173696</updated>
       <workItem from="1478247175103" duration="4385000" />
       <workItem from="1478481084429" duration="5858000" />
-      <workItem from="1478575983660" duration="5220000" />
+      <workItem from="1478575983660" duration="6776000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -585,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15463000" />
+    <option name="totallyTimeSpent" value="17019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +438,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4745187" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4745187" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -849,14 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/circle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photos/pace-0.5.6/pace.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-405">
@@ -879,14 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/pace-theme-barber-shop.tmpl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -944,8 +760,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photos/进度条专栏/body-onload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-567">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页插件/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/pace-theme-barber-shop.tmpl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/circle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页插件/jquery.page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页插件/分页插件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
