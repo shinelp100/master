@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animateClick/animateClick.html" afterPath="$PROJECT_DIR$/animateClick/animateClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animateClick/animateClick.js" afterPath="$PROJECT_DIR$/animateClick/animateClick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animateClick/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/animateClick/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/分页插件/分页插件.html" afterPath="$PROJECT_DIR$/分页插件/分页插件.html" />
     </list>
     <ignored path="master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GitStudy.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GitStudy.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/我的远程练习仓库/Git学习/GitStudy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="187">
+              <first_editor relative-caret-position="430">
                 <caret line="23" column="120" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="120" />
                 <folding />
               </first_editor>
@@ -39,25 +43,25 @@
       <file leaf-file-name="body-onload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photos/进度条专栏/body-onload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
+            <state relative-caret-position="81">
               <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="分页插件.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="分页插件.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/分页插件/分页插件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+            <state relative-caret-position="108">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="animateClick.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos/animateClick/animateClick.html">
+        <entry file="file://$PROJECT_DIR$/animateClick/animateClick.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
@@ -67,7 +71,7 @@
         </entry>
       </file>
       <file leaf-file-name="jquery-1.11.1.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos/animateClick/jquery-1.11.1.min.js">
+        <entry file="file://$PROJECT_DIR$/animateClick/jquery-1.11.1.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -153,8 +157,8 @@
         <option value="$PROJECT_DIR$/photos/body-onload.html" />
         <option value="$PROJECT_DIR$/photos/进度条专栏/body-onload.html" />
         <option value="$PROJECT_DIR$/分页插件/jquery.page.css" />
-        <option value="$PROJECT_DIR$/分页插件/分页插件.html" />
         <option value="$PROJECT_DIR$/photos/animateClick/animateClick.html" />
+        <option value="$PROJECT_DIR$/分页插件/分页插件.html" />
       </list>
     </option>
   </component>
@@ -248,6 +252,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="分页插件" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -263,6 +281,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\master" />
       <recent name="D:\work\master\photos\进度条专栏" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -333,7 +352,7 @@
       <updated>1478247173696</updated>
       <workItem from="1478247175103" duration="4385000" />
       <workItem from="1478481084429" duration="5858000" />
-      <workItem from="1478575983660" duration="9371000" />
+      <workItem from="1478575983660" duration="9793000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -388,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19614000" />
+    <option name="totallyTimeSpent" value="20036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/animateClick/animateClick.js">
+    <entry file="file://$PROJECT_DIR$/animateClick/animateClick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -748,23 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/body-onload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分页插件/分页插件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/animateClick/animateClick.html">
+    <entry file="file://$PROJECT_DIR$/animateClick/animateClick.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
@@ -772,7 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/animateClick/jquery-1.11.1.min.js">
+    <entry file="file://$PROJECT_DIR$/animateClick/jquery-1.11.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -794,11 +797,27 @@
     <entry file="file://$PROJECT_DIR$/我的远程练习仓库/Git学习/GitStudy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
+          <first_editor relative-caret-position="430">
             <caret line="23" column="120" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="120" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/进度条专栏/body-onload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页插件/分页插件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
