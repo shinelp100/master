@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animateClick</title>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!--<script src="jquery-1.11.1.min.js"></script>-->
+    <script type="text/javascript" src="animateClick.js"></script>
+    <style>
+        body {
+            background: #000;
+            position: relative;
+        }
+        .button {
+            width: 100px;
+            color: rgb(255,255,255);
+            border: rgb(255,255,255) solid;
+            border-radius: 15px;
+            padding: 15px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<a id="btn" class="button" href="#">点我啊</a>
+</body>
+<script>
+    $(document).ready(function() {
+        $('#btn').animateClick({
+            "color":"blue",
+//            "animation":"tick",
+            "size":5
+        });
+    });
+//    You have 5 animations to select from
+//    1. Default animation if you don't specify one
+//    2. signal
+//    3. shoot
+//    4. tick
+//    5. cross
+</script>
+</html>
