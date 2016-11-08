@@ -32,6 +32,14 @@ git最简单的操作：
 
 14、git commit --amend命令是修复最新提交的便捷方式。
 
+15、git reflog显示本地仓库的引用日志。
 
+16、git remote 命令允许你创建、查看和删除和其它仓库之间的连接。 
+git remote 列出你和其他仓库之间的远程连接。 
+git remote -v 和上个命令相同，但同时显示每个连接的URL。
+git remote add <name> <url> 创建一个新的远程仓库连接。在添加之后，你可以将作为便捷的别名在其他Git命令中使用。
+git remote rm <name>移除名为的远程仓库的连接。
+git remote rename <old-name> <new-name> 将远程连接从重命名为。
 
+17、git fetch命令将提交从远程仓库导入到你的本地仓库。拉取下来的提交储存为远程分支，而不是我们一直使用的普通的本地分支。你因此可以在整合进你的项目副本之前查看更改。
 看到回滚：https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9
