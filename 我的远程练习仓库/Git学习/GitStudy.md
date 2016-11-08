@@ -26,6 +26,12 @@ git最简单的操作：
 12、理解这一点很重要——git revert回滚了『单独一个提交』——它没有移除后面的提交，然后回到项目之前的状态。
 在Git中，后者实际上被称为reset，而不是revert。
 
-13、我就是测试一下
+13、git reset --hard HEAD~1 重设缓冲区和工作目录，匹配最近的一次提交。
+撤销(revert)被设计为撤销 公开 的提交的安全方式，git reset被设计为重设 本地 更改。
+因为两个命令的目的不同，它们的实现也不一样：重设完全地移除了一堆更改，而撤销保留了原来的更改，用一个新的提交来实现撤销。
+
+14、git commit --amend命令是修复最新提交的便捷方式。
+
+
 
 看到回滚：https://github.com/geeeeeeeeek/git-recipes/wiki/2.6-%E5%9B%9E%E6%BB%9A%E9%94%99%E8%AF%AF%E7%9A%84%E4%BF%AE%E6%94%B9
