@@ -1,1 +1,1 @@
-function lw(){alert("我是新加的")}
+function lw(){alert("我是新加的qwert")}

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/images/list-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/images/list-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/images/style_z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/html/static/default/demo/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/html/static/default/demo/html/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/demo1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/increase.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fis3/demo-simple/demo/increase.js" afterPath="$PROJECT_DIR$/fis3/demo-simple/demo/increase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/increase.js" afterPath="$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/increase.js" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -51,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="increase.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="increase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fis3/demo-simple/demo/increase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="increase.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/increase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -233,6 +231,70 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fis4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_Public_" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fis4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_Public_" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fis3" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -343,7 +405,7 @@
       <workItem from="1478595734426" duration="764000" />
       <workItem from="1478596608367" duration="6350000" />
       <workItem from="1478654150158" duration="25267000" />
-      <workItem from="1478739859268" duration="15675000" />
+      <workItem from="1478739859268" duration="15717000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -499,11 +561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478765502887</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="百度fis4">
+      <created>1478765611249</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1478765611249</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67845000" />
+    <option name="totallyTimeSpent" value="67887000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -588,13 +657,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fis3/demo-simple/demo/demo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fis3/demo-simple/demo/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -831,6 +893,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fis4/_Public_/static/default/demo/js/increase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
