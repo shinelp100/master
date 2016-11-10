@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>felx</title>
+    <!--<meta name="viewport">-->
+    <!--<meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no" />-->
+    <!--<script src="flex.js"></script>-->
+    <script src="lib.flexible.js?v=2"></script>
+    <style>
+        body {
+            max-width: 1250px;
+            margin: 0 auto;
+            text-align: center;
+            background: #ccc;
+            color: #fff;
+        }
+        p {
+            /*font-size:0.24rem;*/
+            margin: 10px;
+            margin:0.1rem;
+
+        }
+    </style>
 </head>
 <body>
-$END$
+<div>
+    <p>
+在进行具体的分析之前，
+首先得知道下面这些关键性基本概念(术语)。
+
+物理像素(physical pixel)
+
+一个物理像素是显示器(手机屏幕)上最小的物理显示单元，
+在操作系统的调度下，
+每一个设备像素都有自己的颜色值和亮度值。
+
+设备独立像素(density-independent pixel)
+
+设备独立像素(也叫密度无关像素)，
+可以认为是计算机坐标系统中得一个点，
+这个点代表一个可以由程序使用的                   虚拟像素(比如: css像素)，
+然后由相关系统转换为物理像素。
+
+所以说，物理像素和设备独立像素之间存在着一定的对应关系，
+这就是接下来要说的设备像素比。
+
+设备像素比(device pixel ratio )
+
+设备像素比(简称dpr)定义了物理像素和设备独立像素的对应关系，
+它的值可以按如下的公式的得到：
+    </p>
+
+</div>
 </body>
 </html>

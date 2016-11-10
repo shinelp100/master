@@ -2,13 +2,12 @@
     function c() {
         var b = f.getBoundingClientRect().width;
         b / i > 1250 && (b = 1250 * i);
-        var c = b / 10;
+        var c = b / 7.5;
         f.style.fontSize = c + "px", k.rem = a.rem = c
     }
 
     var d, e = a.document, f = e.documentElement, g = e.querySelector('meta[name="viewport"]'), h = e.querySelector('meta[name="flexible"]'), i = 0, j = 0, k = b.flexible || (b.flexible = {});
     if (g) {
-        console.warn("灏嗘牴鎹凡鏈夌殑meta鏍囩鏉ヨ缃缉鏀炬瘮渚�");
         var l = g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
         l && (j = parseFloat(l[1]), i = parseInt(1 / j))
     } else if (h) {

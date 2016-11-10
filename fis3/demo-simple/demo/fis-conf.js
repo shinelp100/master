@@ -3,9 +3,9 @@ fis.match('*.{js,css,png,gif,less}', {
 });
 
 fis.match('::packager', {
-    postpackager: fis.plugin('loader', {
-        allInOne: true
-    }),
+    // postpackager: fis.plugin('loader', {
+    //     allInOne: true
+    // }),
     spriter: fis.plugin('csssprites')
 });
 
@@ -89,3 +89,27 @@ fis.match('*.less', {
     release: '_Public_/static/default/demo/css$0'
 });
 */
+
+fis.match('*', {
+    // 设置 release 为 FALSE，不再产出此文件
+    release: false
+})
+
+fis.match('{demo.js,}', {
+    // 设置 release 为 FALSE，不再产出此文件
+    release: '_Public_/static/default/demo/js$0'
+})
+fis.match('demo.html', {
+    // 设置 release 为 FALSE，不再产出此文件
+    release: '_Public_/html/static/default/demo/html$0'
+})
+
+fis.match('demo.html', {
+    // 设置 release 为 FALSE，不再产出此文件
+    release: '_Public_/html/static/default/demo/html$0'
+})
+// fis.match('*', {
+//     deploy: fis.plugin('filter-packaged-file')
+// });
+
+//fis3 ftp发布工具，支持跳过未修改文件  fis3-deploy-ftp
