@@ -1,6 +1,6 @@
-fis.match('*.{js,css,png,gif,less}', {
-    useHash: true // 开启 md5 戳
-});
+// fis.match('*.{js,css,png,gif,less}', {
+//     useHash: true // 开启 md5 戳
+// });
 
 fis.match('::packager', {
     // postpackager: fis.plugin('loader', {
@@ -90,24 +90,24 @@ fis.match('*.less', {
 });
 */
 
-fis.match('*', {
-    // 设置 release 为 FALSE，不再产出此文件
-    release: false
-})
-
-fis.match('{demo.js,}', {
-    // 设置 release 为 FALSE，不再产出此文件
-    release: '_Public_/static/default/demo/js$0'
-})
-fis.match('demo.html', {
-    // 设置 release 为 FALSE，不再产出此文件
-    release: '_Public_/html/static/default/demo/html$0'
-})
-
-fis.match('demo.html', {
-    // 设置 release 为 FALSE，不再产出此文件
-    release: '_Public_/html/static/default/demo/html$0'
-})
+// fis.match('*', {
+//     // 设置 release 为 FALSE，不再产出此文件
+//     release: false
+// })
+//
+// fis.match('{demo.js,}', {
+//     // 设置 release 为 FALSE，不再产出此文件
+//     release: '_Public_/static/default/demo/js$0'
+// })
+// fis.match('demo.html', {
+//     // 设置 release 为 FALSE，不再产出此文件
+//     release: '_Public_/html/static/default/demo/html$0'
+// })
+//
+// fis.match('demo.html', {
+//     // 设置 release 为 FALSE，不再产出此文件
+//     release: '_Public_/html/static/default/demo/html$0'
+// })
 // fis.match('*', {
 //     deploy: fis.plugin('filter-packaged-file')
 // });
