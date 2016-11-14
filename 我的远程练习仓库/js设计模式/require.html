@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>模块的原始写法</title>
+    <title>模块的原始写法 以及 require.js的写法</title>
 </head>
 <body>
 <div class="box">1234567890</div>
@@ -35,10 +35,10 @@
         var _count = 1;
         var a = function () {
             alert('a');
-        }
+        };
         var b = function () {
             alert('b');
-        }
+        };
         return {
             a: a,
             b: b
@@ -53,7 +53,7 @@
             alert('c');
         };
         return mod;
-    })(module1);
+    })(window.module1);
     //console.log(module1.c());//没暴露了外部变量
 
     //立即执行函数的写法（模块化宽  放大模式扩展c）

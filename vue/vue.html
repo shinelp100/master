@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue</title>
+    <style>
+        textarea {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="foo">
+    <p>{{ message }}</p>
+    <input v-model="message">
+    <button @click="fn1">提交</button>
+    <p v-show="!tips1">{{ tips }}</p>
+    <textarea v-model="tips1"></textarea>
+    <button @click="fn2">按钮 {{ num }}</button>
+    <simple></simple>
+    <simple></simple>
+</div>
+<template id="template">
+    <p>{{}}</p>
+    <button>{{num}}</button>
+</template>
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component('simple', {
+        template: '#template',
+        props: ['like','dislike'],
+        computed : {
+            add : function(){
+                this.num++
+            }
+        }
+    })
+    var vue = new Vue({
+        el: '#foo',
+        data: {
+            message: 'Hello Word !',
+            tips: "请在文本框中输入内容",
+            tips1: '',
+            tips2 :'like',
+            num: 0
+        },
+        methods: {
+            fn1: function () {
+                this.message = this.message.split('').reverse().join('')
+            },
+            fn2: function () {
+                this.num++;
+            }
+        }
+    });
+
+
+</script>
+</html>
