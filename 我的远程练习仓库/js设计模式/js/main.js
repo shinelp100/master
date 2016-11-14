@@ -6,11 +6,11 @@
 // require([module...],callback())
 
 require.config({
-    // baseUrl:'js/lib',
-    path : {
-        jquery:'jquery.min',
-        module1 : 'lib/module1',
-        module2 : 'lib/module2',
+    baseUrl:'js/lib',
+    paths: {
+        'jquery':'jquery',
+        'module1': 'module1',
+        'module2': 'module2'
     }
 });
 
