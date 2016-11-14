@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模块的原始写法</title>
+</head>
+<body>
+<div class="box">1234567890我是测试的小尾巴</div>
+<div class="box1">qwertyuiop</div>
+<script>
+    //模块的原始写法
+    function a() {
+        alert('a');
+    }
+    function b() {
+        alert('b');
+    }
+    ;
+
+    //模块的对象写法
+    var module = new Object({
+        _count: 0,
+        a: function () {
+            alert('a');
+        },
+        b: function () {
+            alert('b');
+        }
+    });
+    //module.a();
+    //console.log(module._count);//暴露了外部变量
+
+    //立即执行函数的写法（模块化）
+    var module1 = (function () {
+        var _count = 1;
+        var a = function () {
+            alert('a');
+        }
+        var b = function () {
+            alert('b');
+        }
+        return {
+            a: a,
+            b: b
+        }
+    })();
+    //    console.log(module1._count);//没暴露了外部变量
+
+
+    //立即执行函数的写法（模块化放大模式扩展c）如果一个模块很大，必须分成几个部分，或者一个模块需要继承另一个模块，这时就有必要采用"放大模式"（augmentation）。
+    module1 = (function (mod) {
+        mod.c = function () {
+            alert('c');
+        };
+        return mod;
+    })(module1);
+    //console.log(module1.c());//没暴露了外部变量
+
+    //立即执行函数的写法（模块化宽  放大模式扩展c）
+    module1 = (function (mod) {
+        mod.d = function () {
+            alert('d');
+        };
+        return mod;
+    })(window.module1 || {});
+    //console.log(module1.d());//没暴露了外部变量
+
+    //库依赖的全局变量(jquery)
+    var module2 = (function ($) {
+        var a = function () {
+            var num = $('.box').html();
+            console.log(num);
+        };
+        return {
+            a: a
+        };
+    })(jQuery);
+    //module2.a();
+
+/*
+     AMD加载的好处
+    （1）实现js文件的异步加载，避免网页失去响应；
+    （2）管理模块之间的依赖性，便于代码的编写和维护。
+*/
+
+
+</script>
+</body>
+<!--两种方法
+1、<script src="js/require.js" defer async="true" data-main="js/main"></script>写在文件的头部
+2、<script src="js/require.js" data-main="js/main"></script>写在文件的底部
+data-main属性的作用是，指定网页程序的主模块。
+-->
+<script src="js/require.js" data-main="js/main"></script>
+</html>

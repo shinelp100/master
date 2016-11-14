@@ -2,12 +2,12 @@
 //     useHash: true // 开启 md5 戳
 // });
 
-fis.match('::packager', {
-    // postpackager: fis.plugin('loader', {
-    //     allInOne: true
-    // }),
-    spriter: fis.plugin('csssprites')
-});
+// fis.match('::packager', {
+//     // postpackager: fis.plugin('loader', {
+//     //     allInOne: true
+//     // }),
+//     spriter: fis.plugin('csssprites')
+// });
 
 // 所有的 html
 fis.match('**.html', {
@@ -64,6 +64,15 @@ fis.match('/img/(*.png)', {
 });
 
 
+// fis.config.merge({
+//     modules : {
+//         optimizer : {
+//             js : 'uglify-js',
+//             css : 'clean-css',
+//             png : 'png-compressor'
+//         }
+//     }
+// });
 // fis.media('debug').match('*.{js,css,png}', {
 //     useHash: false,
 //     useSprite: false,

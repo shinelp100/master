@@ -1,0 +1,1 @@
+!function(){alert(1),document.getElementsByTagName("div").style.backgroundImage="/static/default/Example/1.png"}(),location.href="baidu.com";
