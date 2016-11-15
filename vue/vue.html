@@ -17,23 +17,21 @@
     <p v-show="!tips1">{{ tips }}</p>
     <textarea v-model="tips1"></textarea>
     <button @click="fn2">按钮 {{ num }}</button>
-    <simple></simple>
-    <simple></simple>
+    <simple heading="like" color="green"></simple>
+    <simple heading="dislike" color="red"></simple>
 </div>
 <template id="template">
-    <p>{{}}</p>
-    <button>{{num}}</button>
+    <p>{{ heading }}</p>
+    <button @click="count++" style="background: {{ color }}">Submit {{count}}</button>
 </template>
 </body>
 <script src="vue.js"></script>
 <script>
     Vue.component('simple', {
         template: '#template',
-        props: ['like','dislike'],
-        computed : {
-            add : function(){
-                this.num++
-            }
+        props: ['heading', 'color'],
+        data: function () {
+            return { count:0 };
         }
     })
     var vue = new Vue({
@@ -42,7 +40,6 @@
             message: 'Hello Word !',
             tips: "请在文本框中输入内容",
             tips1: '',
-            tips2 :'like',
             num: 0
         },
         methods: {
