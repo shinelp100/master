@@ -1,1 +1,0 @@
-var app=document.getElementById("container");app.getAttribute("background","assets/usercenter/images/list-1.png");

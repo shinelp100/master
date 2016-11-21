@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind</title>
+</head>
+<body>
+<div id="app">
+    <span :title="message">
+        Hover your mouse over me for a few seconds to see my dynamically bound title!
+    </span>
+</div>
+<div id="app-1">
+    <p @click="fn1">{{message}}</p>
+    <!--v-show="seen"-->
+</div>
+<div id="app-2">
+    <ol>
+        <li v-for="todo in todos">{{ todo.text }}</li>
+    </ol>
+</div>
+<div id="app-3">
+    <btn interest="足球" @click="fn2"></btn>
+    <btn interest="篮球" @click="fn2"></btn>
+</div>
+<template id="tem">
+    <input type="checkbox" :checked="mes">
+    <p>{{ interest }}</p>
+</template>
+<script src="vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'You loaded this page on ' + new Date()
+        }
+    })
+    var app1 = new Vue({
+        el: '#app-1',
+        data: {
+            message: 'Now you see me',
+            seen: true
+        },
+        methods: {
+            fn1: function () {
+                this.seen = !this.seen;
+            }
+        }
+
+    });
+    //    app1.seen = false;
+    //    console.log('app1.$data='+app1.seen);
+    app1.$watch('seen', function () {
+        if(seen){
+            this.message = 'Now you click me';
+        }else {
+
+        }
+
+    })
+    var app2 = new Vue({
+        el: '#app-2',
+        data: {
+            todos: [
+                {text: '我是老司机1'},
+                {text: '我是老司机2'},
+                {text: '我是老司机3'},
+            ]
+        }
+    })
+    app2.todos.push({text: '这是我新加的内容'});
+
+    Vue.component('btn', {
+        template: "#tem",
+        props: ['interest'],
+        data: function () {
+            return {select: true}
+        }
+    })
+    var app3 = new Vue({
+        el: '#app-3',
+        data: {
+            mes: true
+        },
+        methods: {
+            fn2: function () {
+                this.mes = !this.mes;
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

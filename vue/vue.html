@@ -22,7 +22,7 @@
 </div>
 <template id="template">
     <p>{{ heading }}</p>
-    <button @click="count++" style="background: {{ color }}">Submit {{count}}</button>
+    <button @click="count++" style="background:{{ color }}">Submit {{count}}</button>
 </template>
 </body>
 <script src="vue.js"></script>
@@ -52,6 +52,19 @@
         }
     });
 
-
+    var module1 = (function () {
+        var _count = 1;
+        var a = function () {
+            alert('a');
+        };
+        var b = function () {
+            alert('b');
+        };
+        return {
+            a: a,
+            b: b
+        }
+    })();
+    console.log(module1.a());
 </script>
 </html>

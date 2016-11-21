@@ -2,13 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/images/list-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wap/src/deal/fis-conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/v-bind.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/double11/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/double11/images/list-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/double11/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/pageslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/first-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/first-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page-loading-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page-loading-jindubg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page-loading-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page-loading-wendu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page2-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page2-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page3-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page3-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-content1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-content2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-content3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-content4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-content5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page4-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-center-b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-center-br.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-center-s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-content1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-content2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-content3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-content4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page5-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page6-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/page6-title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/six-fg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/star-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/star-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/topstar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/wdjf-img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/weixin1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/weixin2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/PageSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/lib.flexible2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/zepto_modify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/usercenter/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/usercenter/images/list-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/assets/usercenter/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/campaigns/double11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/campaigns/introduce/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/usercenter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/disk/usercenter/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/images/list-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wap/js/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/vue.html" afterPath="$PROJECT_DIR$/vue/vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/src/deal/css/index.css" afterPath="$PROJECT_DIR$/wap/src/deal/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/disk/assets/deal/css/index.css" afterPath="$PROJECT_DIR$/wap/disk/assets/deal/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/disk/deal/index.html" afterPath="$PROJECT_DIR$/wap/disk/deal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/src/deal/fis-conf.js" afterPath="$PROJECT_DIR$/wap/src/deal/fis-conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wap/src/deal/index.html" afterPath="$PROJECT_DIR$/wap/src/deal/index.html" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -31,11 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="vue.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vue.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/vue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="812">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -43,22 +112,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wap/src/deal/fis-conf.js">
+      <file leaf-file-name="v-bind.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/v-bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="328">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wap/css/index.css">
+      <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="464">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="require.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/我的远程练习仓库/js设计模式/require.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/src/deal/fis-conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/src/deal/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wap/disk/deal/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wap/src/fis-conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +189,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wap/src/deal/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="29">
               <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
@@ -78,8 +201,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -94,10 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/分页插件/分页插件.html" />
-        <option value="$PROJECT_DIR$/我的远程练习仓库/Git学习/GitStudy.md" />
-        <option value="$PROJECT_DIR$/fis3/demo-simple/demo-simple/fis-conf.js" />
-        <option value="$PROJECT_DIR$/fis3/demo-simple/demo-simple/style.css" />
         <option value="$PROJECT_DIR$/fis3/demo-simple/output/static/default/css/style_e825572.css" />
         <option value="$PROJECT_DIR$/fis3/demo-simple/output/static/default/css/style_624fee1.css" />
         <option value="$PROJECT_DIR$/fis3/demo-simple/output/static/default/html/index.html" />
@@ -142,9 +261,13 @@
         <option value="$PROJECT_DIR$/wap/disk/campaigns/introduce/index.html" />
         <option value="$PROJECT_DIR$/wap/src/campaigns/introduce/index.html" />
         <option value="$PROJECT_DIR$/wap/src/fis-conf.js" />
-        <option value="$PROJECT_DIR$/vue/vue.html" />
         <option value="$PROJECT_DIR$/wap/src/deal/css/index.css" />
         <option value="$PROJECT_DIR$/wap/src/deal/fis-conf.js" />
+        <option value="$PROJECT_DIR$/wap/disk/deal/index.html" />
+        <option value="$PROJECT_DIR$/wap/src/deal/index.html" />
+        <option value="$PROJECT_DIR$/vue/vue.html" />
+        <option value="$PROJECT_DIR$/vue/v-bind.html" />
+        <option value="$PROJECT_DIR$/video/video.html" />
       </list>
     </option>
   </component>
@@ -158,7 +281,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1924" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -186,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +337,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wap" />
+              <option name="myItemId" value="我的远程练习仓库" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,64 +351,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deal" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="video" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -300,19 +371,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\master\我的远程练习仓库\js设计模式\js\lib" />
-      <recent name="D:\work\master\我的远程练习仓库\js设计模式" />
-      <recent name="D:\work\master\我的远程练习仓库\js设计模式\js" />
-      <recent name="D:\work\master\fis3" />
-      <recent name="D:\work\master\photos\_Public_\static\default\demo\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\video" />
       <recent name="D:\work\master\wap\src\deal" />
       <recent name="D:\work\master\wap\src\usercenter" />
       <recent name="D:\work\master\wap\src\campaigns\introduce" />
       <recent name="D:\work\master\wap\src\campaigns\double11" />
-      <recent name="D:\work\master\wap\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\master\video" />
+      <recent name="D:\work\master\我的远程练习仓库\js设计模式\js\lib" />
+      <recent name="D:\work\master\我的远程练习仓库\js设计模式" />
+      <recent name="D:\work\master\我的远程练习仓库\js设计模式\js" />
+      <recent name="D:\work\master\fis3" />
     </key>
   </component>
   <component name="RunManager">
@@ -386,7 +457,8 @@
       <workItem from="1478739859268" duration="19754000" />
       <workItem from="1478826171778" duration="19220000" />
       <workItem from="1479085439563" duration="22884000" />
-      <workItem from="1479172006981" duration="966000" />
+      <workItem from="1479172006981" duration="12168000" />
+      <workItem from="1479710611838" duration="12366000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -591,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479109700254</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fis3">
+      <created>1479173042353</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1479173042353</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114994000" />
+    <option name="totallyTimeSpent" value="138562000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -607,16 +686,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14540541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14645922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43601358" sideWeight="0.5171674" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3929785" sideWeight="0.5194595" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.4860515" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27180067" sideWeight="0.4828326" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27066818" sideWeight="0.48054054" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -675,7 +754,8 @@
     <MESSAGE value="百度fis3 + require.js" />
     <MESSAGE value="require.js" />
     <MESSAGE value="fis3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fis3" />
+    <MESSAGE value="video 加载时loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="video 加载时loading" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -685,41 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_Public_/static/default/demo/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="314" selection-start-line="0" selection-start-column="314" selection-end-line="0" selection-end-column="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Public_/static/default/demo/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Public_/static/default/demo/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Public_/static/default/demo/js/increase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Public_/static/default/demo/js/demo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fis3/demo-simple/demo/fis-conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -777,13 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的远程练习仓库/js设计模式/require.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1228">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -851,41 +889,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/zepto_modify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/PageSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/lib.flexible2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/fastclick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/zepto_modify.js" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/PageSlider.js" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/lib.flexible2.js" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/js/fastclick.js" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/animate.min.css" />
     <entry file="file://$PROJECT_DIR$/wap/readMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -903,13 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/usercenter/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="89" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/usercenter/js/index.js" />
     <entry file="file://$PROJECT_DIR$/wap/src/usercenter/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -917,20 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/usercenter/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/src/fis-conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/usercenter/css/index.css" />
     <entry file="file://$PROJECT_DIR$/wap/src/usercenter/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -938,13 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/usercenter/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/usercenter/show.html" />
     <entry file="file://$PROJECT_DIR$/wap/src/usercenter/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -952,39 +935,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/usercenter/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/campaigns/introduce/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="0" column="4466" selection-start-line="0" selection-start-column="4415" selection-end-line="0" selection-end-column="4466" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/pageslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/usercenter/index.html" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/campaigns/introduce/index.html" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/images/arrow.png" />
+    <entry file="file://$PROJECT_DIR$/wap/disk/assets/campaigns/introduce/css/pageslider.css" />
     <entry file="file://$PROJECT_DIR$/wap/src/campaigns/introduce/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -992,37 +947,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/src/deal/fis-conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/css/index.css" />
     <entry file="file://$PROJECT_DIR$/wap/src/deal/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="29">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wap/index.html" />
+    <entry file="file://$PROJECT_DIR$/wap/src/fis-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/src/deal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/src/deal/fis-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/vue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="812">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#button#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我的远程练习仓库/js设计模式/require.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/v-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wap/disk/deal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

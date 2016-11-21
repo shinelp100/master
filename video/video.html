@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta>
+    <style>
+        video {
+            width:100%;
+            height:200px;
+        }
+        .box {
+            position: relative;
+        }
+        #loading {
+            width:30px;
+            height:30px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -15px;
+            margin-top: -15px;
+            z-index: 100;
+            display: none;
+        }
+        #loading img {
+            width:100%;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <video id="media" controls poster="1.jpg">
+        <source src="http://wangcaigu.applinzi.com/biaodi-video/sport.mp4" type="video/mp4">
+    </video>
+    <div id="loading"><img src="loading.gif" alt=""></div>
+</div>
+</body>
+<script>
+    window.onload = function(){
+        var media = document.getElementById('media');
+        var loading = document.getElementById('loading');
+        console.log(media.currentTime);
+        media.onclick = function(){
+            if(media.paused){
+                media.play();
+                media.controls = false;
+            }else {
+                media.pause();
+                media.controls = true;
+            }
+        };
+        media.onwaiting = function(){
+            loading.style.display = 'block';
+        }
+        media.oncanplay = function(){
+            loading.style.display = 'none';
+        }
+
+    }
+</script>
+</html>
