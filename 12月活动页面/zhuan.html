@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="flex.js"></script>
+    <!--<script src="jquery-1.11.1.min.js"></script>-->
+    <script src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding:0;
+    }
+    ul {
+        width:100%;
+        height:110px;
+        overflow: hidden;
+        list-style: none;
+    }
+    ul li {
+        width:33%;
+        height: 100%;
+        float: left;
+        position: relative;
+        text-align: center;
+    }
+    /*ul li img {*/
+        /*width:100%;*/
+    /*}*/
+    ul li:nth-of-type(1) img {
+        position: relative;
+        top:-245px;
+        left:0;
+    }
+    .active0 {
+        animation:mymove 0.3s ease-in-out 15;
+        -webkit-animation:mymove 0.3s ease-in-out 15; /* Safari 和 Chrome */
+    }
+    .active1 {
+        animation:mymove 0.3s ease-in-out 0.7s 15;
+        -webkit-animation:mymove 0.3s ease-in-out 0.7s 15; /* Safari 和 Chrome */
+    }
+    .active2 {
+        animation:mymove 0.3s ease-in-out 1.1s 15;
+        -webkit-animation:mymove 0.3s ease-in-out 1.1s 15; /* Safari 和 Chrome */
+    }
+    @keyframes mymove
+    {
+        0%{top:0px;}
+        25%{top:-92px;}
+        50%{top:-184px;}
+        75%{top:-276px;}
+        100%{top:-368px;}
+
+    }
+
+    @-webkit-keyframes mymove /*Safari and Chrome*/
+    {
+        0%{top:0px;}
+        25%{top:-92px;}
+        50%{top:-184px;}
+        75%{top:-276px;}
+        100%{top:-368px;}
+    }
+    ul li:nth-of-type(2) img {
+        position: relative;
+        top:-115px;
+        left:0;
+    }
+    ul li:nth-of-type(3) img {
+        position: relative;
+        top:10px;
+        left:0;
+    }
+</style>
+<body>
+<ul>
+    <li><img src="images/awardzz.png" alt=""></li>
+    <li><img src="images/awardzz.png" alt=""></li>
+    <li><img src="images/awardzz.png" alt=""></li>
+</ul>
+<button class="ok">随机必中奖</button>
+<button class="no">随机不中奖</button>
+</body>
+<script>
+$(function(){
+    $('.ok').on('click',function(){
+        ok();
+    })
+    $('.no').on('click',function(){
+        no();
+    })
+})
+function ok(){
+    var arr1 = [0,-115,-245];
+    var num1 = Math.floor(Math.random()*3);
+    $('ul li').each(function(){
+        $(this).find('img').addClass('active'+$(this).index());
+        var obj=$('ul li').eq($(this).index()).find('img')
+        document.querySelectorAll('ul li')[$(this).index()].addEventListener('animationend',function(){
+            obj.css({'top':arr1[num1]}).removeClass('active'+$(this).index());
+        });
+    })
+}
+
+function no(){
+    var arr2 = [
+        [0,-115,-245],
+        [0,-245,-115],
+        [0,0,-115],
+        [0,-115,-115],
+        [0,0,-245],
+        [0,-245,-245],
+
+        [-115,0,-245],
+        [-115,-245,0],
+        [-115,0,0],
+        [-115,-245,-245],
+        [-115,-115,-245],
+        [-115,-115,0],
+
+        [-245,0,-115],
+        [-245,-115,0],
+        [-245,0,0],
+        [-245,-115,-115],
+        [-245,-245,-115],
+        [-245,-245,0],
+    ];
+    var num2 = Math.floor(Math.random()*18);
+    $('ul li').each(function(){
+        $(this).find('img').addClass('active'+$(this).index());
+        var obj=$('ul li').eq($(this).index()).find('img')
+        document.querySelectorAll('ul li')[$(this).index()].addEventListener('animationend',function(){
+            obj.css({'top':arr2[num2][$(this).index()]}).removeClass('active'+$(this).index());
+            console.log(arr2[num2][$(this).index()])
+        });
+    })
+}
+</script>
+</html>

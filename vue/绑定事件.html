@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind</title>
+    <script src="vue.js"></script>
+    <style>
+        .active {
+            width: 200px;
+            height:200px;
+            background: red;
+        }
+        .error {
+            border:12px solid #000;
+        }
+    </style>
+</head>
+<body>
+<div id="app1">
+    <div :class="{active : isActive,error:isError}"></div>
+    <div :class="classObject"></div>
+    <div :class="[activeClass,errorClass]"></div>
+    <div :style="styleObject"></div>
+</div>
+<div id="app2">
+    <my-temp></my-temp>
+</div>
+<template id="temp1" v-if="ok">
+    <h1>我是测试的小尾巴</h1>
+    <p>你是测试的小尾巴</p>
+</template>
+<div id="app3">
+    <input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+    <label for="jack">Jack</label>
+    <input type="checkbox" id="john" value="John" v-model="checkedNames">
+    <label for="john">John</label>
+    <input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+    <label for="mike">Mike</label>
+    <br>
+    <span>Checked names: {{ checkedNames }}</span>
+    <input type="radio" id="one" value="One" v-model="picked">
+    <label for="one">One</label>
+    <br>
+    <input type="radio" id="two" value="Two" v-model="picked">
+    <label for="two">Two</label>
+    <br>
+    <span>Picked: {{ picked }}</span>
+    <select v-model="selected">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+    <span>Selected: {{ selected }}</span>
+    <select v-model="selected">
+        <option v-for="option in options" v-bind:value="option.value">
+            {{ option.text }}
+        </option>
+    </select>
+    <span>Selected: {{ selected }}</span>
+</div>
+
+</body>
+<script>
+    var vm = new Vue({
+        el:"#app1",
+        data : {
+            isActive:true,
+            isError : false,
+            activeClass:'active',
+            errorClass:'error',
+            styleObject : {
+              color:'red',
+              width:'200px',
+              height : '100px',
+              border:'5px solid #000',
+            },
+        },
+        computed : {
+            classObject : function(){
+                return {
+                    active : this.isActive && !this.isError,
+                    error : this.error && this.error.type === 'fatal',
+                }
+            }
+        }
+    });
+    Vue.component('my-temp',{
+        template:'#temp1',
+    });
+    new Vue({
+        el:'#app2'
+    })
+    new Vue({
+        el:'#app3',
+        data: {
+            checkedNames: [],
+            picked:'Two',
+//            selected:'A'
+//            selected:'',
+            selected: 'A',
+            options: [
+                { text: 'One', value: 'A' },
+                { text: 'Two', value: 'B' },
+                { text: 'Three', value: 'C' }
+            ]
+        }
+    })
+
+</script>
+</html>

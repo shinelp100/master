@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>v-bind</title>
+    <style>
+        .example {
+            width:300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            /*text-align: justify;*/
+        }
+    </style>
 </head>
 <body>
+<div class="example">Postcss-salad 是一个基于 PostCSS 的 CSS 解决方案，它提供了一系列快捷的 at-rule 和默认语法声明来帮助你快速地搭建项目样式与类库，它只在调用时才输出代码，而不是直接提供 CSS 类库。
+    沙拉不仅提供了下一代css语法支持，还提供了基础的sass的语法、属性顺时针简写、rem填充、基础图形绘制、可定制样式的inline-svg以及bem类名自动转化等实用的功能。</div>
 <div id="app">
     <span :title="message">
         Hover your mouse over me for a few seconds to see my dynamically bound title!
