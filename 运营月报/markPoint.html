@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="echarts.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: #000;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="main" style="height:50%;"></div>
+</body>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    var datas = [0.20, 0.87, 1.26, 0.5, 0.85, 0.77];
+
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: '投资用户年龄对比',
+            left: 'center',
+            top: 'top',
+//            borderWidth:'10',
+            textStyle: {
+                color: '#666',
+                fontSize: '20'
+            },
+            padding: 10,
+//               [ 10,  // 上
+//                10, // 右
+//                10,  // 下
+//                10, // 左
+//            ]
+        },
+        xAxis: [{
+            type: 'category',
+            nameGap: 5,
+            data: ['8月', "9月", "10月", "11月", "12月", {
+                value: '17年1月',
+                // 突出周一
+                textStyle: {
+                    color: 'red'
+                }
+            }],
+            axisTick: {
+                show: false,
+                interval: 0,
+            },
+            axisLabel: {
+//                show:false,
+//                interval:0,
+                margin: 0,
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+            axisLine: {
+                lineStyle: {
+                    color: '#fff'
+                }
+            }
+        }],
+        yAxis: {
+//            type:'value',
+//            boundaryGap:true,
+//            offset:10,
+            splitNumber: 2,
+//            interval:50,
+            max: 2.0,
+            name: '单位（%）',
+            nameTextStyle: {
+                color: '#fff',
+            },
+//            axisLine:{
+//                lineStyle:{
+//                    type:'dashed',
+//                },
+//
+//            },
+            splitLine: {
+                lineStyle: {
+                    type: 'dotted',
+                }
+            },
+            axisLine: {
+                show: false,
+            },
+            axisTick: {
+                show: false,
+            },
+            axisLabel: {
+                show: true,
+                formatter: '{value}',
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+        },
+        series: [
+            {
+                name: '年龄',
+                type: 'bar',
+                barWidth: 1,
+                label: {
+                    normal: {
+                        show: false,
+                    }
+                },
+                markPoint: {
+                    symbol: 'circle',
+                    symbolSize: 5,
+                    label: {
+                        normal: {
+                            position: 'top',
+                        },
+                    },
+                    data: [
+                        {value: datas[0], xAxis: 0, yAxis:  datas[0]},
+                        {value:  datas[1], xAxis: 1, yAxis: datas[1]},
+                        {value:  datas[2], xAxis: 2, yAxis:  datas[2]},
+                        {value:  datas[3], xAxis: 3, yAxis:  datas[3]},
+                        {value:  datas[4], xAxis: 4, yAxis:  datas[4]},
+
+                    ],
+                },
+//                markPoint: {
+//                    data: [{value: datas[5], xAxis: 5, yAxis:  datas[5]}],
+//                },
+                itemStyle: {
+                    normal: {
+                        color: 'rgba(252,252,252,0.3)',
+                    },
+
+                },
+                data: datas,
+//                animationDuration:,
+            }]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</html>

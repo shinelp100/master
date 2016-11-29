@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="echarts.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: #000;
+        }
+        #main {
+            /*margin:5rem 20px 0 20px;*/
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div id="main" style="width:90%;height:25rem;"></div>
+</body>
+<script>
+    var myChart = echarts.init(document.getElementById('main'));
+    option = {
+        textStyle:{
+            color:'#fff'
+        },
+        title : {
+            x:'center',
+            text: '数据对比-股东追加投资',
+            textStyle:{
+                color:'#fff'
+            },
+        },
+        grid:{
+            x:50,
+            x2:60,
+            y2:50,
+        },
+        xAxis : [
+            {
+                type : 'value',
+                splitNumber:4,
+                name:'单位（万）',
+                nameGap:5,
+//                max:10000,
+//                axisLabel :{
+//                    interval:0,
+//                    rotate: 60
+//                },
+                boundaryGap : [0, 0.1],
+                splitLine:{
+                    lineStyle:{
+                        color:'#ccc',
+                        type:'dashed',
+                    }
+                },
+                axisTick:{
+                    inside:true,
+                    length:10,
+                    lineStyle:{color:'#FFF'}
+
+                },
+//                axisLabel:{
+//                    interval:4,
+//                },
+            }
+        ],
+        yAxis : [
+            {
+                type : 'category',
+                axisLine:{
+                    onZero:true,
+                    lineStyle:{
+                        width:2
+                    },
+
+                },
+                axisTick:{
+                    show:false,
+
+                },
+                data:["7月","8月","9月","10月","11月",{value: '17年1月',
+                    // 突出
+                    textStyle: {
+                        color: 'red'
+                    }
+                }],
+            }
+        ],
+        series : [
+            {
+                name:'数据对比-股东追加投资',
+                type:'bar',
+//                barWidth:20,
+                itemStyle:{
+                    normal:{
+                        color:'skyblue',
+                    },
+                },
+                label:{
+                    normal:{
+                        position:'right',
+                        show: true,
+                        textStyle:{
+                            color:'skyblue'
+                        },
+                    }
+                },
+                data:[9195.50, 2263.90, 1660.42, 1960.42, 1460.42, {
+                    value:'483.87',
+                    itemStyle:{
+                        normal:{
+                            color:'red',
+                        },
+                    },
+                    label:{
+                        normal:{
+                            show:true,
+                            textStyle:{
+                                color:'red'
+                            },
+                        }
+                    },
+                }],
+                barCategoryGap: '50%',
+            }
+        ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</html>

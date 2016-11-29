@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="echarts.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<div id="main" style="height:30rem; margin-top: 5rem"></div>
+</body>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: '投资用户年龄对比',
+            left:'center',
+            top: 'top',
+//            borderWidth:'10',
+            textStyle :{
+                color:'#666',
+                fontSize:'20'
+            },
+            padding: 10,
+//               [ 10,  // 上
+//                10, // 右
+//                10,  // 下
+//                10, // 左
+//            ]
+        },
+        tooltip: {
+            show:false,
+            trigger: 'axis',
+//            alwaysShowContent:true,
+//            showDelay:1000,
+            enterable:true,
+        },
+//        calculable: true,
+        legend: {
+            show:true,
+            data:['年龄','投资'],
+            top:'bottom',
+            textStyle: {
+                color: '#fff'
+            },
+        },
+        xAxis: [{
+            type:'category',
+            nameGap:5,
+            data: [{
+                value: '90后',
+                // 突出周一
+                textStyle: {
+                    color: 'red'
+                }
+            },"80后","70后","60后","其他"],
+            axisTick:{
+                show:false,
+                interval:0,
+            },
+            axisLabel:{
+//                show:false,
+//                interval:0,
+                margin:0,
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+            axisLine:{
+                lineStyle:{
+                    color:'#fff'
+                }
+            },
+
+        },
+            {
+                type:'category',
+                nameGap:5,
+                data: [{
+                    value: '90后',
+                    // 突出周一
+                    textStyle: {
+                        color: 'red'
+                    }
+                },"80后","70后","60后","其他"],
+                axisLine: {show:false},
+                axisTick: {show:false},
+                axisLabel: {show:false},
+                splitArea: {show:false},
+                splitLine: {show:false},
+            }],
+        yAxis: {
+//            type:'value',
+//            boundaryGap:true,
+//            offset:10,
+            splitNumber:2,
+//            interval:50,
+            max:100,
+            name:'单位（%）',
+            nameTextStyle:{
+                color:'#fff',
+            },
+//            axisLine:{
+//                lineStyle:{
+//                    type:'dashed',
+//                },
+//
+//            },
+            splitLine:{
+                lineStyle:{
+                    type:'dotted',
+                }
+            },
+            axisLine:{
+                lineStyle:{
+                    color:'#fff'
+                }
+            },
+            axisTick:
+            {
+                inside:'inside',
+                length:10
+            },
+            axisLabel:{
+                show:true,
+                formatter:'{value}%',
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+//            data:['0%', '50%','100%']
+        },
+//        grid: { // 控制图的大小，调整下面这些值就可以，
+//            x: 0,
+//            x2: 0,
+//            y2: 0,// y2可以控制 X轴跟Zoom控件之间的间隔，避免以为倾斜后造成 label重叠到zoom上
+//        },
+        series: [
+            {
+                name: '年龄',
+                type: 'bar',
+//                stack: 'sum',
+                label:{
+                    normal:{
+                        show: true,
+                        position:'top',
+                        formatter: function(a,b,c) {
+                            return a.data+"%";
+                        },
+                    }
+                },
+                itemStyle:{
+                    normal:{
+                        color:'rgba(252,252,252,0.3)',
+                    },
+
+                },
+                data: [20, 26, 25, 25, 4],
+                zlevel:10000,
+            },
+            {
+                name: '投资',
+                type: 'bar',
+//                stack: 'sum',
+                xAxisIndex:1,
+                itemStyle:{
+                    normal:{
+                        color:'rgba(252,206,16,1)',
+                        label : {
+                            show: true,
+                            position: 'top',
+                            formatter: function(a,b,c) {
+                                return a.data+"%";
+                            },
+                        },
+                    },
+
+                },
+//                [40, 66, 70, 80, 50],
+                data: [10, 36, 20, 21, 14],
+            }
+        ],
+        barCategoryGap: '40%',
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</html>
