@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        html {
+            position: relative;
+            width:100%;
+            height:100%;
+        }
+        body{
+            width:100%;
+            height:100%;
+            background: url("bg_img.png") no-repeat center;
+            -webkit-background-size:100% 100%;
+            background-size:100% 100%;
+            color: #fff;
+            text-align: center;
+        }
+        .circle {
+            width:400px;
+            height:400px;
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid #259bf5;
+            top:100px;
+            left:-343px;
+            -webkit-animation:rot 1.5s linear;
+            transform:rotate(0deg);
+            -ms-transform:rotate(0deg); /* Internet Explorer */
+            -moz-transform:rotate(0deg); /* Firefox */
+        }
+        @keyframes rot{
+            0%{transform: rotate(-80deg);}
+            20%{transform:rotate(-64deg);}
+            40%{transform:rotate(-48deg);}
+            60%{transform:rotate(-32deg);}
+            80%{transform:rotate(-17deg);}
+            100%{transform:rotate(0deg);}
+        }
+        .dot1 {
+            display: block;
+            width:20px;
+            height:20px;
+            position: absolute;
+            background: #259bf5;
+            border-radius: 50%;
+            top:90px;
+            right:17px;
+        }
+        .dot2 {
+            display: block;
+            width:20px;
+            height:20px;
+            position: absolute;
+            background: #259bf5;
+            border-radius: 50%;
+            top:190px;
+            right:-10px;
+        }
+        .dot3 {
+            display: block;
+            width:20px;
+            height:20px;
+            position: absolute;
+            background: #259bf5;
+            border-radius: 50%;
+            top:290px;
+            right:17px;
+        }
+        h3 {
+
+            padding:75px 0 0 0;
+        }
+        ul {
+            list-style: none;
+            text-align: left;
+
+        }
+        ul li {
+            margin: 65px 0;
+            /*opacity: 0;*/
+        }
+        ul li img {
+            width:36.5px;
+            vertical-align: top;
+        }
+        ul li:nth-of-type(1) {
+            -webkit-animation:fn1 2s ease;
+            -moz-animation: fn1 2s ease;
+            animation: fn1 2s ease;
+        }
+        ul li:nth-of-type(2) {
+            -webkit-animation:fn1 2.5s ease;
+            -moz-animation: fn1 2.5s ease;
+            animation: fn1 2.5s ease;
+        }
+        ul li:nth-of-type(3) {
+            -webkit-animation:fn1 3s ease;
+            -moz-animation: fn1 3s ease;
+            animation: fn1 3s ease;
+        }
+        @keyframes fn1 {
+            0%{opacity: 0;}
+            20%{opacity:0;}
+            40%{opacity:0;}
+            60%{opacity:0;}
+            80%{opacity:0;}
+            100%{opacity:1;}
+        }
+    </style>
+</head>
+<body>
+<h3>旺财谷成长</h3>
+<p>统计截止时间 2016-10-31</p>
+<div class="circle">
+    <span class="dot1"></span>
+    <span class="dot2"></span>
+    <span class="dot3"></span>
+</div>
+<ul>
+    <li style="margin-left: 55px;"><img src="2.png" alt=""> <span style="display: inline-block;">累计交易额 <br> 1,665,222,600</span></li>
+    <li style="margin-left: 80px;"><img src="3.png" alt=""> <span style="display: inline-block;">累计为谷东赚取收益（元） <br> 32,548,600</span></li>
+    <li style="margin-left: 55px;"><img src="4.png" alt=""> <span style="display: inline-block;">上线时间（天） <br> 815</span></li>
+</ul>
+</body>
+</html>

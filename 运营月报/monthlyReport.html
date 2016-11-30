@@ -56,7 +56,7 @@
                 color: '#fff'
             },
         },
-        xAxis: [{
+        xAxis: {
             type:'category',
             nameGap:5,
             data: [{
@@ -83,24 +83,7 @@
                     color:'#fff'
                 }
             },
-
         },
-            {
-                type:'category',
-                nameGap:5,
-                data: [{
-                    value: '90后',
-                    // 突出周一
-                    textStyle: {
-                        color: 'red'
-                    }
-                },"80后","70后","60后","其他"],
-                axisLine: {show:false},
-                axisTick: {show:false},
-                axisLabel: {show:false},
-                splitArea: {show:false},
-                splitLine: {show:false},
-            }],
         yAxis: {
 //            type:'value',
 //            boundaryGap:true,
@@ -142,23 +125,17 @@
             },
 //            data:['0%', '50%','100%']
         },
-//        grid: { // 控制图的大小，调整下面这些值就可以，
-//            x: 0,
-//            x2: 0,
-//            y2: 0,// y2可以控制 X轴跟Zoom控件之间的间隔，避免以为倾斜后造成 label重叠到zoom上
-//        },
+        grid: { // 控制图的大小，调整下面这些值就可以，
+            x: 50,
+        },
         series: [
             {
                 name: '年龄',
                 type: 'bar',
-//                stack: 'sum',
                 label:{
                     normal:{
                         show: true,
                         position:'top',
-                        formatter: function(a,b,c) {
-                            return a.data+"%";
-                        },
                     }
                 },
                 itemStyle:{
@@ -169,21 +146,17 @@
                 },
                 data: [20, 26, 25, 25, 4],
                 zlevel:10000,
+                barCategoryGap: '50%',
             },
             {
                 name: '投资',
                 type: 'bar',
-//                stack: 'sum',
-                xAxisIndex:1,
                 itemStyle:{
                     normal:{
                         color:'rgba(252,206,16,1)',
                         label : {
                             show: true,
                             position: 'top',
-                            formatter: function(a,b,c) {
-                                return a.data+"%";
-                            },
                         },
                     },
 
@@ -192,7 +165,7 @@
                 data: [10, 36, 20, 21, 14],
             }
         ],
-        barCategoryGap: '40%',
+        barGap: '0%',
     };
 
     // 使用刚指定的配置项和数据显示图表。
