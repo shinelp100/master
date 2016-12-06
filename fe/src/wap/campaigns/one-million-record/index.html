@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1">
+<head>
+    <meta charset="UTF-8">
+    <title>百万年终奖</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <!--<script src="../../libs/lib.flexible2.js"></script>-->
+</head>
+<body>
+<div class="banner"></div>
+<input type="text" value="请输入..." onfocus="hidefix();" onblur="showfix();">
+<div class="container">
+    <div class="top">
+        <img src="images/wave.png" alt="">
+        活动详情
+        <img src="images/wave.png" alt="">
+    </div>
+    <div class="content">
+        <div class="gift1">
+            <p>一重礼：注册送新手红包288元代金券</p>
+            <ul>
+                <li><em>8元</em>代金券<span><img src="images/dotted.png" alt=""></span>投资1000元可用</li>
+                <li><em>20元</em>代金券<span class="line02"><img src="images/dotted.png" alt=""></span>投资10000元可用</li>
+                <li><em>30元</em>代金券<span class="line03"><img src="images/dotted.png" alt=""></span>投资20000元可用</li>
+                <li><em>80元</em>代金券<span class="line04"><img src="images/dotted.png" alt=""></span>投资100000元可用</li>
+                <li><em>150元</em>代金券<span class="line05"><img src="images/dotted.png" alt=""></span>投资200000元可用</li>
+                <li class="special"><em>新客户首次投资再送50元蛋糕券</em>（即日起至12月31日即可领取）；
+                    （注：胜券在握系列超短期产品除外）
+                </li>
+            </ul>
+        </div>
+        <div class="gift2">
+            <p>二重礼：温都金服客户回馈活动</p>
+            <ul>
+                <li><img src="images/dot.png" alt="">11月18日观影活动</li>
+                <li><img src="images/dot.png" alt="">11月19日星巴克咖啡教室</li>
+                <li><img src="images/dot.png" alt="">11月23日-11月27日会展中心寻宝游戏</li>
+                <li><img src="images/dot.png" alt="">12月3日户外一日游</li>
+                <li><img src="images/dot.png" alt="">12月10日亲子活动</li>
+                <li><img src="images/dot.png" alt="">12月19日-12月25日圣诞活动等</li>
+                <li class="special">（注：投资者如需参加，请通过客服热线报名）</li>
+            </ul>
+        </div>
+        <div class="gift3">
+            <p>三重礼： 年终累计投资回馈</p>
+            <ul>
+                <li class="clearfix"><i id="lf">累计投资金额</i><span></span><i class="rg" id="lft">回馈礼品</i></p></li>
+                <li><div class="clearfix"><i class="lf">1000万</i><span><img style="width: 4.44rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>豪华</em>旅游券</i></div></li>
+                <li><div class="clearfix"><i class="lf">500万</i><span><img style="width: 4.44rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>超值</em>旅游券</i></div></li>
+                <li><div class="clearfix"><i class="lf">300万</i><span><img style="width: 4.2rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>3000元</em>超市卡</i></div></li>
+                <li><div class="clearfix"><i class="lf">100万</i><span><img style="width: 4.2rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>1000元</em>超市卡</i></div></li>
+                <li><div class="clearfix"><i class="lf">50万</i><span><img style="width: 4.6rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>300元</em>超市卡</i></div></li>
+                <li><div class="clearfix"><i class="lf">10万</i><span><img style="width: 5.15rem;" class="lf" src="images/dotted.png" alt=""></span><i class="rg"><em>精美</em>礼品</i></div></li>
+                <li class="special">（注：2016.1.1-2016.12.31期间购买<em>160天及以上</em>项目的累计投资金额【 <em>购买的转让项目不参与</em>】奖品领取时间为活动结束后7个工作日内）
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>公司地址：温州市鹿城区飞霞南路657号保丰大楼四楼</li>
+            <li>客服电话：<a href="tel:400-101-5151" class="special">400-101-5151</a></li>
+            <li>官方网址：www.wenjf.com</li>
+            <li>本活动最终解释权在法律范围内归温都金服所有</li>
+            <li class="special">理财非存款 产品有风险 投资须谨慎</li>
+        </ul>
+    </div>
+    <div id="nav1" class="nav">
+        <ul>
+            <li><a href="/site/signup">马上注册</a></li>
+            <li><a href="/deal/deal/index">立即投资</a></li>
+            <li><a style="border:none;" href="/site/about">了解温都金服</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+//    (function (doc, win) {
+//        var docEl = doc.documentElement,
+//                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+//                recalc = function () {
+//                    var clientWidth = document.documentElement.getBoundingClientRect().width;
+//                    if (!clientWidth) return;
+//                    docEl.style.fontSize = clientWidth/10 + 'px';
+//                };
+//        if (!doc.addEventListener) return;
+//        win.addEventListener(resizeEvt, recalc, false);
+//        doc.addEventListener('DOMContentLoaded', recalc, false);
+//    })(document, window);
+//    var htmlWidth = document.documentElement.getBoundingClientRect().width;
+//    console.log(document.documentElement);
+//    console.log(htmlWidth);
+//    document.documentElement.style.fontSize = htmlWidth/10 + "px";
+//        window.addEventListener('orientationchange' in window ? 'orientationchange' : 'resize', function() {
+//            alert(1);
+//            var htmlWidth1 = document.documentElement.getBoundingClientRect().width;
+//            document.documentElement.style.fontSize = htmlWidth1/10 + "px";
+//        })
+        (function(doc,win){
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = doc.documentElement.getBoundingClientRect().width;
+                if (!clientWidth) return;
+                docEl.style.fontSize = clientWidth/10 + 'px';
+            };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document,window)
+//      <!-- 2.判断--移动终端浏览器版本信息   taobao.js-->
+function parseUA() {
+    var u = navigator.userAgent;
+    var u2 = navigator.userAgent.toLowerCase();
+    return { //移动终端浏览器版本信息
+        trident: u.indexOf('Trident') > -1, //IE内核
+        presto: u.indexOf('Presto') > -1, //opera内核
+        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+
+        mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+
+        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+        iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+        iPad: u.indexOf('iPad') > -1, //是否iPad
+        webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+        iosv: u.substr(u.indexOf('iPhone OS') + 9, 3),
+        weixin: u2.match(/MicroMessenger/i) == "micromessenger",//微信浏览器
+        ali: u.indexOf('AliApp') > -1
+    };
+}
+var ua = parseUA();
+var nav = document.getElementById("nav1");
+function hidefix(){
+    if (ua.iPhone && ua.weixin) {
+        <!-- 如果不是手机端，则链接跳转到pc某页面 -->
+        nav.style.display = 'none';
+    }
+}
+function showfix(){
+    if (ua.iPhone && ua.weixin) {
+        <!-- 如果不是手机端，则链接跳转到pc某页面 -->
+        nav.style.display = 'block';
+    }
+}
+</script>
+</body>
+</html>
