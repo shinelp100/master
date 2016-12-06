@@ -1,0 +1,30 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, em, font, img, q, s, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li a {
+    font-size: 19px;
+    color: #595757;
+    text-decoration: none;
+    display: block;
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+    background-color: #f0f0f0;
+}
+ul li:nth-of-type(1){
+    margin-top: 44px;
+}
+ul li {
+    height:50px;
+    line-height: 50px;
+    padding-left: 20px;
+    border-bottom: 1px solid #c9c9c9;
+    background: #fff url("../images/arrow.png") no-repeat 96% ;
+    background-size:8px 13.5px;
+}
