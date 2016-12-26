@@ -1,253 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="fis3 取消资源定位 standard：false">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/adv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/btn_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/btn_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/btn_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/btn_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/close01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/close_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/cooker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/coupon_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/drawgiftbg_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/drawgiftbg_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/drawgitfbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/goindex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/goinvest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/phase_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/phase_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/phase_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/images/title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/common/img/footer2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/advantage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/bgproject_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/bgproject_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/bgproject_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/projectone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/images/sandu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/banner_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/banner_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/project_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/project_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/project_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/project_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/img/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/colours-activity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/colours-birthday-cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/colours-customer-service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/colours-integration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/colours-product-order.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/grey-activity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/grey-birthday-cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/grey-customer-service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/grey-integration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/grey-product-order.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/red-vip-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/img/white-vip-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/video-list/images/video-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/adv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/btn_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/btn_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/btn_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/btn_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/close01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/close_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/cooker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/coupon_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/drawgiftbg_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/drawgiftbg_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/drawgitfbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/goindex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/goinvest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/phase_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/phase_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/phase_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/images/title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/common/img/footer2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/advantage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/bgproject_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/bgproject_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/bgproject_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/projectone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/index/images/sandu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/banner_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/banner_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/project_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/project_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/project_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/project_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/img/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/colours-activity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/colours-birthday-cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/colours-customer-service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/colours-integration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/colours-product-order.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/grey-activity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/grey-birthday-cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/grey-customer-service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/grey-integration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/grey-product-order.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/red-vip-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/img/white-vip-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/video-list/images/video-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/bangdingchenggong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/caozuo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/jeibang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/jieshi@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/jisu@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/password.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/point.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/tixing@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/yanjing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/yanzhengma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/yanzhengma_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/yibangding.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/yonghuming.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/img/zhuruzhanghao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/for-in.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/libs/flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/libs/iscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/libs/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/libs/lib.flexible3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/res/js/hmsr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/res/js/js.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/res/js/lib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/double-twelve/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/common/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/css/sdgz.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/introduce/css/zshr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/css/member.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/video-list/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/campaigns/double-twelve/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/debug.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/introduce/sdgz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/introduce/zshr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/memberlevel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/memberlevel/member-obtain.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/memberlevel/member-prerogative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/dist/wap/video-list/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/memberlevel/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/memberlevel/less/member.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/campaigns/double-twelve/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/common/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/css/sdgz.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/css/zshr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/sdgz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/introduce/zshr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/libs/flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/libs/iscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/libs/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/libs/lib.flexible3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/css/member.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/less/member.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/member-obtain.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/memberlevel/member-prerogative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/res/js/hmsr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/res/js/js.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/res/js/lib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/video-list/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fe/src/wap/video-list/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/bindsuccess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/bindsuccessed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/js/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/js/zepto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/less/common.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/unbindsuccess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/下拉刷新/download.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/弹框滚动/index.html" />
+    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12月活动页面/fis-conf.js" afterPath="$PROJECT_DIR$/12月活动页面/fis-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12月活动页面/zhuan.html" afterPath="$PROJECT_DIR$/12月活动页面/zhuan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/h5-161114/css/index.css" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/h5-161114/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/one-million-record/css/index.css" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/campaigns/one-million-record/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/dist/v2/wap/index/css/index.css" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/dist/v2/wap/index/js/flex.js" afterPath="$PROJECT_DIR$/fe/dist/v2/wap/index/js/flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/dist/wap/index/index.html" afterPath="$PROJECT_DIR$/fe/dist/wap/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/src/wap/fis-conf.js" afterPath="$PROJECT_DIR$/fe/src/wap/fis-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/src/wap/index/css/index.css" afterPath="$PROJECT_DIR$/fe/src/wap/index/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/src/wap/index/index.html" afterPath="$PROJECT_DIR$/fe/src/wap/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fe/src/wap/index/js/flex.js" afterPath="$PROJECT_DIR$/fe/src/wap/index/js/flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/video.html" afterPath="$PROJECT_DIR$/video/video.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/月报/js/flex.js" afterPath="$PROJECT_DIR$/月报/js/flex.js" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -269,48 +24,7 @@
     <favorites_list name="master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fe/dist/v2/wap/memberlevel/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3468" selection-start-line="0" selection-start-column="3468" selection-end-line="0" selection-end-column="3468" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fis-conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fe/src/wap/fis-conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="debug.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fe/dist/wap/debug.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fe/dist/wap/memberlevel/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -395,7 +109,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -679,7 +393,7 @@
       <workItem from="1482201964724" duration="2803000" />
       <workItem from="1482284225652" duration="2839000" />
       <workItem from="1482479649589" duration="3622000" />
-      <workItem from="1482714135324" duration="68000" />
+      <workItem from="1482714135324" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -926,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481013127303</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="资源上传">
+      <created>1482714277463</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1482714277463</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326079000" />
+    <option name="totallyTimeSpent" value="327225000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -942,14 +663,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24703982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24624464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.39558664" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.39806867" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.60441333" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4733862" sideWeight="0.60193133" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45704466" sideWeight="0.48054054" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1015,7 +736,8 @@
     <MESSAGE value="运营月报部分动画效果" />
     <MESSAGE value="上拉刷新页面" />
     <MESSAGE value="fis3 取消资源定位 standard：false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fis3 取消资源定位 standard：false" />
+    <MESSAGE value="资源上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="资源上传" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -1128,6 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5481">
           <caret line="189" column="7" selection-start-line="189" selection-start-column="7" selection-end-line="189" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,6 +863,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,6 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5510">
           <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,6 +881,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,6 +891,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,6 +927,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,8 +1028,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fe/dist/wap/debug.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="29">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fe/dist/wap/memberlevel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1314,14 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3468" selection-start-line="0" selection-start-column="3468" selection-end-line="0" selection-end-column="3468" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fe/dist/wap/memberlevel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
