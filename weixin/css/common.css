@@ -1,0 +1,221 @@
+body,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font: 14px/1.5 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  color: #ccc;
+}
+.lf {
+  float: left;
+}
+.rg {
+  float: right;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+input {
+  border: none;
+  outline: none;
+  font-size: 0.34666667rem;
+  width: 55%;
+}
+.registertop,
+.bindsucctop {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.66666667rem;
+  padding-bottom: 0.86666667rem;
+}
+.registertop img,
+.bindsucctop img {
+  width: 2.66666667rem;
+}
+.registertop p,
+.bindsucctop p {
+  font-size: 0.37333333rem;
+  color: #333;
+  margin-top: 0.33333333rem;
+}
+.regidterinfo {
+  padding: 0 0.4rem;
+}
+.regidterinfo form div:first-child,
+.regidterinfo form div:nth-of-type(2),
+.regidterinfo form div:nth-of-type(3) {
+  border-bottom: 1px solid #ccc;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+}
+.regidterinfo form div:first-child label img,
+.regidterinfo form div:nth-of-type(2) label img,
+.regidterinfo form div:nth-of-type(3) label img {
+  width: 0.50666667rem;
+  vertical-align: middle;
+  margin-right: 0.57333333rem;
+}
+.regidterinfo form div:nth-of-type(2) .eye {
+  width: 0.52rem;
+  float: right;
+  margin-right: 0.26666667rem;
+  margin-top: 0.26666667rem;
+}
+.regidterinfo form div:nth-of-type(3) {
+  position: relative;
+  width: 72.5%;
+}
+.regidterinfo form div:nth-of-type(3) span {
+  position: absolute;
+  right: -2.53rem;
+  top: 0.05333333rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  line-height: normal;
+}
+.regidterinfo form div:nth-of-type(3) span img {
+  width: 2.13333333rem;
+}
+.regidterinfo form #bind,
+.regidterinfo form #forget {
+  width: 100%;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  background-color: #ff8a50;
+  font-size: 0.37333333rem;
+  text-align: center;
+  margin: 0.66666667rem 0 0.4rem 0;
+  border: 0;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  outline: none;
+}
+.regidterinfo form #forget {
+  margin: 0;
+  background-color: #fff;
+  color: #ff8a50;
+  border: 1px solid #ccc;
+  margin-bottom: 0.53333333rem;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #999;
+  font-size: 0.32rem;
+}
+.bindsucctop {
+  padding-top: 1.6rem;
+  padding-bottom: 1.86666667rem;
+}
+.bindsucctop p {
+  margin-top: 0.6rem;
+  font-size: 0.42666667rem;
+  color: #333;
+}
+.bindsuccinfo {
+  text-align: center;
+  padding: 0 0.4rem;
+}
+.bindsuccinfo p {
+  font-size: 0.34666667rem;
+  color: #ccc;
+  margin-bottom: 0.4rem;
+}
+.bindsuccinfo a {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.37333333rem;
+  height: 1.06666667rem;
+  background-color: #ff8a50;
+  color: #fff;
+  line-height: 1.06666667rem;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.bindsuccinfo a:hover,
+.bindsuccinfo a:visited,
+.bindsuccinfo a:active {
+  background-color: #ff8a50;
+  color: #fff;
+}
+.unbind {
+  text-align: center;
+  margin-top: 4.46666667rem;
+}
+.unbind a {
+  font-size: 0.32rem;
+  color: #999;
+}
+.unbind a:hover,
+.unbind a:visited,
+.unbind a:active {
+  color: #999;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+.showreason {
+  position: relative;
+  width: 100%;
+  padding-top: 2.6rem;
+  text-align: center;
+}
+.showreason div {
+  display: none;
+}
+.showreason div ul {
+  position: absolute;
+  top: -0.85rem;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 3.2rem;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #fff;
+}
+.showreason div ul li {
+  width: 33.3%;
+  font-size: 0.29333333rem;
+  color: #666666;
+}
+.showreason div ul li img {
+  width: 1.2rem;
+  margin: 0.53333333rem 0 0.2rem 0;
+}
+.showreason div img.point {
+  position: absolute;
+  bottom: 0.59rem;
+  width: 0.22666667rem;
+}
+.showreason p.why {
+  font-size: 0.37333333rem;
+  color: #ff8a50;
+}
+.showreason p.why img {
+  width: 0.41333333rem;
+  vertical-align: middle;
+}

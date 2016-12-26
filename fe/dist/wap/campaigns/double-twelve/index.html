@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>幸运双十二</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="__FE_BASE_URI__wap/campaigns/double-twelve/css/index.css">
+    <script src="__FE_BASE_URI__/libs/iscroll.js"></script>
+    <script src="__FE_BASE_URI__/libs/flex.js"></script>
+    <script src="__FE_BASE_URI__/libs/jquery-1.11.1.min.js"></script>
+    <script src="__FE_BASE_URI__/libs/fastclick.js"></script>
+    <script src="__FE_BASE_URI__wap/campaigns/double-twelve/js/index.js"></script>
+    <style>
+        header div:first-child {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/banner_01.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        header div:last-child {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/banner_02.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        section .btn button {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/btn.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        section .people .title {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/title.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        section .activeregular .title,
+        section .accept .title {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/title.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        .login .loginbtn,
+        .nochance .loginbtn,
+        .login .investbtn,
+        .nochance .investbtn {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/btn_01.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        .login .investbtn,
+        .nochance .investbtn {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/btn_02.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        .drawgift div {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/drawgitfbg.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        .drawgift a {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/btn_03.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+        .nodrawgift a {
+            background: url("__FE_BASE_URI__wap/campaigns/double-twelve/images/btn_04.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+<!--banner-->
+<header>
+    <div><span class="activetime">2016.12.12-2016.12.21</span></div>
+    <div></div>
+</header>
+<!--content-->
+<section>
+    <div id="activereg">
+    <div class="step1">
+        <span class="lf">第一步：幸运大礼包</span>
+        <a class="rg">如何增加抽奖机会?</a>
+    </div>
+    <div class="lotternumber">
+        <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/gift.png" alt="">
+        您还有抽奖次数：
+        <span>3</span>次
+    </div>
+
+    <table class="coupon" cellspacing="5" >
+        <tr>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_01.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_02.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_03.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_04.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_05.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_06.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_07.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_08.png" alt=""></td>
+            <td><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_09.png" alt=""></td>
+        </tr>
+    </table>
+
+    <!--兑换按钮-->
+    <div class="btn">
+        <button></button>
+    </div>
+
+    <!--对奖记录-->
+    <div class="moregift">
+        我的中奖纪录>
+    </div>
+
+    <div class="step2">
+        <span class="lf">第二步：幸运大奖</span>
+        <a class="rg">如何获取幸运大奖?</a>
+    </div>
+
+    <ul class="award clearfix">
+        <li class="lf">
+            <div>
+                <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/ipad.png" alt="">
+                <span>ipad mini 4  64G</span>
+            </div>
+            <p>一等奖 1名</p>
+        </li>
+        <li class="rg">
+            <div>
+                <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/cooker.png" alt="">
+                <span>米家电饭煲</span>
+            </div>
+            <p>二等奖 2名</p>
+            <div>
+                <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/source.png" alt="">
+                <span>罗马仕充电宝</span>
+            </div>
+            <p>三等奖 5名</p>
+        </li>
+    </ul>
+
+    <div  class="regular">
+        <ul class="clearfix ">
+            <li><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/phase_01.png" alt=""></li>
+            <li><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/phase_02.png" alt=""></li>
+            <li><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/phase_03.png" alt=""></li>
+            <!--<li class="lf">一等奖：</li>-->
+            <!--<li class="lf"><span>ipad mini4 64G（1个名额）</span><br>开奖时，手机号码末尾四位数字和“上证指数”21日收盘的末尾四位数字最接近的用户，即可获奖；</li>-->
+            <!--<li class="lf">二等奖：</li>-->
+            <!--<li class="lf"><span>米家电饭煲（2个名额）</span><br>开奖时，手机号码末尾四位数字和“深圳指数”21日收盘的末尾四位数字最接近的用户，即可获奖；</li>-->
+            <!--<li class="lf">三等奖：</li>-->
+            <!--<li class="lf"><span>充电宝10000毫安（5个名额）</span><br>开奖时，手机号码末尾四位数字和“创业板”21日收盘的末尾四位数字最接近的用户，即可获奖；</li>-->
+        </ul>
+        <p class="warn">*如果中奖号码超过奖品名额，最早投资温都金服的用户中奖，活动期间内每人仅限一次获奖机会。</p>
+    </div>
+
+    <div class="people">
+        <div class="title">获奖名单</div>
+        <ul>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿加湿器器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  50元代金卷<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+            <li><span class="lf">恭喜182******00 </span>获得  加湿器<span class="rg">2016/12/12</span></li>
+        </ul>
+    </div>
+    </div>
+    <div class="activeregular">
+        <div class="title">获奖规则</div>
+        <ul>
+            <li>1.所有注册用户直接享有一次幸运大礼包的抽奖机会；</li>
+            <li>2.所有注册用户邀请1人注册成功后享有1次幸运大礼包的抽奖机会，邀请2人注册成功享有3次幸运大礼包抽奖机会 ，邀请3人注册成功后享有5次幸运大礼包的抽奖机会，邀请3人以上每多邀请1人多得2次幸运大礼包的抽奖机会；</li>
+            <li>3.活动期间内，邀请用户注册成功达到3人及以上就有机会获得幸运大奖；</li>
+        </ul>
+    </div>
+    <!--<div id="acceptreg"></div>-->
+    <a class="goinvest" href=""><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/goinvest.png" alt=""></a>
+    <div class="accept">
+        <div class="title">领奖规则</div>
+        <ul>
+            <li>1.幸运大奖获奖的用户名单活动结束后次日10点公布在温都金服官网上，温都金服客服人员将会在3个工作日内电话联系用户确认礼品以及领取地点；</li>
+            <li>2.活动期间获奖人员须本人持身份证来温都金服领取；</li>
+            <li>3.活动结束后一周内未领取礼品的视为自动放弃；</li>
+            <li>4.领取地点：温州市鹿城区飞霞南路657号（老党校对面）；</li>
+            <li>5.详情可咨询客服热线：<a href="tel:400-101-5151">400-101-5151；</a></li>
+            <li>6.本活动最终解释权在法律范围内归温都金服（温州温都金融信息服务股份有限公司）所有。</li>
+        </ul>
+    </div>
+    <a class="goindex" href=""><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/goindex.png" alt=""></a>
+</section>
+<!--footer-->
+<footer><img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/adv.png" alt=""> 理财非存款 产品有风险 投资须谨慎 </footer>
+
+<!--遮罩-->
+<div class="mask">
+</div>
+<!--弹框-->
+<!--登录弹框-->
+<div class="login pop">
+    <img class="closepop" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/close01.png" alt="">
+    <p>您还未登录！</p>
+    <p>登录即可参加抽奖活动，赶快行动吧~</p>
+    <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/box.png" alt="">
+    <a href="" class="loginbtn"></a>
+    <a href="">没有账号，立即去注册</a>
+</div>
+<!--没有抽奖机会-->
+<div class="nochance pop">
+    <img class="closepop" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/close01.png" alt="">
+    <p>没有抽奖机会了！</p>
+    <p>邀请好友，可获得更多抽奖机会哦~</p>
+    <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/box.png" alt="">
+    <a href="" class="investbtn"></a>
+</div>
+<!--中奖效果-->
+<div class="drawgift pop">
+    <img class="bgtop" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/drawgiftbg_01.png" alt="">
+    <p>恭喜您获得 <span>20元</span>代金券！</p>
+    <div>
+        <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_02.png" alt="">
+    </div>
+    <a href=""></a>
+</div>
+<!--中奖列表无礼品-->
+<div class="nodrawgift pop">
+    <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/drawgiftbg_02.png" alt="">
+    <p>您还未抽过奖！</p>
+    <img src="__FE_BASE_URI__wap/campaigns/double-twelve/images/box.png" alt="">
+    <a href=""></a>
+</div>
+<!--中奖列表有礼品-->
+<div class="giftlist pop">
+    <img  class="giftlistimg" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/drawgiftbg_02.png" alt="">
+    <img class="giftlistclose  closepop" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/close_02.png" alt="">
+    <div class="giftlistbox" id="giftBox">
+        <ul>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_01.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_02.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_03.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_04.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_05.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_06.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_06.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+            <li class="clearfix">
+                <img class="lf" src="__FE_BASE_URI__wap/campaigns/double-twelve/images/coupon_06.png" alt="">
+                <p class="lf"><span>5元代金券</span><br><span>2016-12-14 15:30</span></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--<button class="bt1 btest" data-value="login">登录弹框</button>-->
+<!--<button class="bt2 btest" data-value="nochance">无抽奖机会</button>-->
+<!--<button class="bt3 btest" data-value="drawgift">中奖结果</button>-->
+<!--<button class="bt4 btest" data-value="nodrawgift">中奖列表无奖品</button>-->
+<!--<button class="bt5 btest" data-value="giftlist">中奖列表有奖品</button>-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

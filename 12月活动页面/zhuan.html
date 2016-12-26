@@ -96,10 +96,11 @@ $(function(){
 function ok(){
     var arr1 = [0,-115,-245];
     var num1 = Math.floor(Math.random()*3);
+    var animationEnd = fn();
     $('ul li').each(function(){
         $(this).find('img').addClass('active'+$(this).index());
-        var obj=$('ul li').eq($(this).index()).find('img')
-        document.querySelectorAll('ul li')[$(this).index()].addEventListener('animationend',function(){
+        var obj=$('ul li').eq($(this).index()).find('img');
+        document.querySelectorAll('ul li')[$(this).index()].addEventListener(animationEnd,function(){
             obj.css({'top':arr1[num1]}).removeClass('active'+$(this).index());
         });
     })
@@ -129,14 +130,42 @@ function no(){
         [-245,-245,0],
     ];
     var num2 = Math.floor(Math.random()*18);
+    var animationEnd = fn();
     $('ul li').each(function(){
         $(this).find('img').addClass('active'+$(this).index());
         var obj=$('ul li').eq($(this).index()).find('img')
-        document.querySelectorAll('ul li')[$(this).index()].addEventListener('animationend',function(){
+        document.querySelectorAll('ul li')[$(this).index()].addEventListener(animationEnd,function(){
             obj.css({'top':arr2[num2][$(this).index()]}).removeClass('active'+$(this).index());
             console.log(arr2[num2][$(this).index()])
         });
     })
+}
+
+function fn(){
+    var transition="transition",
+            body=document.body || document.documentElement,
+            style=body.style;
+    var vendorPrefix=(function(){
+        var i=0, vendor=["Moz", "Webkit", "Khtml", "O", "ms"];
+        transition=transition.charAt(0).toUpperCase() + transition.substr(1);
+        while (i < vendor.length) {
+            if (typeof style[vendor[i] + transition] === "string") {
+                console.log(typeof style[vendor[i] + transition]);
+                return vendor[i];
+            }
+            i++;
+        }
+        return false;
+    })();
+    console.log(vendorPrefix);
+    var animationEnd=(function(){
+        if(vendorPrefix=="Webkit"){
+            return "webkitAnimationEnd";
+        }else{
+            return "animationend";
+        }
+    }());
+    return animationEnd;
 }
 </script>
 </html>

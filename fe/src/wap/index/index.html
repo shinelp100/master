@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="format-detection" content="telephone=no"/>
     <title>温度金服</title>
-    <link rel="stylesheet" href="https://static.wenjf.com/m/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://static.wenjf.com/m/css/base.css?v=20161102">
-    <link rel="stylesheet" href="css/index.css?v=1.0">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../common/css/base.css?v=1.0">
     <link rel="stylesheet" href="../libs/swiper/swiper.min.css">
-    <script src="js/flex.js"></script>
+    <script src="../libs/lib.flexible.js"></script>
+    <link rel="stylesheet" href="css/index.css?v=1.0364">
+    <script src="../libs/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+<div class="container">
 <header>
     <img src="images/logo.png" alt="">
     <div class="notLogin">
@@ -37,15 +39,34 @@
     <div class="introduce"><img src="images/introduce.png" alt=""></div>
     <div class="featured">
         <p class="project">精选项目</p>
-        <ul class="clearfix">
+        <!--一张图片-->
+        <!--<ul class="clearfix onepic">-->
+            <!--<li>-->
+                <!--<a href=""><img src="images/projectone.png" alt=""></a>-->
+            <!--</li>-->
+        <!--</ul>-->
+
+        <!--两张图片-->
+        <ul class="clearfix twopic">
             <li class="lf">
-                <a href=""><img src="images/bgproject_01.png" alt=""></a>
+                <a href=""><img src="images/bgproject_05.png" alt=""></a>
             </li>
             <li class="rg">
-                <a href=""><img src="images/bgproject_02.png" alt=""></a>
-                <a href=""><img src="images/bgproject_03.png" alt=""></a>
+                <a href=""><img src="images/bgproject_06.png" alt=""></a>
             </li>
         </ul>
+
+        <!--三张图片-->
+        <!--<ul class="clearfix threepic">-->
+            <!--<li class="lf">-->
+                <!--<a href=""><img src="images/bgproject_01.png" alt=""></a>-->
+            <!--</li>-->
+            <!--<li class="rg">-->
+                <!--<a href=""><img src="images/bgproject_02.png" alt=""></a>-->
+                <!--<span class="a-two"></span>-->
+                <!--<a href=""><img src="images/bgproject_03.png" alt=""></a>-->
+            <!--</li>-->
+        <!--</ul>-->
     </div>
 </section>
 
@@ -58,34 +79,33 @@
         <li class="lf commonLi">
             <a class="superscript" href="">
                 <div><span>南金交--中盛海润民生哈哈哈哈哈哈</span></div>
-                <div>5.5 <span>+0.1%</span></div>
+                <div>7.5~10.5%</div>
                 <div>预期年化率</div>
-                <div>期限&nbsp;&nbsp;12个月</div>
-                <div><span>国企担保</span><span>低风险</span></div>
+                <div>期限&nbsp;&nbsp;2年</div>
+                <div><span>国企担保</span></div>
             </a>
         </li>
         <li class="lf commonLi">
-            <a href="">
+            <a class="superscript" href="">
                 <div><span>南金交--中盛海润民生哈哈哈哈哈哈</span></div>
-                <div>5.5 <span>+0.1%</span></div>
+                <div>5.5%<span></span></div>
                 <div>预期年化率</div>
-                <div>期限&nbsp;&nbsp;12个月</div>
-                <div><span>国企担保</span><span>低风险</span></div>
+                <div>期限&nbsp;&nbsp;102天</div>
             </a>
         </li>
         <li class="lf commonLi">
-            <a href="">
+            <a class="superscript" href="">
                 <div><span>南金交--中盛海润民生哈哈哈哈哈哈</span></div>
-                <div>5.5 <span>+0.1%</span></div>
+                <div>7.5~10.5<span>+0.1%</span></div>
                 <div>预期年化率</div>
-                <div>期限&nbsp;&nbsp;12个月</div>
-                <div><span>国企担保</span><span>低风险</span></div>
+                <div>期限&nbsp;&nbsp;6个月</div>
+                <div><span>国企担保</span><span>每日限量</span></div>
             </a>
         </li>
         <li class="lf commonLi">
-            <a href="">
+            <a class="superscript" href="">
                 <div><span>南金交--中盛海润民生哈哈哈哈哈哈</span></div>
-                <div>5.5 <span>+0.1%</span></div>
+                <div>7.5<span>+0.1%</span></div>
                 <div>预期年化率</div>
                 <div>期限&nbsp;&nbsp;12个月</div>
                 <div><span>国企担保</span><span>低风险</span></div>
@@ -125,7 +145,7 @@
 </div>
 
 <div class="platform">
-    <p>股东背景</p>
+    <p>平台优势</p>
     <ul class="clearfix">
         <li></li>
         <li class="lf platformList">
@@ -164,7 +184,7 @@
     <p>温州市鹿城区飞霞南路657号保丰大楼四层</p>
 </div>
 
-<footer>温州报业传媒旗下理财平台</footer>
+<footer><span></span>温州报业传媒旗下理财平台<span></span></footer>
 
 <div class="row navbar-fixed-bottom footer">
     <div class="col-xs-4 footer-title">
@@ -189,10 +209,35 @@
     var mySwiper = new Swiper('.swiper-container', {
         loop:true,
 //        loopedSlides:5,
-        slidesPerView: 2.2,//可选选项，自动滑动
-//        spaceBetween:20,
+        slidesPerView: 2.4,//可选选项，自动滑动
+        spaceBetween:20,
         slidesOffsetBefore:20,
-    })
+//        slidesOffsetAfter:10,
+    });
+    $(function(){
+        document.body.addEventListener('touchmove',eventTarget,false);
+        $('.mask,.pop img:eq(0)').on('click',function(){
+            $('.mask').hide();
+            $('.pop').hide();
+            document.body.removeEventListener('touchmove',eventTarget,false);
+        })
+        var host = location.host;
+        if(host.split('.')[0] === 'app') {
+            $('footer').css({'margin-bottom':0});
+        }
+    });
+    function eventTarget(event){
+        event.preventDefault();
+    }
 </script>
+</div>
+
+<div class="mask">
+</div>
+
+<div class="pop">
+    <img src="images/close.png" alt="">
+    <img src="images/advantage.png" alt="">
+</div>
 </body>
 </html>

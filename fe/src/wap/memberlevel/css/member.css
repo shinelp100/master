@@ -1,0 +1,131 @@
+body {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 750px;
+}
+.obtainheader {
+  padding: 0.8rem 0.66666667rem;
+  background-color: #fff;
+  color: #666666;
+}
+.obtainheader h4 {
+  font-size: 0.42666667rem;
+  line-height: 0.69333333rem;
+  margin-bottom: 0.26666667rem;
+}
+.obtainheader p {
+  font-size: 0.37333333rem;
+  line-height: 0.64rem;
+}
+.obtainheader p:nth-of-type(1) {
+  margin-bottom: 0.26666667rem;
+}
+.obtaincontent {
+  background-color: #fff;
+  margin-top: 0.26666667rem;
+  padding: 0.53333333rem 0.8rem;
+}
+.obtaincontent h4 {
+  font-size: 0.42666667rem;
+  line-height: 0.98666667rem;
+  color: #666666;
+  margin-bottom: 0.22666667rem;
+}
+.obtaincontent table {
+  font-size: 0.34666667rem;
+  color: #888888;
+  width: 100%;
+  border-collapse: collapse;
+}
+.obtaincontent table tr {
+  width: 100%;
+  height: 0.86666667rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.obtaincontent table tr td:first-child {
+  padding-left: 0.4rem;
+}
+.obtaincontent table tr td:nth-of-type(2) {
+  text-align: center;
+  padding-left: 0.5rem;
+}
+.obtaincontent table tr td:last-child {
+  text-align: right;
+  padding-right: 0.4rem;
+}
+.obtaincontent table tr:first-child {
+  background-color: #eeeeee;
+  border-bottom: none;
+  font-size: 0.32rem;
+  height: 0.69333333rem;
+}
+.obtaincontent table tr:last-child {
+  border-bottom: none;
+}
+.prerogativecontent {
+  margin-top: 0.26666667rem;
+}
+.prerogativecontent p {
+  line-height: 0.96rem;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 0.42666667rem;
+  color: #666666;
+  background-color: #fff;
+  padding-left: 0.53333333rem;
+}
+.prerogativecontent ul li:nth-of-type(odd) {
+  height: 1.22666667rem;
+  line-height: 1.22666667rem;
+  background-color: #fff;
+  padding: 0 0.4rem 0 0.53333333rem;
+  color: #333333;
+  font-size: 0.42666667rem;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative;
+}
+.prerogativecontent ul li:nth-of-type(odd) span {
+  display: block;
+  width: 0.48rem;
+  height: 0.28rem;
+  position: absolute;
+  top: 0.46666667rem;
+  right: 0.4rem;
+  background: url("../img/arrow.png");
+  background-size: 0.48rem 0.28rem;
+  transition: transform 500ms;
+  -moz-transition: transform 500ms;
+  -webkit-transition: transform 500ms;
+}
+.prerogativecontent ul li:nth-of-type(even) {
+  display: none;
+  background-color: #fff;
+  padding: 0 0.53333333rem;
+}
+.prerogativecontent ul li:nth-of-type(even) table {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 0.26666667rem;
+  border-collapse: collapse;
+}
+.prerogativecontent ul li:nth-of-type(even) table tr {
+  border-bottom: 1px solid #e3e3e3;
+  height: 0.85333333rem;
+  font-size: 0.32rem;
+  color: #999999;
+}
+.prerogativecontent ul li:nth-of-type(even) table tr td:last-child {
+  font-size: 0.34666667rem;
+  color: #666666;
+  width: 66.6%;
+}
+.prerogativecontent ul li:nth-of-type(even) table tr:last-child {
+  border-bottom: none;
+}
+.rot {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transition: transform 500ms;
+  -moz-transition: transform 500ms;
+  -webkit-transition: transform 500ms;
+}

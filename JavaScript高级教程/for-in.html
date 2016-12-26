@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for-in</title>
+</head>
+<body>
+<script>
+    //    for(var i in window){
+    //        console.log(i);
+    //    }
+    //    var dev = navigator.userAgent;
+    //    console.log(dev);
+    console.log(window.location);
+    isFromWeiXin();
+    function isFromWeiXin() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            alert(ua)
+            return true;
+        }
+        return false;
+    }
+</script>
+</body>
+</html>

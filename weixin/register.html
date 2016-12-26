@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1">
+<head>
+    <meta charset="UTF-8">
+    <title>微信注册页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="js/lib.flexible.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="registertop">
+    <img src="img/zhuruzhanghao.png" alt="">
+    <p>亲爱的谷东,请输入旺财谷账号绑定微信</p>
+</div>
+<div class="regidterinfo">
+    <form action="">
+        <div>
+            <label for="account"><img src="img/yonghuming.png" alt=""></label>
+            <input id="account" type="text" placeholder="请输入用户名/手机号/邮箱">
+        </div>
+        <div>
+            <label for="password"><img src="img/password.png" alt=""></label>
+            <input id="password" type="text" placeholder="请输入登录密码">
+            <img class="eye" src="img/yanjing.png" alt="">
+        </div>
+        <div>
+            <label for="number"><img src="img/yanzhengma.png" alt=""></label>
+            <input id="number" type="text" placeholder="图文验证码">
+            <span><img src="img/yanzhengma_01.png" alt=""></span>
+        </div>
+        <button id="bind">立即绑定</button>
+        <button id="forget">忘记密码</button>
+    </form>
+    <div class="footer">
+        <a href="">没有账号？注册并绑定微信</a>
+    </div>
+    <div class="showreason">
+        <div>
+            <ul class="clearfix">
+                <li class="lf">
+                    <img src="img/caozuo@2x.png" alt="">
+                    <p>投资操作<br>更方便</p>
+                </li>
+                <li class="lf">
+                    <img src="img/tixing@2x.png" alt="">
+                    <p>账户资金变动<br>实时提醒</p>
+                </li>
+                <li class="lf">
+                    <img src="img/jisu@2x.png" alt="">
+                    <p>好友注册投资<br>极速获知</p>
+                </li>
+            </ul>
+            <img class="point" src="img/point.png" alt="">
+        </div>
+
+        <p class="why">
+            <img src="img/jieshi@2x.png" alt="">
+            为什么要绑定微信？
+        </p>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('.why').on('click',function (event) {
+            var event = event || window.event;
+            event.stopPropagation();
+            $('.showreason div').toggle();
+        });
+        $('body,html').on('click',function () {
+            $('.showreason div').hide();
+        });
+    })
+</script>
+</body>
+</html>

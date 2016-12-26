@@ -12,6 +12,7 @@
                 doc.body.style.width = '768px';
             }else{
                 doc.body.style.width = clientWidth + 'px';
+                doc.body.style.margin = '0 auto';
             }
             docEl.style.fontSize = clientWidth/10 + 'px';
         };

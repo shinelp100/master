@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="__FE_BASE_URI__wap/video-list/css/index.css">
+    <script src="__FE_BASE_URI__/libs/lib.flexible2.js"></script>
+    <script src="__FE_BASE_URI__/libs/fastclick.js"></script>
+    <script src="__FE_BASE_URI__/libs/jquery-1.11.1.min.js"></script>
+    <title>视频列表</title>
+</head>
+<body>
+<p class="wifi-tip">以下视频建议在WiFi环境下播放<span></span></p>
+
+<!-- 视频1 -->
+<h3 class="video-title">视频介绍一</h3>
+<div class="video-items">
+    <video class="media" webkit-playsinline playsinline  preload="none" controls="controls" poster="__FE_BASE_URI__wap/video-list/images/video-01.png">
+        <source src="http://video.wenjf.com/Act-ss-mp4-ld/01166074c3414d4ab27d5a6089ff9eba/taitong_1.mp4" type="video/mp4">
+        您的浏览器不支持此种视频格式。
+    </video>
+</div>
+<p class="video-bottom-grey"></p>
+
+<!-- 视频2 -->
+<h3 class="video-title">视频介绍视频介绍视频介绍视频介绍视频介绍视频最多显示两行</h3>
+<div class="video-items">
+    <video class="media" webkit-playsinline playsinline  preload="none" controls="controls" poster="__FE_BASE_URI__wap/video-list/images/video-01.png">
+        <source src="http://video.wenjf.com/Act-ss-mp4-ld/01166074c3414d4ab27d5a6089ff9eba/taitong_1.mp4" type="video/mp4">
+        您的浏览器不支持此种视频格式。
+    </video>
+</div>
+<p class="video-bottom-grey"></p>
+
+<!-- 视频3 -->
+<h3 class="video-title">视频介绍三</h3>
+<div class="video-items">
+    <video class="media" webkit-playsinline playsinline  preload="none" controls="controls" poster="__FE_BASE_URI__wap/video-list/images/video-01.png">
+        <source src="http://video.wenjf.com/Act-ss-mp4-ld/01166074c3414d4ab27d5a6089ff9eba/taitong_1.mp4" type="video/mp4">
+        您的浏览器不支持此种视频格式。
+    </video>
+</div>
+<p class="video-bottom-grey"></p>
+<script>
+    $(function () {
+        FastClick.attach(document.body);
+        //wifi提示
+        $('.wifi-tip span').on('click', function () {
+            $(this).parent().hide();
+        });
+
+        //生成img
+        $('.video-items').append('<img src="images/loading.gif" class="loading" alt="">');
+    });
+
+    window.onload = function () {
+        var media = document.querySelectorAll(".media");
+        var mediaLength = media.length;
+        var loading = document.querySelectorAll('.loading');
+
+        for (var i = 0; i < mediaLength; i++) {
+            media[i].index=i;
+            media[i].onclick = function() {
+
+                this.loadstart = function () {
+                    loading[this.index].style.display = 'block';
+                };
+                this.onwaiting = function () {
+                    loading[this.index].style.display = 'block';
+                };
+                this.oncanplay = function () {
+                    loading[this.index].style.display = 'none';
+                };
+
+                for (i = 0; i < mediaLength; i++) {
+                    media[i].pause();
+                    loading[i].style.display = 'none';
+                }
+
+                this.play();
+
+            }
+        }
+
+    }
+
+</script>
+</body>
+</html>

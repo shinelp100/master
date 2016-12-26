@@ -1,7 +1,7 @@
 // 启用 fis-spriter-csssprites 插件
 fis.match('::package', {
     spriter: fis.plugin('csssprites',{
-        scale: 0.5,
+        scale: 1,
         layout: 'matrix',
         release:'/active/$0',
     }),

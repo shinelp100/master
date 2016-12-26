@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--<link rel="stylesheet" href="http://www.swiper.com.cn/dist/css/swiper.min.css">-->
+    <!--<script src="http://www.swiper.com.cn/templets/default/js/jquery-1.10.1.min.js"></script>-->
+    <script src="http://cubiq.org/dropbox/iscroll4/src/iscroll.js"></script>
+    <script>
+
+
+        var myScroll;
+        function loaded() {
+            myScroll = new iScroll('wrapper');
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+        /* * * * * * * *
+         *
+         * Use this for high compatibility (iDevice + Android)
+         *
+         */
+        document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+        /*
+         * * * * * * * */
+
+
+        /* * * * * * * *
+         *
+         * Use this for iDevice only
+         *
+         */
+        //document.addEventListener('DOMContentLoaded', loaded, false);
+        /*
+         * * * * * * * */
+
+
+        /* * * * * * * *
+         *
+         * Use this if nothing else works
+         *
+         */
+        //window.addEventListener('load', setTimeout(function () { loaded(); }, 200), false);
+        /*
+         * * * * * * * */
+
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height:100%;
+            width:100%;
+            background-color: #ccc;
+        }
+        #wrapper{
+            height:300px;
+            width:300px;
+            position: fixed;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            background-color: #f90;
+            overflow: hidden;
+        }
+        #wrapper ul li{
+            height: 80px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body onload="loaded();">
+<div>
+    <ul>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120ewewrw00000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000212000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>12000000</li>
+        <li>120002122000</li>
+
+    </ul>
+</div>
+
+
+<div id="wrapper">
+    <ul>
+        <li>{我是测试的小尾巴1}</li>
+        <li>{我是测试的小尾巴2}</li>
+        <li>{我是测试的小尾巴3}</li>
+        <li>{我是测试的小尾巴4}</li>
+    </ul>
+</div>
+</body>
+</html>
