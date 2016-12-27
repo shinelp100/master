@@ -4,97 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
     <title>Title</title>
+    <script src="jquery-1.11.1.min.js"></script>
     <style>
         * {
-            margin: 0;
-            padding:0;
+            -webkit-tap-highlight-color: transparent;
         }
-        /*body {*/
-        /*position: absolute;*/
-        /*height:100%;*/
-        /*width:100%;*/
-        /*}*/
         .mask {
+            height:100%;
+            width:100%;
             position: fixed;
             top:0;
             left:0;
-            height:100%;
-            width:100%;
+            z-index: 9;/*根据实际情况设定*/
             background-color: rgba(0,0,0,.3);
         }
 
         /*对于弹框的fixed定位问题兼容写法*/
         .pomp {
-            width:80%;
-            height:300px;
+            width:70%;
+            /*height:300px;*/
             position: fixed;
             top:50%;
             left:50%;
+            z-index: 10;/*根据实际情况设定*/
+            background-color: #fff;
             transform: translate(-50% ,-50%);
             -webkit-transform: translate(-50% ,-50%);
             -moz-transform: translate(-50% ,-50%);
+            /*弹框内部样式的添加*/
+            text-align: center;
+            padding: 0 5%;
+        }
+        a {
+            display: inline-block;
+            outline: none;
+            background-color: #fff;
+            border-radius: 5px;
+            border:1px solid #ccc;
+            padding:10px 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+            text-decoration: none;
+            color: #000;
         }
     </style>
 </head>
 <body>
-<ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-</ul>
-    <div class="mask"></div>
-    <div class="pomp">我是大标题</div>
+    <div class="mask cancel"></div>
+    <div class="pomp">
+        <h4>我是大标题</h4>
+        <p>我是测试的小尾巴我是测试的小尾巴我是测试的小尾巴我是测试的小尾巴我是测试的小尾巴我是测试的小尾巴我是测试的小尾巴</p>
+        <a class="cancel">取消</a>
+        <a href="">确认</a>
+    </div>
 </body>
+<script>
+    $(function(){
+        $('.cancel').on('click',function(e){
+            var e = e ||window.event;
+            e.stopPropagation();
+            $('.cancel').hide();
+            $('.pomp').hide();
+        })
+    })
+</script>
 </html>
