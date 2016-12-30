@@ -1,0 +1,71 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,menu,nav,section{
+    margin:0;
+    padding:0;
+}
+ul,ol {
+    list-style:none;
+}
+img,input,textarea{
+    border:0;
+}
+input{
+    border-radius: 0;
+    outline:none;
+    width:100%;
+}
+a{
+    text-decoration:none;
+    color:#8c8c8c;
+}
+a:hover,a:visited,a:active {
+    text-decoration:none;
+}
+i,em {
+    font-style: normal;
+}
+body{
+    font:14px/1.5 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    color:#8c8c8c;
+    background:#e7eaf1;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 750px!important;
+}
+.row{
+    margin: 0;
+}
+.lf {
+    float: left;
+}
+.rg {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+}
+.text-align-lf {
+    text-align:left;
+}
+.text-align-rg {
+    text-align:right;
+}
+.text-align-ct {
+    text-align:center;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.hide {
+    display:none;
+}

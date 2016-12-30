@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组的迭代方法</title>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        var arr = [1, 2, 3, 4, 5, 6, 7, 9, 8];
+        var result = arr.every(function (item, index, array) {
+            return (item > 0);//true
+//            return (item>5);//false
+        });
+        console.log(result);
+        var result1 = arr.some(function (item, index, array) {
+            return (item > 5);//true
+//            return (item>5);//false
+        });
+        console.log(result1);
+        var result2 = arr.filter(function (item, index, array) {
+            return (item > 5);//true
+//            return (item>5);//false
+        });
+        console.log(result2);
+        var result3 = arr.map(function (item, index, array) {
+            return (item * 5);//true
+//            return (item>5);//false
+        });
+        console.log(result3);
+
+        var global = function () {
+            console.log(this);
+        }();
+    }
+</script>
+</body>
+</html>
