@@ -27,10 +27,9 @@ i,em {
     font-style: normal;
 }
 body{
-    font:14px/1.5 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    font:14px/1.5 -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
     color:#8c8c8c;
-    background:#e7eaf1;
-    max-width: 750px;
+    background:#f6f6f6 !important;
     margin: 0 auto;
 }
 .container{

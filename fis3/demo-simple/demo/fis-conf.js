@@ -32,13 +32,13 @@ fis.match('**.json', {
     release: '_Public_/$0'
 });
 //less
-fis.match('*.less', {
-    parser: fis.plugin('less-2.x'),
+fis.match('*.lessActive', {
+    parser: fis.plugin('lessActive-2.x'),
     rExt: '.css',
     release: '_Public_/static/default/demo/css$0'
 });
 // 所有的 css
-fis.match('*.{css,less}', {
+fis.match('*.{css,lessActive}', {
     //发布到/static/css/xxx目录下
     release: '_Public_/static/default/demo/css$0',
     //访问url是/pp/static/css/xxx
@@ -92,8 +92,8 @@ fis.match('::package', {
     })
 });
 
-fis.match('*.less', {
-    parser: fis.plugin('less-2.x'),
+fis.match('*.lessActive', {
+    parser: fis.plugin('lessActive-2.x'),
     rExt: '.css',
     release: '_Public_/static/default/demo/css$0'
 });
