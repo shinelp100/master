@@ -1,0 +1,182 @@
+.commonbtm {
+  border-bottom: 2px solid #ff5736;
+  color: #ff5736;
+}
+.listhead {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.listhead ul {
+  height: 1.14666667rem;
+  line-height: 1.14666667rem;
+  text-align: center;
+}
+.listhead ul li {
+  width: 20%;
+}
+.listhead ul li span {
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+}
+.recompro {
+  padding: 0.13333333rem 0 0.4rem 0;
+  border-top: 1px solid #dddddd;
+  background-color: #fff;
+  margin-bottom: 0.26666667rem;
+}
+.recompro .recomhead {
+  line-height: 1.17333333rem;
+  border-bottom: 1px dashed #ddd;
+  margin-left: 0.53333333rem;
+}
+
+.recompro .recomhead img {
+  width: 1.3333333rem;
+  height: 0.4rem;
+  margin-right: 0.133333rem;
+  vertical-align: middle;
+}
+.recompro .recombox {
+  width: 6.66666667rem;
+  height: 3.33333333rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.53333333rem;
+}
+.recompro .recombox span {
+  position: absolute;
+  top: 1.43rem;
+  left: 1.73333333rem;
+  font-size: 0.64rem;
+  color: #f23915;
+}
+.recompro .recombox span i {
+  font-size: 1.06666667rem;
+}
+.recompro .recombox span p {
+  text-align: center;
+  margin-top: -0.2rem;
+  font-size: 0.34666667rem;
+  color: #999999;
+}
+.recompro .recombox .recompan {
+  width: 100%;
+  height: 100%;
+}
+.recompro .recombox .recombox-img {
+  position: absolute;
+  top: 3.33333333rem;
+  left: 0px;
+}
+.recompro .recombox .recombox-img .recomprogress {
+  width: 6.66666667rem;
+  height: 3.33333333rem;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -webkit-transition: transform 3s;
+  -moz-transition: transform 3s;
+  transition: transform 3s;
+}
+.recompro .recomintro {
+  padding: 0 0.53333333rem;
+}
+.recompro .recomintro ul {
+  margin-top: 0.66666667rem;
+}
+.recompro .recomintro ul li {
+  width: 33%;
+  color: #777;
+}
+.recompro .recomintro ul li img {
+  width: 0.49333333rem;
+  vertical-align: middle;
+}
+.recompro .recombtn {
+  display: block;
+  margin: 0 0.53333333rem;
+  background-color: #ff8a50;
+  line-height: 1.33333333rem;
+  border-radius: 1.33333333rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.26666667rem;
+}
+.recompro .recombox .recombox-img .recomprogress.add-zhuan {
+  transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+}
+.modulelist {
+  display: block;
+  padding-left: 0.53333333rem;
+  margin-bottom: 0.26666667rem;
+  background-color: #fff;
+  color: #aaa;
+}
+.modulelist .moduletitle {
+  padding-top: 0.13333333rem;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #dddddd;
+}
+.modulelist .moduletitle span {
+  display: inline-block;
+  width:1.3333333rem;
+  height:0.4rem;
+  margin-right: 0.133333rem;
+}
+.modulelist .moduletitle span img {
+  width:100%;
+  height:100%;
+  vertical-align: middle;
+}
+.modulelist .moduletitle i {
+  color: #555555;
+  display: inline-block;
+  width: 72%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.modulelist ul.modulectn {
+  padding: 0.4rem 0.53333333rem 0.4rem 0;
+}
+.modulelist ul.modulectn li {
+  width: 33.3%;
+}
+.modulelist ul.modulectn li:last-child span {
+  display: block;
+  float: right;
+  width: 1.86666667rem;
+  height: 0.66666667rem;
+  text-align: center;
+  line-height: 0.66666667rem;
+  color: #fff;
+  border-radius: 0.66666667rem;
+  margin-top: 0.26666667rem;
+}
+.modulelist .proline {
+  margin-right: 0.53333333rem;
+  border-top: 3px solid #ddd;
+  position: relative;
+}
+.modulelist .proline .processline {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  border-top: 3px solid #ff8a50;
+}
+.modulelist ul.modulebtm {
+  line-height: 0.85333333rem;
+  padding-right: 0.53333333rem;
+  padding-bottom: 0.13333333rem;
+}
+.modulelist ul.modulebtm li span {
+  margin: 0 0.26666667rem;
+}
