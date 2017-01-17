@@ -1,0 +1,25 @@
+.approveModules {
+  padding: 0.13333333rem 0.53333333rem 0.26666667rem;
+  margin-top: 0.26666667rem;
+  background-color: #fff;
+}
+.approveModules ul {
+  border-bottom: 1px dashed #ddd;
+}
+.approveModules ul li {
+  color: #666666;
+  line-height: 0.93333333rem;
+}
+.approveModules ul li span {
+  color: #999999;
+}
+.approveModules ul li.f14 img {
+  width: 0.4rem;
+  vertical-align: middle;
+  margin-top: -0.07rem;
+}
+.approveModules p.f17 {
+  color: #2c2c2c;
+  line-height: 0.66666667rem;
+  margin-top: 0.13333333rem;
+}
