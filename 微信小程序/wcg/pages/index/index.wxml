@@ -1,0 +1,61 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+  <navigator url="../banner/banner">
+    <swiper-item>
+      <image src="{{item.carouselThumbUrl}}" style="width:100%;height:100%;"/>
+    </swiper-item>
+  </navigator>
+  </block>
+</swiper>
+  <view class="showAmount clearfix">
+    <view class="lf">累计交易: <text class="totalAmount">{{totalAmount}}</text></view>
+    <view class="rg">理财收益: <text class="totalAmount">{{profitTotalAmount}}</text></view>
+  </view>
+  <view class="fun clearfix">
+    <view class="lf"><image src="../../img/index_01.png"/><view>官网公告</view></view>
+    <view class="lf"><image src="../../img/licai_01.png"/><view>签到抽奖</view></view>
+    <view class="lf"><image src="../../img/faxian_01.png"/><view>邀请好友</view></view>
+    <view class="lf"><image src="../../img/user_01.png"/><view>安全保障</view></view>
+  </view>
+
+  <view class="notice">每天<text>10:30\15:30\19:30</text>更新项目，其他时间另做通知</view>
+
+  <navigator url="../deallist/deallist">
+    <view class="project1">
+      <view class="title">
+        <image src="{{newUserDeal.category_icon}}"></image>
+        <text> {{newUserDeal.title}}</text>
+      </view>
+      <view class="content clearfix">
+        <view class="lf"><view>{{newUserDeal.syl}}</view><text>预期年化</text></view>
+        <view class="rg"><view>{{newUserDeal.button_text}}</view><text class="rate">{{newUserDeal.qitou_text}}</text><text class="shuxian">|</text><text>{{newUserDeal.refundmethod}}</text></view>
+      </view>
+    </view>
+    </navigator>
+
+  <navigator url="../deallist/deallist">
+    <view class="project1">
+      <view class="title">
+        <image src="{{recomandDeal.category_icon}}"></image>
+        <text> {{recomandDeal.title}}</text>
+      </view>
+      <view class="content1 clearfix">
+        <view class="lf ct1"><view>{{recomandDeal.syl}}<text>%</text></view><text>预期年化</text></view>
+        <view class="lf ct2"><view>{{recomandDeal.qixian}}<text>{{recomandDeal.qixian_type}}</text></view><text>项目天数</text></view>
+        <view class="lf ct3 clearfix"><text class="rg">{{recomandDeal.button_text}}</text></view>
+      </view>
+      <view class="allpross"><view class="pross" style="width:{{recomandDeal.schedule}}%"></view></view>
+      <view class="ctnbtn clearfix">
+      <view class="lf"><text class="rate">{{recomandDeal.qitou_text}}</text><text class="shuxian">|</text><text>{{recomandDeal.refundmethod}}</text></view>
+      <view class="rg">{{recomandDeal.schedule}}%</view>
+      </view>
+    </view>
+    </navigator>
+
+
+    <view class="footer clearfix">
+      <image class="lf" src="../../img/ft1.png" style="width:48%;height:100px;"/>
+      <image class="rg" src="../../img/ft2.png" style="width:48%;height:100px;"/>
+    </view>
+</view>

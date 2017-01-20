@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/banner/banner",
+    "pages/licai/licai",
+    "pages/faxian/faxian",
+    "pages/user/user",
+    "pages/deallist/deallist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "旺财谷",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true",
+    "backgroundColor":"#eee"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "backgroundColor":"#fff",
+    "selectedColor":"#d81e06",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"img/index_01.png",
+      "selectedIconPath":"img/index_02.png"
+    }, {
+      "pagePath": "pages/licai/licai",
+      "text": "理财",
+      "iconPath":"img/licai_01.png",
+      "selectedIconPath":"img/licai_02.png"
+    }, {
+      "pagePath": "pages/faxian/faxian",
+      "text": "发现",
+      "iconPath":"img/faxian_01.png",
+      "selectedIconPath":"img/faxian_02.png"
+    }, {
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath":"img/user_01.png",
+      "selectedIconPath":"img/user_02.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
+
