@@ -25,7 +25,24 @@
 //1. nodeName 和 nodeValue 属性
 //2. 节点关系 childNodes NodeList数组
 
+    getAttribute();
+    setAttribute();
+    removeAttribute();
 
+    document.createElement();
+    appendChild();
+    insertBefore();
+    replaceChild();
+
+    div.classList.add("user");
+div.classList.contains("user");//表示列表中是否存在给定的值，如果存在则返回 true，否则返回 false。
+div.classList.remove("user");
+div.classList.toggle("user");//如果列表中已经存在给定的值，删除它；如果列表中没有给定的值，添加它。这样，前面那么多行代码用下面这一行代码就可以代替了：
+
+document.activeElement//属性始终会引用 DOM 中当前获得了焦点的元素 (页面首次加载获取的是body)
+document.readyState();//loading，正在加载文档；complete，已经加载完文档。
+
+dataset //(获取自定义属性data-)
 </script>
 </body>
 </html>
