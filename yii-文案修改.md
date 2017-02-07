@@ -11,8 +11,10 @@
     
 5、wap中心-->投资记录 
     页面地址：https://m.wangcaigu.com/user/invest
-   wap中心暂无 变现通和回款计划
+   wap中心暂无 变现通和回款计划(app中不是页面)
 
 6、理财项目介绍：保理通、金账通、收租宝、旺金宝图标修改，点击进入的产品介绍页面修改（标题加页面修改）
+    页面地址：https://m.wangcaigu.com/content/help/finance
+    (线上是连接到pc站 wap有自己的页面：https://ljk.m.wangcaigu.cn/content/catogery/baolitong（保理通...）)
    
 7、  wap暂无下拉显示功能 

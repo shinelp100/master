@@ -43,6 +43,15 @@ document.activeElement//属性始终会引用 DOM 中当前获得了焦点的元
 document.readyState();//loading，正在加载文档；complete，已经加载完文档。
 
 dataset //(获取自定义属性data-)
+//"beforebegin"，在当前元素之前插入一个紧邻的同辈元素；
+//"afterbegin"，在当前元素之下插入一个新的子元素或在第一个子元素之前再插入新的子元素；
+//"beforeend"，在当前元素之下插入一个新的子元素或在最后一个子元素之后再插入新的子元素；
+//"afterend"，在当前元素之后插入一个紧邻的同辈元素。
+document.querySelector("#submit").insertAdjacentHTML("afterend","<p>我是插入的h</p>");
+
+    contains()//元素的包含
+scrollIntoView()//true滚动到最上top
+document.querySelector("元素").scrollIntoViewIfNeeded(true);//滚动到制定元素  Safari 和 Chrome 实现了这个方法
 </script>
 </body>
 </html>

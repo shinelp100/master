@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资产总览</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="css/assetView.css">
+    <script src="../common/js/lib.flexible.js"></script>
+    <script src="https://www.wangcaigu.com/template/default/Public/js/jquery-1.11.2.min.js"></script>
+    <script src="https://www.wangcaigu.com/template/default/Public/userAccount/js/highcharts.js"></script>
+    <script src="js/fastclick.js"></script>
+</head>
+<body>
+<input id="property-value" type="hidden" value="12054125.05">
+<div class="flex-content">
+    <div class="paintersvg">
+        <div id="container" style="width: 9.5rem; height: 9.5rem; margin: -0.5rem auto 0"></div>
+        <img class="question" src="img/question.png" alt="">
+    </div>
+
+    <div class="detialList">
+        <ul>
+            <li class="clearfix">
+                <div class="lf"><span class="colorBlock assetyellow"></span>可用余额</div>
+                <div class="rg"><span class="comColor" id="AvlBal">2320.00</span>元</div>
+            </li>
+            <li class="clearfix">
+                <div class="lf"><span class="colorBlock assetblue"></span>理财资产</div>
+                <div class="rg"><span class="comColor" id="DaishouBenjin">2135.00</span>元</div>
+            </li>
+            <li class="clearfix">
+                <div class="lf"><span class="colorBlock assetred"></span>冻结资金</div>
+                <div class="rg"><span class="comColor" id="FrzBal">0.00</span>元</div>
+            </li>
+            <li>
+                <a class="clearfix slb" href="#">
+                    <div class="lf"><span class="colorBlock assetpurple"></span>生利宝 <img class="pointer" src="img/pointer.png" alt=""></div>
+                    <div class="rg"><span class="comColor" id="SLBBal">0.00</span>元</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="mask cancel"></div>
+<div class="pomp">
+    <p>账户总资产=可用余额+理财资产+冻结资金+生利宝 </p>
+    <div class="close">确认</div>
+</div>
+<script>
+    $(function () {
+        FastClick.attach(document.body);
+        //提示信息
+        $(".question").on("click",function(e){
+            e.stopPropagation();
+            $('.cancel').show();
+            $('.pomp').show();
+        });
+        $(".close,.cancel").on("click",function(e){
+            e.stopPropagation();
+            $('.cancel').hide();
+            $('.pomp').hide();
+        });
+
+        //我的资产
+        var datas = '';
+        var propertyValues1 = Number($('#AvlBal').html());
+        var propertyValues2 = Number($('#DaishouBenjin').html());
+        var propertyValues3 = Number($('#FrzBal').html());
+        var propertyValues4 = Number($('#SLBBal').html());
+        var propertyValue = $('#property-value').val();
+        if (propertyValue == '0') {
+            datas = 1;
+        } else {
+            datas = -1;
+        }
+        var data1 = datas >= 0 ? 0 : propertyValues1;
+        var data2 = datas >= 0 ? 0 : propertyValues2;
+        var data3 = datas >= 0 ? 0 : propertyValues3;
+        var data4 = datas >= 0 ? 0 : propertyValues4;
+        dataquan(data1, data2, data3, data4, propertyValue);
+        console.log(data1);
+//        dataquan(100,100,100,100,12054125.05)
+        function dataquan(data1, data2, data3, data4, value) {
+            var datacolor = [];
+            var data = [];
+            if (!!data1 == false && !!data2 == false && !!data3 == false && !!data4 == false) {
+                datacolor = ['#dbdbdb'];
+                data = [['账户总资产', parseFloat(0.00000001)]];
+            } else {
+                datacolor = ['#ffc65d', '#33d6c5', '#fe8081', '#afa9ff'];
+                data = [['可用余额', data1], ['理财资产', data2], ['冻结资金', data3], ['生利宝', data4]];
+            }
+            $('#container').highcharts({
+                chart: {
+                    type: 'pie',
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    backgroundColor: 'rgba(0,0,0,0)'//背景透明
+                },
+                title: {
+                    text: '<span style="font-size: 20px;color: #4c4c4c; display: block;">总资产(元)</span><br/><span style="font-size: 25px;color: #ff5736;display: block;">' + value + '</span>',
+                    floating: true
+                },
+                subtitle: {
+                    text: ''
+                },
+                plotOptions: {
+                    pie: {
+                        innerSize: 100,
+                        depth: 45,
+                        dataLabels: {
+                            enabled: false
+                        },
+                    }
+                },
+                series: [{
+                    name: [''],
+                    data: data,
+                    size: '80%',
+                    innerSize: '84%'
+                }],
+                colors: datacolor
+            }, function (c) {
+                var centerX = c.series[0].center[0];
+                var centerY = c.series[0].center[1];
+                // 标题字体大小，返回类似 16px ，所以需要 parseInt 处理
+                var titleHeight = parseInt(c.title.styles.fontSize);
+                // 设置图表偏移
+                c.setTitle({
+                    y: centerY + titleHeight / 4
+                });
+            });
+        }
+    })
+</script>
+</body>
+</html>

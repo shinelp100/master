@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5存储/html5存储.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii-文案修改.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/img/pointer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/img/question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/assetView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/css/assetView.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/comfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/recharge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/js/lib.flexible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/less/recharge.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/DOM.html" afterPath="$PROJECT_DIR$/JavaScript高级教程/DOM.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baiduTemplate/common/css/base.css" afterPath="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii-文案修改.md" afterPath="$PROJECT_DIR$/yii-文案修改.md" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -28,104 +41,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="waitApprove.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/南京交/waitApprove.html">
+      <file leaf-file-name="rechargeSucc.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/操作页面/rechargeSucc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="348">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex布局/index.html">
+      <file leaf-file-name="recharge.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/操作页面/less/recharge.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awesome-javascript-cn/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="413">
-                <caret line="797" column="0" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html5存储.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5存储/html5存储.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yii-文案修改.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yii-文案修改.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="493">
-                <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1486199086(1).jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="window对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/window对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="客户端检测.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/客户端检测.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DOM.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/DOM.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="29">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -152,12 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weixin/less/register.less" />
-        <option value="$PROJECT_DIR$/weixin/bindsuccess.html" />
-        <option value="$PROJECT_DIR$/weixin/unbindsuccess.html" />
-        <option value="$PROJECT_DIR$/weixin/bindsuccessed.html" />
-        <option value="$PROJECT_DIR$/fe/dist/wap/index/index.html" />
-        <option value="$PROJECT_DIR$/weixin/less/common.less" />
         <option value="$PROJECT_DIR$/weixin/login.html" />
         <option value="$PROJECT_DIR$/weixin/register.html" />
         <option value="$PROJECT_DIR$/weixin/css/common.css" />
@@ -200,9 +124,15 @@
         <option value="$PROJECT_DIR$/common.js" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/window对象.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/客户端检测.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/DOM.html" />
         <option value="$PROJECT_DIR$/html5存储/html5存储.html" />
         <option value="$PROJECT_DIR$/yii-文案修改.md" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/DOM.html" />
+        <option value="$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html" />
+        <option value="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
+        <option value="$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less" />
+        <option value="$PROJECT_DIR$/baiduTemplate/financelist/assetView.html" />
+        <option value="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
+        <option value="$PROJECT_DIR$/操作页面/less/recharge.less" />
       </list>
     </option>
   </component>
@@ -217,7 +147,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,19 +214,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\操作页面\js" />
+      <recent name="D:\work\master\操作页面\css" />
+      <recent name="D:\work\master\baiduTemplate\financelist\img" />
+      <recent name="D:\work\master\baiduTemplate\financelist" />
+      <recent name="D:\work\master\awesome-javascript-cn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\master\图片3d轮播" />
       <recent name="D:\work\master\active-new\index\css" />
       <recent name="D:\work\master\active-new\index" />
       <recent name="D:\work\master\active-new\css" />
       <recent name="D:\work\master" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\master\awesome-javascript-cn" />
-      <recent name="D:\work\master\JavaScript高级教程" />
-      <recent name="D:\work\master" />
-      <recent name="D:\work\master\微信小程序" />
-      <recent name="D:\work\master\南京交" />
     </key>
   </component>
   <component name="RunManager">
@@ -418,7 +348,9 @@
       <workItem from="1486084204759" duration="16577000" />
       <workItem from="1486184623043" duration="7992000" />
       <workItem from="1486343855608" duration="368000" />
-      <workItem from="1486351127013" duration="2898000" />
+      <workItem from="1486351127013" duration="10222000" />
+      <workItem from="1486429895366" duration="13121000" />
+      <workItem from="1486456844755" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -718,7 +650,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454276000" />
+    <option name="totallyTimeSpent" value="474746000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -730,13 +662,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1092" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17420067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.454071" sideWeight="0.48511577" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45322245" sideWeight="0.48511577" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47297296" sideWeight="0.5992282" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -820,66 +752,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/月度总结.txt" />
-    <entry file="file://$USER_HOME$/Downloads/fly20170101.pac">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3526">
-          <caret line="2" column="43642" selection-start-line="2" selection-start-column="43642" selection-end-line="2" selection-end-column="43642" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的远程练习仓库/浏览器检测/userAgent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap改版/zepto.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动端新适配/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap改版/circle_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap改版/circle_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main2.js" />
-    <entry file="file://$PROJECT_DIR$/wap改版/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wap改版/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/active-new/index/img/bfm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/active-new/index/img/banner_02.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1007,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/js/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
@@ -1025,13 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="468" column="56" selection-start-line="468" selection-start-column="50" selection-end-line="468" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/css/list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1058,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4843">
           <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,15 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/DOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,9 +974,8 @@
     <entry file="file://$PROJECT_DIR$/awesome-javascript-cn/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="413">
+          <first_editor relative-caret-position="23113">
             <caret line="797" column="0" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1141,9 +983,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5存储/html5存储.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="1102">
           <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/DOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1151,12 +999,124 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="493">
-            <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            <folding />
+            <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/css/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/load-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/comfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/img/pointer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/img/question.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/js/lib.flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/assetView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1486455725236" expanded="true" signature="4237:4284" ph="..." />
+            <marker date="1486455725236" expanded="true" signature="4317:4363" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/rechargeSucc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/less/recharge.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAAAsJe2fivPwr2rOzUz6j/lkhI6O+EcfGDWKOl07KFuGvlhOJQ3y13BkrYfJ1AMnDJ6mEAoEPq9yzR87hBAhzENq1Q26VmZbLQ+PDSmpbJCmtKF52EUmgjC/Z8zcQgmn/r+uTecBN+lvcnKeNkmsgmR8VZ1/25p6y7x3I82k6+qhmetdb206Zet5c51CFFJCHFmQlI53HrMjfIyhH6r5B6u0eWc5Gu+3BVIX0ZuS/Pshb73B72yIGrX6skp7iyzXQ/+DQ==</data>
   </component>
 </project>

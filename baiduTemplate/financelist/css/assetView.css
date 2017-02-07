@@ -1,0 +1,124 @@
+body {
+  background-color: #fff !important;
+}
+.paintersvg {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.paintersvg .question {
+  position: absolute;
+  top: 4.5rem;
+  left: 6.5rem;
+  width: 13px;
+}
+.detialList {
+  color: #666;
+  padding-left: 0.8rem;
+  font-size: 16px;
+  margin-top: -1.2rem;
+}
+.detialList ul li {
+  padding-right: 0.8rem;
+  border-bottom: 1px solid #dddddd;
+  line-height: 1.2rem;
+  margin-top: 0.29333333rem;
+}
+.detialList ul li div:last-child {
+  color: #999;
+}
+.colorBlock {
+  display: inline-block;
+  width: 0.21333333rem;
+  height: 0.21333333rem;
+  margin-right: 0.26666667rem;
+}
+.assetyellow {
+  background-color: #ffc65d;
+  box-shadow: 0 3px 5px #ffe0a8;
+}
+.assetblue {
+  background-color: #33d6c5;
+  box-shadow: 0 3px 5px #91e9e0;
+}
+.assetred {
+  background-color: #fe8081;
+  box-shadow: 0 3px 5px #ffc4c4;
+}
+.assetpurple {
+  background-color: #afa9ff;
+  box-shadow: 0 3px 5px #d4d1ff;
+}
+.pointer {
+  width: 11px;
+}
+.comColor {
+  color: #ff5736;
+}
+.slb {
+  display: block;
+  color: #666;
+}
+@media screen and (max-width: 769px) {
+  .paintersvg .question {
+    top: 4.6rem;
+    left: 5.7rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .paintersvg .question {
+    top: 4.45rem;
+    left: 6.25rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .paintersvg .question {
+    top: 4.45rem;
+    left: 6.45rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .paintersvg .question {
+    top: 4.4rem;
+    left: 6.6rem;
+  }
+}
+.mask {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  /*根据实际情况设定*/
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.pomp {
+  display: none;
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  /*根据实际情况设定*/
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  /*弹框内部样式的自定义添加*/
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 0.5rem;
+  font-size: 14px;
+}
+.pomp p {
+  padding: 0 0.5rem;
+  color: #000;
+}
+.close {
+  border-top: 1px solid #ddd;
+  margin: 0.3rem auto 0;
+  color: blue;
+  line-height: 1rem;
+}

@@ -32,8 +32,9 @@ body{
     background:#f6f6f6 !important;
     margin: 0 auto;
 }
-.container{
-    max-width: 750px!important;
+.flex-content {
+    margin: 0 auto;
+    max-width: 10rem;
 }
 .row{
     margin: 0;
