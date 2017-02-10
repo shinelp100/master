@@ -2,65 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/images/close-appdown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/comHeaderbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/investDeal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/investSucc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/passwordFail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/passwordSucc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeDeal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeFail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeSucc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawDeal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawFail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawSucc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/calculator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/comfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/load-app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/zepto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/less/comfont.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/lesss/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/lesss/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/comfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/rechargeAll.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/findpasswordFail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/findpasswordSucc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investDeal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investFail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investSucc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/js/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/less/rechargeAll.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeDeal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeFail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawDeal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawFail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawSucc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/网页生成App链接.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/appMod.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/appUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/base64.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/demo_4.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/温度首页优化（响应优化）/pre.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D3-js/d3/d3.js" afterPath="$PROJECT_DIR$/D3-js/d3/d3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baiduTemplate/financelist/js/fastclick.js" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/js/fastclick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/pace-1.0.2/docs/welcome/index.html" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/welcome/index.html" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -93,15 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m.wenjf.com(优化页面响应).md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m.wenjf.com(优化页面响应).md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="580">
-                <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <first_editor relative-caret-position="87">
+                <caret line="3" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/pre.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/移动端新适配/index.html" />
         <option value="$PROJECT_DIR$/active-new/common/js/weixinShare.js" />
         <option value="$PROJECT_DIR$/active-new/index.html" />
         <option value="$PROJECT_DIR$/active-new/index/index.html" />
@@ -188,6 +141,7 @@
         <option value="$PROJECT_DIR$/vue/common/css/comfont.css" />
         <option value="$PROJECT_DIR$/vue/calculator.html" />
         <option value="$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md" />
+        <option value="$PROJECT_DIR$/温度首页优化（响应优化）/pre.html" />
       </list>
     </option>
   </component>
@@ -423,7 +377,7 @@
       <workItem from="1486515850058" duration="2529000" />
       <workItem from="1486603105969" duration="11689000" />
       <workItem from="1486688836644" duration="37000" />
-      <workItem from="1486692410383" duration="10851000" />
+      <workItem from="1486692410383" duration="11226000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -723,7 +677,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508289000" />
+    <option name="totallyTimeSpent" value="508664000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -745,7 +699,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47297296" sideWeight="0.5992282" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45302713" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45215562" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -825,13 +779,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/load-app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/comfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1140,11 +1087,19 @@
     <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="580">
-            <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <first_editor relative-caret-position="87">
+            <caret line="3" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/pre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
