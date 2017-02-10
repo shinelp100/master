@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="common/css/base.css">
+    <link rel="stylesheet" href="common/css/comfont.css">
+    <link rel="stylesheet" href="lesss/index.css">
+    <script src="common/js/lib.flexible.js"></script>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="intrest f12">
+        <dl class="lf">
+            <dt class="f14">{{expectedReturn}}</dt>
+            <dd>预期收益(元)</dd>
+        </dl>
+        <dl class="lf">
+            <dt class="f14">{{principalInterst}}</dt>
+            <dd>本息共计(元)</dd>
+        </dl>
+    </div>
+    <div class="investment f14">
+        <p>投资金额(元)</p>
+        <div class="kuang f16 clearfix">
+            <label for="menoy" class="lf">￥</label>
+            <input id="menoy" v-model="investment" class="lf f16" type="text" placeholder="请输入投资金额" value="{{investment}}" min="0" maxlength="10">
+        </div>
+    </div>
+
+    <div class="indicator f14">
+        <div class="day clearfix">
+            <label for="day" class="lf">项目期限</label>
+            <div class="rg f14">
+                <input id="day" v-model="days" class="f14"  type="number" value="{{days}}">
+                <span>天</span>
+            </div>
+        </div>
+        <div class="rate clearfix">
+            <label for="rate" class="lf">预期年化</label>
+            <div class="rg f14">
+                <input id="rate" v-model="rate" class="f14"  type="number" value="{{rate}}">
+                <span>%</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            expectedReturn:"0.0",
+            principalInterst:"0.0",
+            investment:'',
+            days:"100",
+            rate:"8"
+
+        },
+        computed:{
+            expectedReturn:function(){
+                return (this.investment*(this.days/365)*(this.rate/100)).toFixed(2);
+            },
+            principalInterst:function(){
+                return (Number(this.investment*(this.days/365)*(this.rate/100))+Number(this.investment)).toFixed(2);
+            }
+        }
+    })
+</script>
+</body>
+</html>

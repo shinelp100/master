@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="base64.js"></script>
+    <script src="appUtil.js"></script>
+    <script>
+        function hah(){
+            console.log(generateHome('http://www.baidu.com/gaoji/preferences.html?app=123&name=chengfangpeng'));
+//            location.href = 'http://www.wangcaigu.com/?appparams='+generateHome('https://www.baidu.com?src=saf@34.com&na=8');
+        }
+
+        function testDeCode(){
+            var a = Base64.decode('dmlld3R5cGU9bG9naW4mc3VjY2Vzc3VybD0xOTIuMTY4LjEuMTk5JTNhODA4MCUyZnN1Y2Nlc3MuaHRtbCUzZmFwcCUzZDEyMyUyNm5hbWUlM2RjaGVuZ2ZhbmdwZW5nJm5lZWRsb2dpbj0x');
+            console.log(a);
+        }
+    </script>
+</head>
+<body>
+
+    <div id="divAppParams"></div>
+
+    <a href="javascript:void (0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateTest("");'>生成登录地址</a>
+    <p></p>
+
+    <a href="javascript:void (0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateLogin("");'>生成登录地址</a>
+
+    <a href="javascript:void (0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateHome();'>生成首页地址</a>
+
+    <a href="javascript:void (0);" onclick='location.href="http://m.wangcaigu.com/site/getlists?appparams="+generateList(0);'>生成理财列表地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateList(1);'>生成债权列表地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateDealDtail(100);'>生成标详情地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateCreditDtail(100);'>生成债权详情地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMemberInfo();'>生成账户中心地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateSafeCenter();'>生成安全中心地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateAccount();'>生成账户管理地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyShouYi();'>生成累计收益地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyLiCai(0);'>生成我的理财地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyJiaoYi();'>生成交易明细地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyCoupon();'>生成我的代金券地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyCredit();'>生成我的债券地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyRefoundPlan();'>生成回款计划地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyCalculator();'>生成理财计算器地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyAutoBid();'>生成自动投标地址</a>
+    <p></p>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateRecharge();'>生成充值地址</a>
+
+    <a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateTiXian();'>生成提现地址</a>
+    <p></p>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+#app {
+  overflow: hidden;
+}
+.intrest {
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem 0;
+  text-align: center;
+  line-height: 1rem;
+  background-color: #f96;
+}
+.intrest dl {
+  width: 50%;
+  color: #fff;
+}
+.intrest dl dt {
+  height: 1rem;
+}
+.intrest dl:first-child {
+  box-sizing: border-box;
+  border-right: 1px dashed #fff;
+}
+.investment {
+  padding: 0.3rem 0.2rem 0.5rem;
+  background-color: #fff;
+}
+.investment p {
+  line-height: 1rem;
+}
+.investment .kuang {
+  border-bottom: 1px solid #ddd;
+  line-height: 1rem;
+}
+.investment .kuang label {
+  line-height: 1rem;
+  width: 5%;
+}
+.investment .kuang #menoy {
+  border: none;
+  width: 95%;
+  line-height: 1rem;
+}
+.indicator {
+  margin-top: 0.266667rem;
+  padding: 0.3rem;
+  background-color: #fff;
+}
+.indicator .rate {
+  margin-top: 0.2rem;
+}
+.indicator .day,
+.indicator .rate {
+  line-height: 1rem;
+}
+.indicator .day div.rg,
+.indicator .rate div.rg {
+  width: 60%;
+  border: 1px solid #ddd;
+}
+.indicator .day div.rg input,
+.indicator .rate div.rg input {
+  width: 85%;
+  text-align: center;
+  line-height: 1rem;
+  height: 1rem;
+}
+.indicator .day div.rg span,
+.indicator .rate div.rg span {
+  display: inline-block;
+  line-height: 1rem;
+}

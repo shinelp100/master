@@ -1,0 +1,109 @@
+body {
+  background-color: #fff!important;
+}
+.flex-content {
+  padding-bottom: 20px;
+}
+.comHeader {
+  width: 100%;
+  height: 5.73333333rem;
+  background: url("../img/comHeaderbg.png") no-repeat center top;
+  background-size: 100% 87.2%;
+  overflow: hidden;
+}
+.comHeader img.rechargeSucc {
+  width: 2.18666667rem;
+  display: block;
+  margin: 1.33333333rem auto 0;
+}
+.comHeader img.rechargeFail {
+  width: 2.18666667rem;
+  display: block;
+  margin: 2.93333333rem auto 0;
+}
+.comHeader img.rechargeDeal {
+  width: 2.18666667rem;
+  display: block;
+  margin: 1.33333333rem auto 0;
+}
+.comHeader img.withdrawSucc {
+  width: 3rem;
+  display: block;
+  margin: 1.29333333rem auto 0;
+}
+.comHeader img.investSucc {
+  width: 3.10666667rem;
+  display: block;
+  margin: 0.37333333rem auto 0;
+}
+.messageTitle {
+  color: #ff8a50;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.messageTitleFail {
+  margin-bottom: 0;
+}
+.messageContent {
+  padding: 0.30666667rem 1.8rem;
+  height: 1.01333333rem;
+  line-height: 0.50666667rem;
+  text-align: center;
+  color: #999999;
+}
+.jumpBtn {
+  padding: 0 2.06666667rem;
+}
+.jumpBtn a {
+  display: block;
+  line-height: 0.77333333rem;
+  text-align: center;
+  width: 2.4rem;
+  border-radius: 5px;
+}
+.jumpBtn a:first-child {
+  color: #999;
+  border: 1px solid #ddd;
+}
+.jumpBtn a:last-child {
+  color: #fff;
+  background-color: #ff8a50;
+}
+.kefu {
+  margin-top: 3.86666667rem;
+}
+.kefu p {
+  text-align: center;
+  color: #bdbdbd;
+}
+.kefu p:first-child {
+  width: 4rem;
+  line-height: 0.96rem;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 auto 0.2rem;
+  color: #999999;
+}
+.kefu p:first-child img {
+  width: 0.70666667rem;
+  vertical-align: middle;
+}
+.passwordFail {
+  display: block;
+  width: 1.70666667rem;
+  margin: 1.33333333rem auto 0.4rem;
+}
+.passwordFailkefu {
+  margin-top: 6rem;
+}
+.login {
+  display: block;
+  margin: 0 0.4rem;
+  line-height: 1.01333333rem;
+  text-align: center;
+  background-color: #ff8a50;
+  color: #fff;
+  border-radius: 5px;
+}

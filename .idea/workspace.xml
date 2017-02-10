@@ -2,23 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/img/pointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/img/question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/assetView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/css/assetView.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/images/close-appdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/comHeaderbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/investDeal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/investSucc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/passwordFail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/passwordSucc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeDeal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeFail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/rechargeSucc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawDeal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawFail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/img/withdrawSucc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/calculator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/comfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/css/load-app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/lib.flexible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/js/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/common/less/comfont.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/lesss/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/lesss/index.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/base.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/comfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/recharge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/css/rechargeAll.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/findpasswordFail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/findpasswordSucc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investDeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investFail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/investSucc.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/js/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/less/recharge.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/less/rechargeAll.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeDeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeFail.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawDeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawFail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作页面/withdrawSucc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/.idea/网页生成App链接.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/appMod.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/appUtil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/base64.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/demo_4.0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/网页生成App链接/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/DOM.html" afterPath="$PROJECT_DIR$/JavaScript高级教程/DOM.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baiduTemplate/common/css/base.css" afterPath="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii-文案修改.md" afterPath="$PROJECT_DIR$/yii-文案修改.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D3-js/d3/d3.js" afterPath="$PROJECT_DIR$/D3-js/d3/d3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baiduTemplate/financelist/js/fastclick.js" afterPath="$PROJECT_DIR$/baiduTemplate/financelist/js/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/pace-1.0.2/docs/welcome/index.html" afterPath="$PROJECT_DIR$/photos/pace-1.0.2/docs/welcome/index.html" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -41,21 +83,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="rechargeSucc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/操作页面/rechargeSucc.html">
+      <file leaf-file-name="calculator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="673">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recharge.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/操作页面/less/recharge.less">
+      <file leaf-file-name="m.wenjf.com(优化页面响应).md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="580">
+                <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comfont.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/common/css/comfont.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="687">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -82,25 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weixin/login.html" />
-        <option value="$PROJECT_DIR$/weixin/register.html" />
-        <option value="$PROJECT_DIR$/weixin/css/common.css" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/for-in.html" />
-        <option value="$PROJECT_DIR$/12月活动页面/fis-conf.js" />
-        <option value="$PROJECT_DIR$/fe/src/wap/fis-conf.js" />
-        <option value="$PROJECT_DIR$/fe/dist/wap/debug.conf" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/数组.html" />
-        <option value="$PROJECT_DIR$/position fixed兼容/position fixed.html" />
-        <option value="$PROJECT_DIR$/gui-config.json" />
-        <option value="$PROJECT_DIR$/p/index.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/数组的迭代方法.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/原生对象的原型.html" />
-        <option value="C:/wamp/bin/apache/apache2.4.9/conf/httpd.conf" />
-        <option value="$USER_HOME$/Desktop/月度总结.txt" />
-        <option value="$PROJECT_DIR$/我的远程练习仓库/浏览器检测/userAgent.html" />
-        <option value="$PROJECT_DIR$/移动端新适配/index2.html" />
-        <option value="$PROJECT_DIR$/wap改版/index.html" />
-        <option value="$PROJECT_DIR$/base.css" />
         <option value="$PROJECT_DIR$/移动端新适配/index.html" />
         <option value="$PROJECT_DIR$/active-new/common/js/weixinShare.js" />
         <option value="$PROJECT_DIR$/active-new/index.html" />
@@ -130,9 +166,28 @@
         <option value="$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html" />
         <option value="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
         <option value="$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less" />
-        <option value="$PROJECT_DIR$/baiduTemplate/financelist/assetView.html" />
-        <option value="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
         <option value="$PROJECT_DIR$/操作页面/less/recharge.less" />
+        <option value="$PROJECT_DIR$/操作页面/lesss/1.less" />
+        <option value="$PROJECT_DIR$/操作页面/lesss/recharge.less" />
+        <option value="$PROJECT_DIR$/操作页面/less/1.less" />
+        <option value="$PROJECT_DIR$/操作页面/rechargeSucc.html" />
+        <option value="$PROJECT_DIR$/操作页面/rechargeFail.html" />
+        <option value="$PROJECT_DIR$/操作页面/withdrawSucc.html" />
+        <option value="$PROJECT_DIR$/操作页面/withdrawDeal.html" />
+        <option value="$PROJECT_DIR$/操作页面/withdrawFail.html" />
+        <option value="$PROJECT_DIR$/操作页面/investDeal.html" />
+        <option value="$PROJECT_DIR$/操作页面/investFail.html" />
+        <option value="$PROJECT_DIR$/操作页面/investSucc.html" />
+        <option value="$PROJECT_DIR$/操作页面/findpasswordFail.html" />
+        <option value="$PROJECT_DIR$/操作页面/findpasswordSucc.html" />
+        <option value="$PROJECT_DIR$/baiduTemplate/financelist/assetView.html" />
+        <option value="$PROJECT_DIR$/vue/common/css/base.css" />
+        <option value="$PROJECT_DIR$/操作页面/rechargeDeal.html" />
+        <option value="$PROJECT_DIR$/操作页面/less/rechargeAll.less" />
+        <option value="$PROJECT_DIR$/vue/lesss/index.less" />
+        <option value="$PROJECT_DIR$/vue/common/css/comfont.css" />
+        <option value="$PROJECT_DIR$/vue/calculator.html" />
+        <option value="$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md" />
       </list>
     </option>
   </component>
@@ -144,10 +199,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1870" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,10 +247,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="温度首页优化（响应优化）" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,11 +284,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master" />
+      <recent name="D:\work\master\操作页面" />
+      <recent name="D:\work\master\vue" />
+      <recent name="D:\work\master\操作页面\img" />
       <recent name="D:\work\master\操作页面\js" />
-      <recent name="D:\work\master\操作页面\css" />
-      <recent name="D:\work\master\baiduTemplate\financelist\img" />
-      <recent name="D:\work\master\baiduTemplate\financelist" />
-      <recent name="D:\work\master\awesome-javascript-cn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\master\图片3d轮播" />
@@ -350,7 +419,11 @@
       <workItem from="1486343855608" duration="368000" />
       <workItem from="1486351127013" duration="10222000" />
       <workItem from="1486429895366" duration="13121000" />
-      <workItem from="1486456844755" duration="25000" />
+      <workItem from="1486456844755" duration="8462000" />
+      <workItem from="1486515850058" duration="2529000" />
+      <workItem from="1486603105969" duration="11689000" />
+      <workItem from="1486688836644" duration="37000" />
+      <workItem from="1486692410383" duration="10851000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -650,7 +723,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474746000" />
+    <option name="totallyTimeSpent" value="508289000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -662,17 +735,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
-    <editor active="false" />
+    <frame x="-6" y="1" width="1870" height="1085" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18508287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45322245" sideWeight="0.48511577" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45302713" sideWeight="0.48732084" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47297296" sideWeight="0.5992282" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.454071" sideWeight="0.51488423" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45302713" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -683,7 +756,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -752,272 +825,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/active-new/index/img/banner_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/index/img/banner-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/index/img/banner_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动端新适配/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/common/js/weixinShare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/common/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1798">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/lessActive/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/active-new/index/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片3d轮播/jquery-1.11.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运营月报/flex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片3d轮播/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2755">
-          <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分页/分页.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片3d轮播/lib.flexible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16327">
-          <caret line="563" column="19" selection-start-line="563" selection-start-column="19" selection-end-line="563" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6757">
-          <caret line="249" column="18" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/template7.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/common/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片3d轮播/imageflow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="468" column="56" selection-start-line="468" selection-start-column="50" selection-end-line="468" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/lib.flexible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/images/timer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/comfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4843">
-          <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/less/waitApprove.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/南京交/waitApprove.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex布局/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/window对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/客户端检测.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/1486110441(1).jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/awesome-javascript-cn/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="23113">
-            <caret line="797" column="0" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5存储/html5存储.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/DOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii-文案修改.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="493">
-            <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/css/list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baiduTemplate/common/css/load-app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,35 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/操作页面/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/assetView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1369">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1486455725236" expanded="true" signature="4237:4284" ph="..." />
-            <marker date="1486455725236" expanded="true" signature="4317:4363" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,28 +874,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/less/assetView.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/less/recharge.less" />
+    <entry file="file://$PROJECT_DIR$/操作页面/lesss/recharge.less" />
+    <entry file="file://$PROJECT_DIR$/操作页面/withdrawDeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/investFail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/rechargeFail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/investDeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/investSucc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/withdrawSucc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/findpasswordFail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/findpasswordSucc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/withdrawFail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/common/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2784">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/common/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/less/rechargeAll.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/assetView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/操作页面/rechargeSucc.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/rechargeDeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网页生成App链接/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网页生成App链接/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网页生成App链接/demo_4.0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2523">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网页生成App链接/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="28" column="120" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网页生成App链接/appUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/v-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="49" column="6" selection-start-line="44" selection-start-column="4" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/lesss/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/comHeaderbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/investSucc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/investDeal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/rechargeFail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/rechargeSucc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/withdrawDeal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/withdrawFail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/withdrawSucc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/passwordFail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/passwordSucc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/phone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作页面/img/rechargeDeal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/common/css/comfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/操作页面/less/recharge.less">
+    <entry file="file://$PROJECT_DIR$/vue/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="673">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/温度首页优化（响应优化）/m.wenjf.com(优化页面响应).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="580">
+            <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsJe2fivPwr2rOzUz6j/lkhI6O+EcfGDWKOl07KFuGvlhOJQ3y13BkrYfJ1AMnDJ6mEAoEPq9yzR87hBAhzENq1Q26VmZbLQ+PDSmpbJCmtKF52EUmgjC/Z8zcQgmn/r+uTecBN+lvcnKeNkmsgmR8VZ1/25p6y7x3I82k6+qhmetdb206Zet5c51CFFJCHFmQlI53HrMjfIyhH6r5B6u0eWc5Gu+3BVIX0ZuS/Pshb73B72yIGrX6skp7iyzXQ/+DQ==</data>
+    <data>AAAAsPeN8RkJBId5f6fY0ewfjlJp5auculskwg1JgUKlPdUWiIZZPDHlEHv8Ufyft5oc+QP2jSa10yQubbHXl+e0THuxVNctrcz5fmAV7f01DRDcy0NLCvBxXUgo5CzgKcVN5Ss2zFY+72Rhi/W3G1nzMXJUs8cOOnBtqn8c05OLYDFG+abvfduM2Yea7IC1qzBNx2rR5bkDlkdxlWivuSkiH6Uhov7BF1l9kQm2QhfhrJLleB78bVSLnGtD8OeUA0EPeA==</data>
   </component>
 </project>

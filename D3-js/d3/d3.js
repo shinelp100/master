@@ -5432,7 +5432,7 @@ var formatPrefixAuto = function(x, p) {
   return i === n ? coefficient
       : i > n ? coefficient + new Array(i - n + 1).join("0")
       : i > 0 ? coefficient.slice(0, i) + "." + coefficient.slice(i)
-      : "0." + new Array(1 - i).join("0") + formatDecimal(x, Math.max(0, p + i - 1))[0]; // less than 1y!
+      : "0." + new Array(1 - i).join("0") + formatDecimal(x, Math.max(0, p + i - 1))[0]; // lesss than 1y!
 };
 
 var formatRounded = function(x, p) {
@@ -5570,7 +5570,7 @@ var formatLocale = function(locale) {
         value = +value;
 
         // Convert negative to positive, and compute the prefix.
-        // Note that -0 is not less than 0, but 1 / -0 is!
+        // Note that -0 is not lesss than 0, but 1 / -0 is!
         var valueNegative = (value < 0 || 1 / value < 0) && (value *= -1, true);
 
         // Perform the initial formatting.
@@ -8128,7 +8128,7 @@ function create(node, id, self) {
     self.state = SCHEDULED;
     self.timer.restart(start, self.delay, self.time);
 
-    // If the elapsed delay is less than our first sleep, start immediately.
+    // If the elapsed delay is lesss than our first sleep, start immediately.
     if (self.delay <= elapsed) start(elapsed - self.delay);
   }
 

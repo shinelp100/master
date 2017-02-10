@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <title>生成规则url</title>
+
+    <style>
+        a {
+            border: 1px solid red;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            display: block;
+            height: 25px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    </style>
+
+</head>
+<body >
+
+<div id="divAppParams"></div>
+
+<a href="javascript:void (0);"
+   onclick='location.href="http://www.wangcaigu.com/?appparams="+generateLogin("https://m.wangcaigu.com/active/snow-festival");'>生成登录地址</a>
+
+<p></p>
+
+<a href="javascript:void (0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateHome();'>生成首页地址</a>
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyMessage();'>生成我的消息地址</a>
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateNewsList(1);'>生成公司动态列表(媒体报道+官网报道)地址</a>
+
+<p></p>
+
+<a href="javascript:void (0);"
+   onclick='location.href="http://www.wangcaigu.com/?appparams="+generateList(0);'>生成理财列表地址(老版本3.6之前)</a>
+
+<a href="javascript:void (0);"
+   onclick='location.href="http://www.wangcaigu.com/?appparams="+generateListWithSub(0,0);'>理财列表－全部</a>
+<a href="javascript:void (0);"
+   onclick='location.href="http://www.wangcaigu.com/?appparams="+generateListWithSub(0,1);'>理财列表－保利通</a>
+
+<a href="javascript:void (0);"
+   onclick='location.href="http://www.wangcaigu.com/?appparams="+generateListWithSub(1,0);'>变现通</a>
+<p></p>
+
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateDealDtail(100);'>生成标详情地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateCreditDtail(100);'>生成债权详情地址</a>
+<p></p>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateDiscovery();'>生成发现地址</a>
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateNoticeList();'>生成官网公告列表地址</a>
+<p></p>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMemberInfo();'>生成账户中心地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateSafeCenter();'>生成个人中心地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyAssets(1);'>总资产</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyCoupon(0);'>生成我的奖励地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyLiCai(0);'>投资记录地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateBianXianTong(1);'>变现通</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyRefoundPlan();'>生成回款计划地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateShareFriend();'>生成邀请好友地址</a>
+
+<a href="javascript:void(0);" onclick='location.href="http://www.wangcaigu.com/?appparams="+generateMyJiaoYi();'>生成交易明细地址</a>
+
+<br /><br /><br />
+
+
+
+</body>
+
+<script src="base64.min.js"></script>
+
+<script>
+    /**
+     * Created by yabusai on 1/21/16.
+     * 网页与App 交互,生成特定规则的URL参数
+     */
+
+
+
+
+    /**
+     * 在js中if条件为null/undefined/0/NaN/""表达式时，统统被解释为false,此外均为true .
+     */
+    function isNull(arg1)
+    {
+        return !arg1 && arg1!==0 && typeof arg1!=="boolean"?true:false;
+    }
+
+
+
+    /**
+     * 生成APP 登录 规则
+     * <a href=".cn?viewtype=login&needlogin=yes&successurl=xxxxx"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateLogin(successurl){
+        if(isNull(successurl)){
+            successurl='';
+        }else{
+            successurl = encodeURIComponent(successurl);
+        }
+
+        return Base64.encode('viewtype=login&needlogin=yes&successurl='+successurl);
+    }
+
+    /**
+     * 生成APP 首页 规则
+     * <a href=".cn?viewtype=home"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateHome(){
+        return Base64.encode('viewtype=home');
+    }
+
+    /**
+     * 生成APP 理财列表 规则
+     * <a href=".cn?viewtype=list"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateList(select_index){
+        return Base64.encode('viewtype=list&select_index='+select_index);
+    }
+
+    /**
+     * 生成APP 理财列表(二级分类) 规则
+     * <a href=".cn?viewtype=list"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateListWithSub(select_index,inner_index){
+        return Base64.encode('viewtype=list&select_index='+select_index+'&inner_index='+inner_index);
+    }
+
+    /**
+     * 生成APP 标详情 规则 (有参数)
+     * <a href=".cn?viewtype=dealid"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateDealDtail(dealId){
+        return Base64.encode('viewtype=dealid&dealId='+dealId+'&deal_id='+dealId);
+    }
+
+    /**
+     * 生成APP 债权详情 规则 (有参数)
+     * <a href=".cn?viewtype=creditid"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateCreditDtail(dealId){
+        return Base64.encode('viewtype=creditid&dealId='+dealId+'&credit_id='+dealId);
+    }
+
+    /**
+     * 生成APP 账户中心 规则
+     * <a href=".cn?viewtype=info&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMemberInfo(){
+        return Base64.encode('viewtype=info&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 安全中心 规则
+     * <a href=".cn?viewtype=safe&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateSafeCenter(){
+        return Base64.encode('viewtype=safe&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 账户管理 规则
+     * <a href=".cn?viewtype=safe&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateAccount(){
+        return Base64.encode('viewtype=account&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 累计收益 规则
+     * <a href=".cn?viewtype=myshouyi&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyShouYi(){
+        return Base64.encode('viewtype=myshouyi&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 我的资产 规则 (有参数)
+     * <a href=".cn?viewtype=mylicai&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyLiCai(segIndex){
+        return Base64.encode('viewtype=mylicai&needlogin=yes&segIndex='+segIndex+'&select_index='+segIndex);
+    }
+
+    /**
+     * 生成APP 交易明细 规则
+     * <a href=".cn?viewtype=myjiaoyi&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyJiaoYi(){
+        return Base64.encode('viewtype=myjiaoyi&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 我的奖励 规则
+     * <a href=".cn?viewtype=mycoupon&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyCoupon(select_index){
+        return Base64.encode('viewtype=mycoupon&needlogin=yes&select_index='+select_index);
+    }
+
+    /**
+     * 生成APP 我的债券 规则
+     * <a href=".cn?viewtype=mycredite&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyCredit(){
+        return Base64.encode('viewtype=mycredite&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 回款计划 规则
+     * <a href=".cn?viewtype=myrefundplan&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyRefoundPlan(){
+        return Base64.encode('viewtype=myrefundplan&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 理财计算器 规则
+     * <a href=".cn?viewtype=mycalculator&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyCalculator(){
+        return Base64.encode('viewtype=mycalculator&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 自动投标 规则
+     * <a href=".cn?viewtype=myautobid&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyAutoBid(){
+        return Base64.encode('viewtype=myautobid&needlogin=yes');
+    }
+
+    //
+    /**
+     * 生成APP 邀请好友 规则
+     * <a href=".cn?viewtype=myinvite&needlogin=yes"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateShareFriend(){
+        return Base64.encode('viewtype=myinvite&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 发现 规则
+     * <a href=".cn?viewtype=discovery"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateDiscovery(){
+        return Base64.encode('viewtype=discovery');
+    }
+
+    /**
+     * 生成APP 我的消息 规则
+     * <a href=".cn?viewtype=list"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyMessage(){
+        return Base64.encode('viewtype=mymessage&needlogin=yes');
+    }
+
+    /**
+     * 生成APP 官网公告 规则
+     * <a href=".cn?viewtype=noticelist"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateNoticeList(){
+        return Base64.encode('viewtype=noticelist');
+    }
+
+    /**
+     * 生成APP 公司动态列表 规则
+     * <a href=".cn?viewtype=newslist"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateNewsList(select_index){
+        return Base64.encode('viewtype=newslist&select_index='+select_index);
+    }
+
+    /**
+     * 生成APP 帐户中心－总资产 规则
+     * <a href=".cn?viewtype=newslist"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateMyAssets(select_index){
+        return Base64.encode('viewtype=assets&needlogin=yes&select_index='+select_index);
+    }
+
+    /**
+     * 生成APP 帐户中心－变现通 规则
+     * <a href=".cn?viewtype=newslist"></a>
+     * <a href=".cn?appparams=base64string"></a>
+     */
+    function generateBianXianTong(select_index){
+        return Base64.encode('viewtype=bianxiantong&needlogin=yes&select_index='+select_index);
+    }
+
+
+
+</script>
+
+</html>

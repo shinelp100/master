@@ -1,0 +1,226 @@
+.f10 {
+  font-size: 10px;
+}
+[data-dpr="2"] .f10 {
+  font-size: 20px;
+}
+[data-dpr="3"] .f10 {
+  font-size: 30px;
+}
+.f11 {
+  font-size: 11px;
+}
+[data-dpr="2"] .f11 {
+  font-size: 22px;
+}
+[data-dpr="3"] .f11 {
+  font-size: 33px;
+}
+.f12 {
+  font-size: 12px;
+}
+[data-dpr="2"] .f12 {
+  font-size: 24px;
+}
+[data-dpr="3"] .f12 {
+  font-size: 36px;
+}
+.f13 {
+  font-size: 13px;
+}
+[data-dpr="2"] .f13 {
+  font-size: 26px;
+}
+[data-dpr="3"] .f13 {
+  font-size: 39px;
+}
+.f14 {
+  font-size: 14px;
+}
+[data-dpr="2"] .f14 {
+  font-size: 28px;
+}
+[data-dpr="3"] .f14 {
+  font-size: 42px;
+}
+.f15 {
+  font-size: 15px;
+}
+[data-dpr="2"] .f15 {
+  font-size: 30px;
+}
+[data-dpr="3"] .f15 {
+  font-size: 45px;
+}
+.f16 {
+  font-size: 16px;
+}
+[data-dpr="2"] .f16 {
+  font-size: 32px;
+}
+[data-dpr="3"] .f16 {
+  font-size: 48px;
+}
+.f17 {
+  font-size: 17px;
+}
+[data-dpr="2"] .f17 {
+  font-size: 34px;
+}
+[data-dpr="3"] .f17 {
+  font-size: 51px;
+}
+.f18 {
+  font-size: 18px;
+}
+[data-dpr="2"] .f18 {
+  font-size: 36px;
+}
+[data-dpr="3"] .f18 {
+  font-size: 54px;
+}
+.f20 {
+  font-size: 20px;
+}
+[data-dpr="2"] .f20 {
+  font-size: 40px;
+}
+[data-dpr="3"] .f20 {
+  font-size: 60px;
+}
+.f23 {
+  font-size: 23px;
+}
+[data-dpr="2"] .f23 {
+  font-size: 46px;
+}
+[data-dpr="3"] .f23 {
+  font-size: 69px;
+}
+.f24 {
+  font-size: 24px;
+}
+[data-dpr="2"] .f24 {
+  font-size: 48px;
+}
+[data-dpr="3"] .f24 {
+  font-size: 72px;
+}
+.f30 {
+  font-size: 30px;
+}
+[data-dpr="2"] .f30 {
+  font-size: 60px;
+}
+[data-dpr="3"] .f30 {
+  font-size: 90px;
+}
+.f40 {
+  font-size: 40px;
+}
+[data-dpr="2"] .f40 {
+  font-size: 80px;
+}
+[data-dpr="3"] .f40 {
+  font-size: 120px;
+}
+
+@media (min-width: 751px){
+  .f10 {
+    font-size: 20px;
+  }
+  .f11 {
+    font-size: 21px;
+  }
+  .f12 {
+    font-size: 24px;
+  }
+  .f13 {
+    font-size: 26px;
+  }
+  .f14 {
+    font-size: 28px;
+  }
+  .f15 {
+    font-size: 30px;
+  }
+  .f16 {
+    font-size: 32px;
+  }
+  .f17 {
+    font-size: 26px;
+  }
+  .f18 {
+    font-size: 28px;
+  }
+  .f19 {
+    font-size: 30px;
+  }
+  .f20 {
+    font-size: 40px;
+  }
+  .f30 {
+    font-size: 60px;
+  }
+  .f40 {
+    font-size: 80px;
+  }
+}
+
+.orange {
+  color: #ff8a50;
+}
+.deeporange {
+  color: #ff5736;
+}
+.blue {
+  color: #42a5f5;
+}
+.grey {
+  color:#666;
+}
+.grey-txt {
+  color:#aaa;
+}
+.orange {
+  color: #ff8a50;
+}
+.deeporange {
+  color: #ff5736;
+}
+.blue {
+  color: #42a5f5;
+}
+/* 预告 */
+.predict-bg {
+  background-color: #ffad85;
+}
+/* 进行中 */
+.invest-bg {
+  background-color: #ff8a50;
+}
+/* 满标,收益中 */
+.fullscale-bg {
+  background-color: #ccc;
+}
+
+/* 保理通 */
+.border-blt {
+  border:1px solid #42a5f5;
+  color: #42a5f5;
+}
+/* 收租宝 */
+.border-szb {
+  border:1px solid #5c6bc0;
+  color: #5c6bc0;
+}
+/* 金账通 */
+.border-jzt {
+  border:1px solid #ffa726;
+  color: #ffa726;
+}
+/* 旺金宝 */
+.border-wjb {
+  border:1px solid #ff5736;
+  color: #ff5736;
+}
