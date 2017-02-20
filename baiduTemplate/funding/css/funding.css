@@ -1,0 +1,54 @@
+.total {
+  padding: 0 0.4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #929292;
+  font-size: 0.32rem;
+}
+.total .lf span,
+.total .rg span {
+  color: #6a6969;
+}
+.totalAmount {
+  background-color: #fff;
+}
+.totalAmount .template {
+  padding: 0 0.4rem;
+  border-bottom: 1px solid #ddd;
+  height: 1.33333333rem;
+}
+.totalAmount .template dl {
+  height: 0.98666667rem;
+  padding: 0.17333333rem;
+}
+.totalAmount .template dl dt {
+  font-size: 0.4rem;
+}
+.totalAmount .template dl dd {
+  font-size: 0.32rem;
+}
+.totalAmount .template p {
+  height: 100%;
+  line-height: 1.33333333rem;
+  font-size: 0.32rem;
+}
+.totalAmount .template p.ru {
+  color: #2ca502;
+}
+.totalAmount .template p.chu {
+  color: #ff0000;
+}
+.time {
+  color: #bababa;
+}
+.more {
+  text-align: center;
+  padding: 0.13333333rem 0;
+  font-size: 0.32rem;
+}
+.nodata {
+  line-height: 3rem;
+  text-align: center;
+  font-size: 0.37333333rem;
+  display: none;
+}

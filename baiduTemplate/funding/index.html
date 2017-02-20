@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资金明细</title>
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="css/funding.css">
+    <script src="../common/js/lib.flexible.js"></script>
+</head>
+<body>
+<div class="flex-content">
+    <div class="nodata">暂无数据</div>
+    <div>
+        <div class="total clearfix">
+            <div class="lf">金额总计 <span>1201.18</span> 元</div>
+            <div class="rg">笔数 <span>12</span> 笔</div>
+        </div>
+        <div class="totalAmount">
+            <div class="template">
+                <dl class="lf">
+                    <dt>买入</dt>
+                    <dd class="time">2017-01-13 16:10:50</dd>
+                </dl>
+                <p class="rg ru">-100.59</p>
+            </div>
+            <div class="template">
+                <dl class="lf">
+                    <dt>买入</dt>
+                    <dd class="time">2017-01-13 16:10:50</dd>
+                </dl>
+                <p class="rg chu">+100.59</p>
+            </div>
+
+            <div class="template">
+                <dl class="lf">
+                    <dt>{{title}}</dt>
+                    <dd class="time">{{time}}</dd>
+                </dl>
+                <p class="rg chu">+/-{{money}}</p>
+            </div>
+        </div>
+        <div class="more">点击加载更多项目</div>
+    </div>
+</div>
+</body>
+</html>

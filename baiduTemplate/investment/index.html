@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>投资记录</title>
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="../common/css/comfont.css">
+    <link rel="stylesheet" href="css/investment.css">
+    <script src="../common/js/lib.flexible.js"></script>
+</head>
+<body>
+<div class="flex-content">
+    <ul class="titlebar clearfix f12">
+        <li class="lf selected">收益中</li>
+        <li class="lf">募集中</li>
+        <li class="lf">已还清</li>
+    </ul>
+    <div class="list">
+        <div class="noinvest">
+            <img src="img/noinvest.png" alt="">
+            <p class="f14">暂无投资记录</p>
+        </div>
+
+        <div class="module">
+            <a class="linktoDetial" href="">
+                <div class="title clearfix">
+                    <img class="lf" src="img/module.png" alt="">
+                    <span class="lf zhuanrang">转让</span>
+                    <p class="lf ctn">我是测试的小尾巴小尾巴小伟啊哈哈哈哈哈哈哈哈或或</p>
+                    <p class="rg"><span>•</span> 到期本息</p>
+                </div>
+                <ul class="clearfix detialctn">
+                    <li class="lf">
+                        <div class="f13">10315元</div>
+                        <div class="f11">投资金额</div>
+                    </li>
+                    <li class="lf">
+                        <div class="f13 comred">219.19元</div>
+                        <div class="f11">实际收益</div>
+                    </li>
+                    <li class="lf">
+                        <div class="f13">2016-12-12</div>
+                        <div class="f11">还款时间</div>
+                    </li>
+                </ul>
+            </a>
+            <div class="clearfix twolink">
+                <a class="lf">还款计划</a>
+                <a class="lf">查看合同</a>
+            </div>
+        </div>
+
+        <div class="module">
+            <a class="linktoDetial" href="">
+                <div class="title clearfix">
+                    <img class="lf" src="img/module.png" alt="">
+                    <!--<span class="lf zhuanrang">转让</span>-->
+                    <p class="lf ctn maxwidth">我是测试的小尾巴小尾巴小伟啊哈哈哈哈哈哈哈哈或或</p>
+                    <p class="rg"><span>•</span> 到期本息</p>
+                </div>
+                <ul class="clearfix detialctn">
+                    <li class="lf">
+                        <div class="f13">10315元</div>
+                        <div class="f11">投资金额</div>
+                    </li>
+                    <li class="lf">
+                        <div class="f13 comred">219.19元</div>
+                        <div class="f11">实际收益</div>
+                    </li>
+                    <li class="lf">
+                        <div class="f13">2016-12-12</div>
+                        <div class="f11">还款时间</div>
+                    </li>
+                </ul>
+            </a>
+            <div class="clearfix twolink">
+                <a class="lf">还款计划</a>
+                <a class="lf">查看合同</a>
+            </div>
+        </div>
+    </div>
+    <div class="more f12">点击加载更多项目</div>
+</div>
+<script id="entry-template" type="text/x-handlebars-template">
+    //<!--样式模板-->
+    <div class="module">
+        <a class="linktoDetial" href="">
+            <div class="title clearfix">
+                <img class="lf" src="img/module.png" alt="">
+                <span class="lf zhuanrang">转让</span>
+                <p class="lf ctn">我是测试的小尾巴小尾巴小伟啊哈哈哈哈哈哈哈哈或或</p>
+                <p class="rg"><span>•</span> 到期本息</p>
+            </div>
+            <ul class="clearfix detialctn">
+                <li class="lf">
+                    <div class="f13">10315元</div>
+                    <div class="f11">投资金额</div>
+                </li>
+                <li class="lf">
+                    <div class="f13 comred">219.19元</div>
+                    <div class="f11">实际收益</div>
+                </li>
+                <li class="lf">
+                    <div class="f13">2016-12-12</div>
+                    <div class="f11">还款时间</div>
+                </li>
+            </ul>
+        </a>
+        <div class="clearfix twolink">
+            <a class="lf">还款计划</a>
+            <a class="lf">查看合同</a>
+        </div>
+    </div>
+</script>
+<script>
+    var source = $("#entry-template").html();
+    var template = Handlebars.compile(source);
+    var context = {title: "My New Post", body: "This is my first post!"};//ajax请求的数据
+    var html = template(context);
+</script>
+</body>
+</html>

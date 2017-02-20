@@ -1,0 +1,149 @@
+/*.flex-content {*/
+  /*padding-top: 0.96rem;*/
+/*}*/
+.titlebar {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #999;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:10;
+}
+.titlebar .selected {
+  color: #ff8a50;
+  border-bottom: 2px solid #ff8a50;
+}
+.titlebar li {
+  width: 33.33%;
+}
+.list {
+  /*width:98%;*/
+  /*margin: 0 auto;*/
+}
+.list .noinvest {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.list .noinvest img {
+  width: 2.30666667rem;
+}
+.list .noinvest p {
+  line-height: 1rem;
+}
+.list .module {
+  background-color: #fff;
+  width: 96%;
+  margin: 0.4rem auto 0;
+}
+.list .linktoDetial {
+  display: block;
+  padding: 0 0.26666667rem;
+}
+.list .linktoDetial .title {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  border-bottom: 1px dashed #ddd;
+}
+.list .linktoDetial .title img.lf {
+  vertical-align: middle;
+  margin-top: 0.38rem;
+  width: 1.2rem;
+  margin-right: 0.06666667rem;
+}
+.list .linktoDetial .title .zhuanrang {
+  /*height: 0.38666667rem;*/
+  margin-top: 0.35rem;
+  padding: 0 0.16rem;
+  -webkit-border-radius: 0.16rem;
+  -moz-border-radius: 0.16rem;
+  border-radius: 0.16rem;
+  margin-right: 0.06666667rem;
+  border: 1px solid #7cca76;
+  color: #7cca76;
+  line-height: 0.38666667rem;
+  font-size: 0.29333333rem;
+}
+.list .linktoDetial .title p.ctn {
+  width: 56%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #555555;
+}
+.list .linktoDetial .title p.rg {
+  color: #999999;
+}
+.list .linktoDetial .title p.rg span {
+  color: #fb5202;
+}
+.list .linktoDetial .detialctn {
+  padding: 0.4rem 0;
+}
+.list .linktoDetial .detialctn li {
+  width: 33.3%;
+  text-align: center;
+}
+.list .linktoDetial .detialctn li .f13 {
+  margin-bottom: 0.10666667rem;
+  color: #666666;
+}
+.list .linktoDetial .detialctn li .f11 {
+  color: #999999;
+}
+.list .twolink {
+  border-top: 1px solid #ddd;
+}
+.list .twolink a {
+  display: block;
+  width: 50%;
+  line-height: 0.82666667rem;
+  color: #0098e0;
+  text-align: center;
+}
+.list .twolink a:first-child {
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+.more {
+  text-align: center;
+  padding: 0.33333333rem 0;
+}
+.comred {
+  color: #ff8a50!important;
+}
+.maxwidth {
+  width: 65%!important;
+}
+/*.mjz,.yhq {*/
+  /*display: none;*/
+/*}*/
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet {
+   margin: 0;
+  opacity: 1!important;
+}
+.swiper-pagination-bullet-active {
+  border-bottom: 1px solid red;
+  opacity: 1!important;
+}
+.swiper-pagination-bullet {
+  width: 33.3%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 0;
+  background-color: #fff;
+  opacity: 1!important;
+  z-index: 100000;
+}
+.swiper-container-horizontal>.swiper-pagination {
+  background-color: #fff;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  color: #ff8a50;
+}

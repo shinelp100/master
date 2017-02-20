@@ -2,7 +2,7 @@
 
 基于三方平台
 1、三方平台性能测试网站（https://tools.pingdom.com/）
-2、谷歌页面性能测试网站 （https://developers.google.com/speed/pagespeed/insights/）
+2、谷歌页面性能测试网站 （https://developers.google.com/speed/pagespeed/insights/）（chrome插件pageSpeed.crx）
 
 基于Chrome调试工具
 1、Timeline 下Summary显示总共的加载用时  Eventlog记录了页面各模块(细分)加载的时间
@@ -16,19 +16,6 @@
 4、js、css文件压缩
 5、图片懒加载 （对于图片较多的页面我们可以采用图片懒加载技术来提升页面的响应速度）
 6、避免内联样式和事件，使得结构与表现、行为的分离
-7、js的按需加载（require.js，sea.js）后续我们将逐步优化
-8、避免JavaScripts阻塞渲染（浏览器在遇到一个引入外部JS文件的<script>标签时，会停下所有工作来下载并解析执行它，在这个过程中，页面渲染和用户交互完全被阻塞了。这时页面加载就会停止。将js引入放到dom后面也就是</body>前）
-说明：谷歌 建议 删除干扰页面中第一屏内容加载的JavaScript，第一屏是指用户在屏幕中最初看到的页面，无论是桌面浏览器、手机，还是平板电脑。
-
-
-
-
-
-
-
-
-
-
 
 
 
