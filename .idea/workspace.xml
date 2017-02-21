@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md" afterPath="$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -59,12 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m.wenjf.com(优化页面响应).md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="m.wenjf.com(优化页面响应).md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="580">
-                <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <first_editor relative-caret-position="493">
+                <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -82,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dom节点层次.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dom节点层次.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/Dom节点层次.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
@@ -190,10 +191,10 @@
         <option value="$PROJECT_DIR$/JavaScript高级教程/节流.html" />
         <option value="$PROJECT_DIR$/温度金服首页优化/优化页面报告.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/window对象的方法.html" />
-        <option value="$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/客户端自检.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/Dom节点层次.html" />
+        <option value="$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md" />
       </list>
     </option>
   </component>
@@ -202,6 +203,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -235,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,8 +261,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +344,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -426,7 +433,10 @@
       <workItem from="1487552758440" duration="5404000" />
       <workItem from="1487579397911" duration="3033000" />
       <workItem from="1487639521490" duration="7242000" />
-      <workItem from="1487663331148" duration="323000" />
+      <workItem from="1487663331148" duration="1491000" />
+      <workItem from="1487665455575" duration="40000" />
+      <workItem from="1487670311194" duration="1517000" />
+      <workItem from="1487675167905" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1478247226382</created>
@@ -736,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487662725282</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="移动端可拖拽块">
+      <created>1487663685734</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1487663685734</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="568249000" />
+    <option name="totallyTimeSpent" value="571364000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -753,16 +770,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14222713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14718853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47193348" sideWeight="0.45093715" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47193348" sideWeight="0.45093715" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47181627" sideWeight="0.54906285" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47089398" sideWeight="0.54906285" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45010394" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44906446" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -808,7 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交" />
     <MESSAGE value="分页插件提交" />
     <MESSAGE value="Revert: 提交" />
     <MESSAGE value="Revert: svg 提交" />
@@ -833,7 +849,8 @@
     <MESSAGE value="JavaScript模板引擎 （baidutemplate）" />
     <MESSAGE value="fork别人的项目" />
     <MESSAGE value="高级教程" />
-    <option name="LAST_COMMIT_MESSAGE" value="高级教程" />
+    <MESSAGE value="移动端可拖拽块" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端可拖拽块" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -1073,14 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/温度金服首页优化/优化页面报告.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/for-in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1093,14 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/客户端检测.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1130,17 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="580">
-            <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/客户端自检.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -1164,8 +1154,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/温度金服首页优化/优化页面报告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/客户端检测.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/温度金服首页优化/m.wenjf.com(优化页面响应).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="493">
+            <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsPV8FA7we8+izsj4l3xwa6WUDPlt1ADIYXyQ0AlUT3zx9i+XsU22tIdrUDS94BaSQ87KWcqVIBWv/57LKWeWx4as6UwIhPWNM9FthZnCeAjIZRDvFKDOnUlo1/tyecKvxamd/95yJm8Ay2JeeVer+zfuLeWErqPO9kKgz1BC8UR4gk343/9knajFu1IIW2KbtGva23eLXDuAqZBNQvbAGDK+2g2GnLJjqCeNy5BaIAELMQ8CW0BMuQBKMwEr0TT8mg==</data>
+    <data>AAAAsGqt+qrSgZjvmEMflaWqDl4QEDPfhxUF5BEWDJWWSMuYt2060m+lpZg+hoZ50iDnyfGfsiJnIljJCcPfOaOvowJM13u7hHY0WEq0NFUNdxopX5MO6/K9z3s57281dTESPavFMqvja+QJ3pi6JvPQhplQcMLSXYLHmmyKEgrthkP6iJkpVJvjjPqsoHg6us0StBlMO0Z5SbniE6bmQg4vMNwVEec+uuD1g5qfAN9ZVxRJW7XrPreAMI2iuBuxnK9ydg==</data>
   </component>
 </project>
