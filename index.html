@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <title>div块跟随手指拖动</title>
+</head>
+<body>
+    <div id="id"></div>
+    <style type="text/css">
+        body {
+            width:100%;
+            height:100vh;
+        }
+        div{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background: #ccc;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+    <script type="text/javascript">
+    var _x_start,_y_start,_x_move,_y_move,_x_end,_y_end,left_start,top_start;
+    var W=$("body").width();
+    var H=$("body").height();
+    console.log(W+"--"+H)
+        $("#id").on("touchstart",function(e) {
+            _x_start=e.touches[0].pageX;
+            _y_start=e.touches[0].pageY;
+            left_start=$("#id").css("left");
+            top_start=$("#id").css("top");
+        });
+
+       $("#id").on("touchmove",function(e) {
+            _x_move=e.touches[0].pageX;
+            _y_move=e.touches[0].pageY;
+           if(_x_move>W){
+               $("#id").css("left",W+"px");
+           } else if(_x_move<0){
+               $("#id").css("left",0+"px");
+           } else {
+               $("#id").css("left",parseFloat(_x_move)-parseFloat(_x_start)+parseFloat(left_start)+"px");
+           }
+           if(_y_move>H){
+               $("#id").css("top",H+"px");
+           } else if(_y_move<0){
+               $("#id").css("top",0+"px");
+           } else {
+               $("#id").css("top",parseFloat(_y_move)-parseFloat(_y_start)+parseFloat(top_start)+"px");
+           }
+        })
+        //阻止浏览器下拉事件
+		document.addEventListener('touchmove', function(e) {
+			e.preventDefault()
+		}, false);
+
+    </script>
+</body>
+</html>
