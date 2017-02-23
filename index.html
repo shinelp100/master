@@ -31,6 +31,7 @@
         $("#id").on("touchstart",function(e) {
             _x_start=e.touches[0].pageX;
             _y_start=e.touches[0].pageY;
+            console.log(_x_start+"-"+_y_start+"--"+e.touches[0].clientX+"---"+e.touches[0].clientY);
             left_start=$("#id").css("left");
             top_start=$("#id").css("top");
         });

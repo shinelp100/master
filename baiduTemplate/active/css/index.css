@@ -1,0 +1,36 @@
+body {
+  background-color: #e1f6f9;
+}
+.banner img {
+  display: block;
+  width: 100%;
+}
+.ctn {
+  height: 13.06666667rem;
+  margin: -1.06666667rem auto 0.93333333rem;
+  width: 8.04rem;
+  background-color: #feeeca;
+  padding-bottom: 0.26666667rem;
+  box-shadow: 0 0.13333333rem 0.13333333rem #c4dadd;
+}
+.ctn img {
+  display: block;
+  margin: 0 auto 0.26666667rem;
+  width: 6.93333333rem;
+}
+.ctn_over {
+  position: relative;
+  top: -0.16rem;
+  height: 12.13333333rem;
+  margin: 0 auto 0.93333333rem;
+  width: 8.04rem;
+  background-color: #feeeca;
+  padding-top: 0.53333333rem;
+  padding-bottom: 0.26666667rem;
+  box-shadow: 0 0.13333333rem 0.13333333rem #c4dadd;
+}
+.ctn_over img {
+  display: block;
+  margin: 0 auto 0.26666667rem;
+  width: 5.38666667rem;
+}

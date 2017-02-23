@@ -3,34 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>节流</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+
 </head>
 <body>
+<div id="cl">click me</div>
 <script>
     //方法一
     function throttle(method,context){
         clearTimeout(method.tId);
         method.tId=setTimeout(function(){
             method.call(context);
-        },100);
+        },200);
+    }
+    function myFunc() {
+        alert(1);
     }
     //调用
-    window.onresize=function(){
+//    window.onresize=function(){
+//        throttle(myFunc);
+//    }
+    //原生写法兼容
+    document.querySelector("#cl").onclick = function(){
         throttle(myFunc);
     }
+    
 
-    //方法二：
-    var throttle=function(fn,delay){
-        var timer=null;
-        return function(){
-            var context=this,args=arguments;
-            clearTimeout(timer);
-            timer=setTimeout(function(){
-                fn.apply(context,args);//context调用fn的方法，指针指向了fn
-            },delay);
-        }
-    }
-    //调用
-    window.onresize=throttle(myFunc,100);
+//    //方法二：
+//    var throttle=function(fn,delay){
+//        var timer=null;
+//        return function(){
+//            var context=this,args=arguments;
+//            clearTimeout(timer);
+//            timer=setTimeout(function(){
+//                fn.apply(context,args);//context调用fn的方法，指针指向了fn
+//            },delay);
+//        }
+//    }
+//    //调用
+//    window.onresize=throttle(myFunc,100);
 </script>
 </body>
 </html>

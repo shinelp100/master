@@ -29,7 +29,7 @@ i,em {
 body{
     font:14px/1.5 -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
     color:#8c8c8c;
-    background:#f6f6f6 !important;
+    background:#f6f6f6;
     margin: 0 auto;
 }
 .flex-content {

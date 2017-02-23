@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件流</title>
+</head>
+<body onunload="alert('Unloaded!')">
+<input type="button" value="Click Me" onclick="alert(event.type)">
+
+<input type="button" value="Click Me1" onclick="alert(value)">
+<input type="button" value="Click Me1" onclick="alert(this.value)">
+
+<form method="post">
+    <input type="text" name="username" value="">
+    <input type="button" value="Echo Username" onclick="alert(username.value)">
+</form>
+<div id="we">惦记我</div>
+<!-- 选择照片 -->
+<input type=file accept="image/*">
+<!-- 选择视频 -->
+<input type=file accept="video/*">
+<script>
+    var btn = document.querySelector("#we");
+    document.body.onclick = function(){
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        console.log(event.target);
+        alert(1);
+    };
+    btn.onmousemove = function(event){
+//        alert(1);
+        console.log(event.clientX+"--"+event.clientY);
+    }
+//    btn.onclick= function(e){
+//        e.preventDefault();
+//        alert(event.defaultPrevented);
+//        alert(event.bubbles);
+//        alert(event.currentTarget);
+//        btn.onclick = null;//时间的销毁
+//        alert(this.id);
+//        console.log(event.detail+"--"+event.eventPhase);
+//        console.log(event.target.id);
+//    }
+    var EventUtil = {
+        addHandler: function(element, type, handler){
+            if (element.addEventListener){
+                element.addEventListener(type, handler, false);
+            } else if (element.attachEvent){
+                element.attachEvent("on" + type, handler);
+            } else {
+                element["on" + type] = handler;
+            }
+        },
+        removeHandler: function(element, type, handler){
+            if (element.removeEventListener){
+                element.removeEventListener(type, handler, false);
+            } else if (element.detachEvent){
+                element.detachEvent("on" + type, handler);
+            } else {
+                element["on" + type] = null;
+            }
+        }
+    };
+    window.onunload = function(){alert(1)};
+</script>
+</body>
+</html>
