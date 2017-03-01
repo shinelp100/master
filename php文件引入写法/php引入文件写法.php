@@ -12,7 +12,11 @@ $this->registerMetaTag(['charset'=>'UTF-8']);
 //POS_READY = 4 包裹在jQuery(document).ready()中
 //POS_LOAD = 5 包裹在 jQuery(window).load()中
 $this->registerCssFile('/static/default/warm-spring/css/index.css',['position'=>1]);
+
+
 $this->registerJsFile('/static/flexibleJs/lib.flexible.js',['position'=>5]);
+
+
 $this->registerJs('alert("hello")');
 $this->registerCss('margin:10px;');
 ?>
@@ -21,3 +25,4 @@ $this->registerCss('margin:10px;');
     content here
 </div>
 <?php $this->endBlock(); ?>
+

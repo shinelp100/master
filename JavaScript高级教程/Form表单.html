@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form表单</title>
+</head>
+<body>
+<ul>
+    <li>111111111111111111111111</li>
+    <li>222222222222222222222222</li>
+    <li>333333333333333333333333</li>
+    <li>4444444444444444444444444</li>
+</ul>
+</body>
+<script>
+    var oUl = document.querySelector("ul");
+    oUl.onclick = function(event){
+        var event = event || window.event;
+        var target = event.target;
+        console.log(target.innerText);
+    }
+</script>
+</html>
+
+<div class="help_right_con" >
+    <div class="main clearfix">
+        <div class="box_title"><i class="ico_hetong"></i>合同协议</div>
+        <div class="con_width">
+            <h2 class="line_bg"><span>借贷协议</span></h2>
+            <h3 class="text pb10">协议摘要</h3>
+            <table class="f14 hl30">
+                <colgroup>
+                    <col width="325">
+                    <col width="223">
+                    <col width="330">
+                </colgroup>
+                <tbody>
+                <tr>
+                    <td><span class="text pr15">借款人：</span>{$deal.xingming}</td>
+                    <td><span class="text">借款金额：</span><span id="borrow_amount" class="yellwo"><?php echo number_format($order_money,2);?>元</span></td>
+                    <td><span class="text">借款年化利率：</span><span class="yellwo">{$deal.syl}%</span></td>
+                </tr>
+                <tr>
+                    <td><span class="text pr15">出借人：</span>{$Tuser.UsrName}</td>
+                    <td><span class="text">项目截止日：</span>
+                        <span class="yellwo">
+										<?php echo date('Y-m-d',$deal['deal_end_date']);?>
+                                    </span>
+                    </td>
+                    <td><span class="text">还款方式：</span><?php if($deal['refund_method']==1): ?>等额本息<?php elseif($deal['refund_method']==2): ?>付息还本<?php else:?>到期本息<?php endif;?></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="more_hetong" style="display: block;"><a href="javascript:void(0)" id="show_detail1" name="show_detail" data="1" style="display: inline;">展开详情<i class="ico_ht_more"></i></a></div>
+            <div class="hetong" id="hetong1" style="display: none;">
+                <div class="con" id="loan_pre">
+                    <style>h1 {font-family:simsun;font-size:22px;  text-align:center;  line-height:1.5;}p {margin: 0.2em 0;  font-family:simsun;  line-height:1.5;}</style>
+                    <h1>借贷协议</h1>
+                    <?=$hts[0]['content']?>
+                </div>
+                <div class="ht_but">
+                    <div class="fr"><a href="javascript:void(0)" class="but_shouqi f14" id="hide_detail1" name="hide_detail" data="1" style="display: inline;">收起详情<i class="ico_ht_moreon"></i></a></div>
+                    <a href="javascript:void(0);" class="button_bigtongyi1" name="btn_agree" id="btn_agree1" data="1" ></a>
+                    <div name="agree_txt1" class="yanzheng algin_c" style="display:none;"><i></i>已同意并签署</div>
+                </div>
+            </div>
+
+            <h2 class="line_bg mt20"><span>转让协议</span></h2>
+            <h3 class="text pb10">声明摘要</h3>
+            <table class="f14 hl30 text">
+                <colgroup>
+                    <col width="52">
+                    <col width="830">
+                </colgroup>
+                <tbody>
+                <tr>
+                    <td valign="top"></td>
+                    <td>本人自愿通过南京易投贷金融信息服务有限公司运营的旺财谷金融信息服务平台（以下简称“旺财谷”，网址www.wangcaigu.com）向转让方出借资金，本人已知悉并签署了《转让协议》，并确认以下事宜：
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="more_hetong" style="display: block;"><a href="javascript:void(0)" id="show_detail3" name="show_detail" data="3" style="display: inline;">展开详情<i class="ico_ht_more"></i></a></div>
+            <div class="hetong" id="hetong3" style="display: none;">
+                <div class="con" id="lender_pre"><style>h1 {font-family:simsun;font-size:22px;  text-align:center;  line-height:1.5;}p {margin: 0.2em 0;  font-family:simsun;  line-height:1.5;}</style><h1>转让协议</h1><br>
+                    <?=$hts[1]['content']?>
+                </div>
+                <div class="ht_but">
+                    <div class="fr"><a id="hide_detail3" name="hide_detail" data="3" href="javascript:void(0)" class="but_shouqi f14" style="display: inline;">收起详情<i class="ico_ht_moreon"></i></a></div>
+                    <a href="javascript:void(0);" class="button_bigtongyi1" name="btn_agree" id="btn_agree3" data="3"></a>
+                    <div name="agree_txt3" class="yanzheng algin_c" style="display:none;"><i></i>已同意并签署</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
