@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>touch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <!--<script src="zepto.min.js"></script>-->
+    <script src="jquery-1.11.1.min.js"></script>
+    <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+    <!-- If you'd like to support IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <style>
+        .video-js .vjs-big-play-button {
+            top:50%;
+            left:50%;
+            width:100px;
+            height:50px;
+            margin-top: -25px;
+            margin-left: -50px;
+        }
+        article,aside,dialog,footer,header,section,footer,nav,figure,video,menu{display:block}
+        video::-webkit-media-controls {
+            display:none !important;
+        }
+    </style>
+
+</head>
+<body>
+<!--活动状态 1 －未开始,2－ 进行中，3－ 已结束-->
+<input type="hidden" name="activeStatus" value="<?= activeStatus >">
+<!--是否登陆 1－已登陆 0－未登陆-->
+<input type="hidden" name="hasLogin" value="<?= hasLogin >">
+<!--isAdmin是否为管理员 1- 管理员 0- 普通用户-->
+<input type="hidden" name="isAdmin" value="<?= isAdmin >">
+
+
+<!--ie8及以下识别-->
+<!-- [if lt IE 8] -->
+<EMBED id="iFlash" style=" margin: 5px auto; width:500px; height: 300px;display: none;";
+       src="http://static.qiakr.com/movie/0060202.mp4"
+       quality= "high"
+       wmode="transparent"
+       pluginspage="http://static.qiakr.com/movie/0060202.mp4"
+       type="application/x-shockwave-flash">
+<!-- [endif]-->
+
+<div class="video-box">
+    <video id="my-video" class="video-js" controls preload="auto" width="500" height="300"
+           poster="http://static.qiakr.com/movie/0060202.mp4" data-setup="{}">
+        <source src="http://static.qiakr.com/movie/0060202.mp4" type='video/mp4'>
+        <source src="http://static.qiakr.com/movie/0060202.mp4" type='video/webm'>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+</div>
+
+<button class="test1">测试按钮</button>
+<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+<script>
+    videojs.options.flash.swf = "video-js.swf";
+    var myPlayer = videojs('my-video',{
+//        controlBar : false
+    });
+
+    var browser=navigator.appName;
+    var b_version=navigator.appVersion;
+    var version=b_version.split(";");
+    var trim_Version=version[1].replace(/[ ]/g,"");
+    if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+    {
+        $("#my-video").remove();
+        $("#iFlash").show();
+    }
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")
+    {
+        $("#my-video").remove();
+        $("#iFlash").show();
+    }
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")
+    {
+        $("#my-video").remove();
+        $("#iFlash").show();
+    }
+
+    //    myPlayer.width(500).height(300);
+    $(function () {
+        var module = {
+            data : [],
+            init : function(){
+                var active = [module.activeStatus(),module.hasLogin(),module.isAdmin()];
+
+                console.log(active);
+                if( active[0]== 1){
+                    alert("活动尚未开始");
+                } else if(active[0] == 2){
+                    if(active[1] == 1){
+                        if(active[2] == 1){
+                            alert("你是管理员");
+                        } else {
+                            alert("你是普通用户");
+                        }
+                    } else {
+                        alert("你还未登录");
+                    }
+                }else {
+                    alert("活动已经结束");
+                }
+            },
+            activeStatus : function(){
+                return $("input[name = activeStatus]").val();
+            },
+            hasLogin : function(){
+                return $("input[name = hasLogin]").val();
+            },
+            isAdmin : function(){
+                return $("input[name = isAdmin]").val();
+            }
+        };
+
+        $(".test1").on("tap",function () {
+            module.init();
+            $(".test1").off("tap");
+            $(".test1").attr("disabled","disabled");
+        })
+    });
+</script>
+<script>
+    //在手机模式下才能看出
+    $(function(){
+        $(".test1").on("tap",function () {
+            module.init();
+            $(".test1").off("tap");
+            $(".test1").attr("disabled","disabled");
+        })
+    })
+</script>
+</body>
+</html>

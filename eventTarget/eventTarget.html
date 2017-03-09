@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件委托方法</title>
+    <script src="../zepto/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<button id="add">添加</button>
+<ul id="box">
+    <li>1111111111111 <span class="del">删除</span></li>
+    <li>2222222222222 <span class="del">删除</span></li>
+    <li>3333333333333 <span class="del">删除</span></li>
+    <li>4444444444444 <span class="del">删除</span></li>
+    <li>5555555555555 <span class="del">删除</span></li>
+</ul>
+<script>
+    $(function(){
+        var i = 5;
+        $("#add").on("click",function(){
+            i++;
+            $("#box").append("<li>"+i+i+i+i+i+i+i+i+i+i+i+i+"<span class='del'>删除</span></li>")
+        });
+
+        $("#box").on("click",function (event) {
+            //事件委托需要判断来处理事件
+            if(event.target.nodeName == 'SPAN'){
+                document.querySelector("#box").removeChild(event.target.parentNode);
+                console.log(event.target.parentNode)
+            }
+        })
+    })
+</script>
+</body>
+</html>
