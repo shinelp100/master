@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的资产</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../common/css/wenjfbase.css">
+    <link rel="stylesheet" href="css/myProperty.css">
+    <script src="../libs/lib.flexible3.js"></script>
+    <script src="../libs/zepto.min.js"></script>
+    <script src="../libs/echarts.common.min.js"></script>
+</head>
+<body>
+<div class="flex-content">
+    <ul class="titlebar clearfix">
+        <li class="f15 lf"><a class="actived" href="javascript:void(0);">我的资产</a></li>
+        <li class="f15 lf"><a href="myIncome.html">我的收益</a></li>
+    </ul>
+    <div class="paintersvg">
+        <div id="container" style="width: 10rem; height: 7rem; margin: -0.5rem auto 0"></div>
+        <img class="question" src="img/question.png" alt="">
+    </div>
+
+    <div class="detialList">
+        <ul>
+            <li>
+                <a class="clearfix slb f15" href="">
+                    <div class="lf"><span class="colorBlock assetyellow"></span>理财资产</div>
+                    <div class="rg"><span class="comColor">1,000</span>元</div>
+                </a>
+            </li>
+            <li>
+                <a class="clearfix slb f15" href="">
+                    <div class="lf"><span class="colorBlock assetred f15"></span>冻结资金</div>
+                    <div class="rg"><span class="comColor">1,000</span>元</div>
+                </a>
+            </li>
+            <li>
+                <a class="clearfix slb f15" href="">
+                    <div class="lf"><span class="colorBlock assetgreen f15"></span>可用余额</div>
+                    <div class="rg"><span class="comColor">1,000</span>元</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="mask cancel"></div>
+<div class="pomp f12">
+    <p class="grey">理财资产:</p>
+    <p class="black">正在投资中待回收本金总和</p>
+    <p class="grey">冻结资金：</p>
+    <p class="black">投资资金在项目未满标时锁定的金额</p>
+    <p class="grey">可用余额：</p>
+    <p class="black">当前账户可用投资、提现金额</p>
+    <div class="close f15">知道了</div>
+</div>
+<script>
+    $(function () {
+        //提示信息
+        $(".question").on("tap",function(e){
+            e.stopPropagation();
+            $('.cancel').show();
+            $('.pomp').show();
+        });
+        $(".close,.cancel").on("tap",function(e){
+            e.stopPropagation();
+            $('.cancel').hide();
+            $('.pomp').hide();
+        });
+
+        var myChart = echarts.init(document.getElementById('container'));
+        var font , W;
+        W = $(window).width();
+        console.log(W);
+        font = W>750?40:20;
+        var option = {
+            title: {
+                text: '总资产',
+                textStyle:{
+                    color:'#999999',
+                    fontSize:font,
+                    fontWeight:500,
+                },
+                subtext: '11,120,000.00',
+                subtextStyle:{
+                    color:'#f25f57',
+                    fontSize:font,
+                    fontWeight:500,
+                },
+                x: 'center',
+                y: '42%',
+                itemGap:5,
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{b}: {c}"
+            },
+            series: [
+                {
+                    name:'我的资产',
+                    type:'pie',
+                    radius: ['65%', '83%'],
+                    avoidLabelOverlap: false,
+                    color:["#ff5763","#ff8d39","#70ec72"],
+                    label: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data:[
+                        {value:1000, name:'冻结资金'},
+                        {value:1000, name:'理财资产'},
+                        {value:1000, name:'可用余额'}
+                    ]
+                },
+                {
+                    type:'pie',
+                    radius: ['83%', '90%'],
+                    avoidLabelOverlap: false,
+                    itemStyle: {
+                        normal: {
+                            color: '#fbcfcc'
+                        },
+                        emphasis: {
+                            color: '#fbcfcc'
+                        }
+                    },
+                    label: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data:[
+                        {value:3000, name:'总资金'}
+                    ]
+                }
+            ]
+        };
+        myChart.setOption(option);
+    })
+</script>
+</body>
+</html>

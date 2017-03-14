@@ -1,0 +1,152 @@
+body {
+  background-color: #f2f2f2;
+}
+.titlebar {
+  background-color: #fff;
+  width: 100%;
+  height: 1.2rem;
+  margin-bottom: 0.53333333rem;
+}
+.titlebar li {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.titlebar li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #999999;
+  border-bottom: 1px solid #dedede;
+}
+.titlebar .actived {
+  color: #f15e56;
+  border-bottom: 2px solid #f15e56;
+}
+.paintersvg {
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.paintersvg .question {
+  position: absolute;
+  top: 3.15rem;
+  left: 6rem;
+  width: 0.30666667rem;
+}
+.detialList {
+  background-color: #fff;
+  padding-left: 0.4rem;
+  margin-top: 0.4rem;
+  border-bottom: 1px solid #dedede;
+}
+.detialList ul li {
+  margin-right: 0.4rem;
+  border-bottom: 1px solid #dedede;
+  line-height: 1.2rem;
+}
+.detialList ul li a div.lf {
+  color: #333333;
+}
+.detialList ul li a div.rg {
+  padding-right: 0.53333333rem;
+  background: url("../img/pointer.png") center right no-repeat;
+  background-size: 0.25333333rem 0.26666667rem;
+}
+.detialList ul li:last-child {
+  border: none;
+}
+.colorBlock {
+  display: inline-block;
+  width: 0.18666667rem;
+  height: 0.18666667rem;
+  margin-right: 0.18666667rem;
+}
+.assetyellow {
+  background-color: #ff8d39;
+}
+.assetgreen {
+  background-color: #70ec72;
+}
+.assetred {
+  background-color: #ff5763;
+}
+.comColor {
+  color: #ff5736;
+}
+.slb {
+  display: block;
+  color: #999;
+}
+@media screen and (max-width: 769px) {
+  .paintersvg .question {
+    top: 3.15rem;
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .paintersvg .question {
+    top: 3.15rem;
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .paintersvg .question {
+    top: 3.15rem;
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .paintersvg .question {
+    top: 3.15rem;
+    left: 6rem;
+  }
+}
+.mask {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  /*根据实际情况设定*/
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pomp {
+  display: none;
+  width: 8rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  /*根据实际情况设定*/
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  /*弹框内部样式的自定义添加*/
+  text-align: left;
+  border-radius: 5px;
+  padding-top: 0.35rem;
+}
+.pomp p {
+  padding: 0 0.5rem;
+  color: #000;
+}
+.close {
+  border-top: 1px solid #dadada;
+  margin: 0.4rem auto 0;
+  color: #ff5763;
+  line-height: 1rem;
+  text-align: center;
+}
+.grey {
+  color: #6b6b6b;
+  margin-top: 0.13333333rem;
+}
+.black {
+  color: #333333;
+}

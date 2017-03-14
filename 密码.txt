@@ -70,7 +70,7 @@ viewPoint高度：vh（  $(‘div’).height( $(window).height()  ）/宽度：vm
 页面不缓存
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Expires" content="0">
+<meta http-equiv="Expires" content="-1">
 
 
 手机横竖屏
@@ -123,4 +123,41 @@ function changeURLArg(url,arg,arg_val){
 
 
 
-改变地址栏不刷新页面：location.href.hash = "#sdfsd"
+改变地址栏不刷新页面：location.href.hash = "#sdfsd"  但是影响浏览器自带的返回效果
+
+
+
+解决placeholder在webkit中的不居中问题
+input::-webkit-input-placeholder { /* WebKit browsers */
+  line-height: 1.5em;
+}
+
+
+//判断浏览器客户端是否支持video标签
+    
+var hasVideo = !!(document.createElement('video').canPlayType);
+    
+console.log(hasVideo);
+
+    
+//判断浏览器客户端是否已安装flash插件
+   
+ var i_flash;
+    
+if (navigator.plugins) {
+        
+for (var i = 0; i < navigator.plugins.length; i++) {
+            
+	if (navigator.plugins[i].name.toLowerCase().indexOf("shockwave flash") >= 0) {
+               
+ 	i_flash = true;
+            }
+  
+      }
+
+    }
+  
+  console.log(i_flash)
+
+
+-webkit-appearance：none/statusbar  去除radio原有的样式

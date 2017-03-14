@@ -1,0 +1,102 @@
+.titlebar {
+  background-color: #fff;
+  width: 100%;
+  height: 1.2rem;
+}
+.titlebar li {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.titlebar li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #999999;
+  border-bottom: 1px solid #dedede;
+}
+.titlebar .actived {
+  color: #f15e56;
+  border-bottom: 2px solid #f15e56;
+}
+.income {
+  padding: 0.66666667rem 0 0.26666667rem;
+  text-align: center;
+  background-color: #fff;
+  color: #999999;
+}
+.income .allIncome {
+  margin-bottom: 0.26666667rem;
+}
+.line-H32 {
+  line-height: 0.42666667rem;
+}
+.comRed {
+  color: #f25f57;
+}
+.listTitle {
+  border-bottom: 1px solid #dedede;
+  background-color: #fff;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  padding: 0 0.4rem;
+  margin-top: 0.4rem;
+  color: #333333;
+}
+.listTitle span {
+  display: block;
+  background-color: #f25f57;
+  width: 0.08rem;
+  height: 0.4rem;
+  margin: 0.24rem 0.13333333rem 0 0;
+}
+.listView {
+  background-color: #fff;
+  padding: 0 0.4rem;
+}
+.listView li {
+  height: 1.33333333rem;
+  border-bottom: 1px solid #dedede;
+}
+.listView li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.09333333rem 0 0.17333333rem;
+  color: #333333;
+}
+.listView li a div.lf {
+  height: 100%;
+  width: 80%;
+}
+.listView li a div.lf p:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.66666667rem;
+}
+.listView li a div.lf p:last-child {
+  line-height: 0.4rem;
+  color: #999999;
+}
+.listView li a div.rg {
+  height: 100%;
+  width: 20%;
+  text-align: right;
+  line-height: 1.06666667rem;
+  color: #f25f57;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#pullUp {
+  background: #fff;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  padding: 0.06666667rem 0.13333333rem;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  color: #888;
+  text-align: center;
+}

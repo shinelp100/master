@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<!--   登录弹出框    -->
+<style>
+    div.overlay{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        z-index:100000;
+        background:url(/template/default/Public/images/zhuanti/15/overlaybg.png) repeat;
+    }
+    #login a{
+        color:#292825;
+        text-decoration: none;
+    }
+    #login a:hover{
+        text-decoration:underline;
+    }
+    .login-box {
+        position:relative;
+        left:50%;
+        top:50%;
+        width:360px;
+        margin-left:-180px;
+        margin-top:-140px;
+        z-index:200000;
+        background:#fff;
+        border: 1px solid #b5b5b6;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .login-box-title {
+        padding-left: 43px;
+        height: 40px;
+        line-height:40px;
+        font-size:18px;
+        text-align:center;
+    }
+    .login-box-title span {
+        font-weight: bold;
+        height: 40px;
+        line-height:40px;
+        color:#ea8d05;
+    }
+    .login-box-title p {
+        margin:0;
+        float: right;
+        width:43px;
+        height:40px;
+        cursor: pointer;
+        border-radius:5px;
+        background:url(/template/default/Public/images/checkclose2.png) center no-repeat;
+    }
+    .login-box-bottom {
+        margin:0 auto;
+        width:300px;
+        overflow: hidden;
+    }
+    .username {
+        margin:10px 0;
+        padding-top:5px;
+        padding-bottom:5px;
+        border:1px solid #f1f1f3;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .username span.lxl_user_span {
+        float:left;
+        width:40px;
+        height:32px;
+        line-height:23px;
+        background:url(/template/default/Public/images/checkUser.png) no-repeat center center;
+    }
+    .username div span,.password div span{margin-top:10px\9;text-indent:54px\9;}
+    .username input {
+        padding:0 0 0 8px;
+        margin:5px 0;
+        width:248px;
+        height:18px;
+        line-height:18px;
+        font-size: 14px;
+        color: #99999d;
+        outline: none;
+        border:0;
+        border-left:1px solid #c9caca;
+        background:none;
+    }
+    .password {
+        margin:10px 0;
+        padding-top:5px;
+        padding-bottom:5px;
+        border:1px solid #f1f1f3;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .password span.lxl_pass_span {
+        float:left;
+        width:40px;
+        height:32px;
+        line-height:23px;
+        background:url(/template/default/Public/images/checkLockup.png) no-repeat center center;
+    }
+    .password input {
+        padding:0 0 0 8px;
+        margin:5px 0;
+        width:248px;
+        height:18px;
+        line-height:18px;
+        font-size: 14px;
+        color: #99999d;
+        outline: none;
+        border:0;
+        border-left:1px solid #c9caca;
+        background:none;
+    }
+
+    .verifycode {
+        margin:10px 0;
+        display: none;
+    }
+    .verifycode-input{
+        padding-top:5px;
+        padding-bottom:5px;
+        border:1px solid #f1f1f3;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        width: 160px;
+    }
+    .verifycode input {
+        padding:0 0 0 8px;
+        margin:5px 0;
+        width:150px;
+        height:18px;
+        line-height:18px;
+        font-size: 14px;
+        color: #99999d;
+        outline: none;
+        border:0;
+        background:none;
+    }
+    .verifycode-img{
+        float: right;
+        padding-left: 15px;
+        margin-top: -39px;
+        height: 37px;
+    }
+
+    .login-error{
+        margin-bottom:10px;
+        line-height: 20px;
+        font-size: 14px;
+        color:#e83828;
+        height: 20px;
+        font-size:12px;
+        margin-left:15px
+    }
+    .login-a {
+        width:330px;
+    }
+    .login-btn {
+        margin-left:70px;
+        width:160px;
+        height:40px;
+        line-height:40px;
+        color:#FFF!important;
+        text-align: center;
+        display:block;
+        cursor: pointer;
+        font-size: 14px;
+        background:#ff9800;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    div.signup {
+        margin-left:96px;
+        width:120px;
+        height:46px;
+        line-height:48px;
+        font-size:12px;
+        color:#898989;
+    }
+    a.signup-a {
+        padding-right: 5px;
+        display:inline-block;
+        color:#898989!important;
+    }
+    a.mima-a {
+        display:inline-block;
+        color:#898989!important;
+    }
+</style>
+<div id="jumpoutlogin" class="overlay">
+    <div  class="login-box" >
+        <div class="login-box-title">
+            <span >登录</span>
+            <p id="loginclose" ></p>
+        </div>
+        <div class="login-box-bottom">
+            <div  class="username">
+                <span class="lxl_user_span"></span>
+                <input id="loginname" type="text" name="name" placeholder="用户名/手机号"  >
+            </div>
+            <div class="password">
+                <span class="lxl_pass_span"></span>
+                <input id="loginpwd" type="password" name="pass" placeholder="密码"  >
+            </div>
+            <div class="verifycode">
+                <div class="verifycode-input">
+                    <input id="verifycode" type="text" name="verifycode" placeholder="验证码"  >
+                </div>
+                <img id="verifycode_img" class="verifycode-img" title="验证码" src="/user/varify" >
+            </div>
+
+            <div style="clear: both;"></div>
+            <div id="loginerror" class="login-error"></div>
+            <div  class="login-a" >
+                <div id="login-btn" class="login-btn" >
+                    立刻登录
+                </div>
+                <div class="signup" >
+                    <a class="signup-a" href="/user/reg">免费注册</a>
+                    <span>|</span>
+                    <a class="mima-a" href="/forget/index_1.html" >忘记密码</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/template/default/Public/js/lxlplus/JPlaceholder.js"></script>
+<script type="text/javascript">
+    $(function() {
+        //回车登录
+        $('input#loginname,input#loginpwd,input#verifycode').keydown(function (e) {
+            if (e.keyCode == 13) {
+                $('#login-btn').trigger('click');
+            }
+        });
+
+        $("#verifycode_img").on("click",function() {
+            $(this).attr('src','/user/varify?t=' + Math.random());
+        });
+
+        //验证当前用户名是否需要验证码
+        $('#loginname').blur(function() {
+            checkShowVerifyCodeImg();
+        });
+
+        //
+        setTimeout(checkShowVerifyCodeImg,1000);
+    });
+
+
+    //检查登录框是否显示图形验证码
+    function checkShowVerifyCodeImg() {
+        var username = $('#loginname').val();
+        if($.trim(username)!='') {
+            $.ajax({
+                type: 'POST',
+                url: "/user/showVerify",
+                data: {username: username},
+                dataType: 'json',
+                success: function(data) {
+                    //code 为 0 表示无参数提交错误  即为成功
+                    //show 为 true 表示显示验证码 为false则不显示
+                    if (data.code == '0' && data.show) {
+                        $('.login-box-bottom .verifycode').show();
+                    }else {
+                        $('.login-box-bottom .verifycode').hide();
+                    }
+                }
+            });
+        }
+
+    }
+
+</script>
+<script>
+
+    //登录窗口显示
+    $('.goLogin').click(function(){
+        login();
+    });
+
+    //点击立即登录按钮
+    $("#login-btn").on("click",function(){
+        noticeTo();
+    });
+    //点击关闭按钮
+    $("#loginclose").on("click",function(){
+        closew();
+        $("#loginname").val("");
+        $("#loginpwd").val("");
+        $("#loginerror").html("");
+    });
+
+    //打开登录窗口
+    function login() {
+        $('#jumpoutlogin').show().animate({opacity:1},200,"linear",function(){
+            //$("#loginname").val("");
+            //$("#loginpwd").val("");
+            $("#loginerror").html("");
+        });
+    }
+    //关闭通知窗口
+    function closew(str) {
+        $("#jumpoutlogin").hide();
+    }
+
+    //点击登录，提交
+    function noticeTo(){
+        var name = $("#loginname").val();
+        var pass = $("#loginpwd").val();
+        var verifycode = $('#verifycode').val();
+        if ($.trim(name) === '' || $.trim(pass) === '') {
+            $('#loginerror').html('*用户名和密码不能为空');
+        }else if ($.trim(verifycode) === '' && !$('.login-box-bottom .verifycode').is(":hidden")){
+            $('#loginerror').html('*验证码不能为空');
+        }else{
+            $("#login-btn").attr("disabled",true);
+            $("#login-btn").html("提交中...");
+            $.ajax({
+                type: 'POST',
+                url: "/index/login2",
+                data: {name: name, pass: pass,verify:verifycode},
+                dataType: 'json',
+                success: function(result) {
+                    if (result.code == '0') {
+                        location.reload();
+                    } else {
+                        checkShowVerifyCodeImg();
+                        $("#verifycode_img").attr('src','/user/varify?t=' + Math.random());
+                        $('#verifycode').val('');
+                        $("#loginerror").html(result.msg);
+                        $("#login-btn").attr('disabled',false);
+                        $("#login-btn").html("立刻登录")
+                    }
+                }
+            });
+        }
+
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+    <style>
+        body {
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+<ul id="box">
+    <li>1111111</li>
+    <li>222222</li>
+    <li>3333333333</li>
+    <li>44444444</li>
+    <li>555555555</li>
+</ul>
+<div id="box1">测试的小尾巴</div>
+<script>
+    /*
+    //闭包
+    var quo = function(status){
+        return {
+            get_status:function(){
+                return status;
+            }
+        }
+    };
+    var myQuo = quo("amazed");
+    console.log(myQuo.get_status());
+    */
+
+    /*这是典型的闭包案例*/
+    /*dom元素的一个变色过程*/
+    /*var fade = function(node){
+        var level = 1;
+        var step = function(){
+            var hex = level.toString(16);
+            node.style.backgroundColor = "#FF96" + hex + hex;
+            if(level < 15){
+                level +=1 ;
+                setTimeout(step,100);
+            }
+        };
+        setTimeout(step,100);
+    };
+    fade(document.body);
+    */
+
+    /*便利添加事件对应的弹出对应的序列*/
+    /*var add_the_handlers = function(node){
+        for(var i =0; i<node.length; i++){
+            node[i].onclick = function(){
+                alert(i);
+            }
+        }
+    };*/
+    var add_the_handlers = function(node){
+        for(var i =0; i<node.length; i++){
+            node[i].onclick = function(i){
+                return function(){
+                    alert(i);
+                }
+            }(i);
+        }
+    };
+    var oLi = document.querySelectorAll('li');
+    add_the_handlers(oLi);
+
+    /*模块：理解闭包作用域*/
+    var serial_maker = function(){
+        var prefix = '';
+        var seq = 0;
+        return {
+            set_prefix : function(p){
+                prefix = String(p);
+            },
+            set_seq : function(s){
+                seq = s;
+            },
+            gensmy : function(){
+                var result = prefix + seq;
+                seq += 1;
+                return result;
+            }
+        }
+    }
+    var seqer = serial_maker();
+    seqer.set_prefix("Q");
+    seqer.set_seq(1000);
+    var unique = seqer.gensmy();
+    console.log(unique);
+
+
+    /*级联的模仿*/
+    var oUl = document.querySelector('#box1');
+    oUl.height(100).on('mousemove',function () {
+        alert(1);
+    })
+</script>
+</body>
+</html>

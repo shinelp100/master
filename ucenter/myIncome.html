@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的资产</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../common/css/wenjfbase.css">
+    <link rel="stylesheet" href="css/myIncome.css">
+    <script src="../libs/lib.flexible3.js"></script>
+    <script src="../libs/zepto.min.js"></script>
+</head>
+<body>
+<div class="flex-content">
+    <ul class="titlebar clearfix">
+        <li class="f15 lf"><a href="myProperty.html">我的资产</a></li>
+        <li class="f15 lf"><a class="actived" href="javascript:void(0);">我的收益</a></li>
+    </ul>
+
+    <ul class="income">
+        <li class="f12 line-H32">累计收益(元)</li>
+        <li class="f30 allIncome comRed">100,000.00</li>
+        <li class="f12 line-H32">累计资产(元)</li>
+        <li class="f15 comRed">100,000.00</li>
+    </ul>
+
+    <!--列表部分-->
+    <div class="f12 listTitle"><span class="lf"></span> 最近收益</div>
+    <ul class="listView" id="theList">
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--物流大数据公司月月盈优质项目</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20000.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--物流大数据公司月月盈优质项目</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20000.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--物流大数据公司月月盈优质项目</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20000.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--物流大数据公司月月盈优质项目</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20000.00</div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <div class="lf">
+                    <p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p>
+                    <p class="f11">2016-5-25</p>
+                </div>
+                <div class="rg f15">+20.00</div>
+            </a>
+        </li>
+    </ul>
+
+    <div id="pullUp">
+        <span class="pullUpLabel f15">加载更多...</span>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var flag = true ;
+    //自动加载分页数据
+    $(window).scroll(function () {
+        //当内容滚动到底部时加载新的内容
+        if ($(this).scrollTop() + $(window).height() + 20 >= $(document).height() && $(this).scrollTop() > 20) {
+            //当前要加载的页码
+            getPageList();
+        }
+    });
+    function getPageList(){
+        if(flag===true){
+            //模拟ajax请求
+            flag=false;
+            var i,html='';
+//        $("#pullUp").show();
+            console.log(1);
+            setTimeout(function(){
+                for(i=0 ; i<10 ; i++){
+                    html += '<li><a href=""><div class="lf"><p class="f15">南金交--宁富20号中科建四期1宁富20号中科建四期1号号</p><p class="f11">2016-5-25</p></div><div class="rg f15">+20.00</div></a></li>';
+                };
+                $("#theList").append(html);
+                flag=true;
+            },100);
+        }
+    }
+</script>
+</body>
+</html>
