@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telphone=no, email=no"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <title>阿姨帮</title>
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="../common/css/comfont.css?v=1.0">
+    <link rel="stylesheet" href="css/second.css">
+    <script src="../common/js/lib.flexible.js"></script>
+    <script src="js/zepto.min.js"></script>
+</head>
+<body>
+<div class="flex-content">
+    <div class="wallet">
+        <div class="wallet-inner">
+            <div class="wallet-header">
+                <img src="images/wallet.png" alt="">
+            </div>
+            <div class="wallet-btn">
+                <img src="images/bg-red.png" alt="">
+                <a class="register" href="">立即开通</a>
+                <a class="notRegister" href="">先去逛逛，暂不开通</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p><a href="tel:400-888-6268">400-888-6268</a>客服热线(9:00-18:00)</p>
+        <p>南京易投贷金融信息服务有限公司丨 苏ICP备14011658号-2</p>
+    </div>
+
+</div>
+<script>
+    $(function(){
+        var content = $(".wallet").height();
+        var foot = $(".footer").height();
+        var allH =parseFloat(content)+parseFloat(foot);
+        var viewH = $(window).height();
+        if(viewH>allH){
+            $(".wallet").height(viewH+'px');
+            $(".footer").css({position:"fixed",bottom:0,left:0})
+        }
+    })
+</script>
+</body>
+</html>

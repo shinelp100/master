@@ -1,0 +1,23 @@
+.foot {
+  width: 100%;
+  background: #282a2c;
+  text-align: center;
+  padding-bottom: 0.38666667rem;
+}
+.foot > ul {
+  height: 1.16rem;
+  line-height: 1.16rem;
+}
+.foot > ul > li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  color: #999999;
+}
+.foot > ul > li > a {
+  text-decoration: underline;
+}
+.foot > .span {
+  color: #666666;
+}
+

@@ -36,9 +36,6 @@ body{
     margin: 0 auto;
     max-width: 10rem;
 }
-.row{
-    margin: 0;
-}
 .lf {
     float: left;
 }

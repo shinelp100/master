@@ -1,0 +1,36 @@
+.top {
+  height: 1.22666667rem;
+  background-color: #fff;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+.top .wcg-logo {
+  display: block;
+  background: url("../images/wcg-logo.png") no-repeat;
+  background-size: contain;
+  width: 2.77333333rem;
+  height: 0.8rem;
+  margin-top: 0.2rem;
+  margin-left: 0.42666667rem;
+}
+.top > .option {
+  padding-top: 0.33333333rem;
+  margin-right: 0.42666667rem;
+}
+.top > .option > .licai {
+  display: block;
+  background: url("../images/licai.png") no-repeat;
+  background-size: contain;
+  width: 0.56rem;
+  height: 0.56rem;
+  border-right: 1px solid #ff8a50;
+  padding-right: 0.42666667rem;
+}
+.top > .option > .usr {
+  display: block;
+  background: url("../images/usr.png") no-repeat;
+  background-size: contain;
+  width: 0.46666667rem;
+  height: 0.56rem;
+  margin-left: 0.42666667rem;
+}
