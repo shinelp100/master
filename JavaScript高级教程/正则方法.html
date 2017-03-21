@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则方法</title>
+</head>
+<body>
+<script>
+    /*
+    //正则方法
+
+    exec();//方法在一个指定字符串中执行一个搜索匹配。返回一个结果数组或 null。
+    regexObj.exec(str);
+
+    test(); //方法执行搜索正则表达式和指定字符串之间的匹配。返回true或false。
+    regexObj.test(str);
+
+    match();//方法在将字符串与正则表达式匹配时检索匹配项。
+    //一个Array包含整个匹配的结果，任何括号捕获匹配的结果; null如果没有匹配。
+    str.match(regexp);
+
+    search()//方法执行搜索正则表达式和此String对象之间的匹配
+    //正则表达式和给定字符串之间的第一个匹配的索引; 如果没有找到，-1。
+    str.search(regexp);
+
+    replace() //方法返回一个由替换值替换一些或所有匹配的模式后的新字符串。
+    //一个 RegExp 对象或者其字面量。该正则所匹配的内容会被第二个参数的返回值替换掉。
+    str.replace(regexp|substr,newSubstr|function);
+
+    split();//方法通过将String对象分成字符串数组，将字符串分成子串
+    //在给定字符串中出现分隔符的每个点处分割字符串数组。
+    str.split([separator[, limit]])
+
+    (?:([A-Za-z]+):)? //(?:.....)非捕获性分组  ()?表示匹配一次或多次
+
+    \转义字符
+    (\/{0,3})//匹配转义/它0-3次
+
+    ([0-9.\-A-Za-z]+)//由一个或多个数字、.、-、字母组成；
+
+    (?::(\d+))? //一个：+ 一个或多个数字 匹配零次或多次
+
+    (?:\/([^?#]*))? //以/开始匹配 除了？#以外的所有字符0-多次；
+
+    * 匹配0次或多次
+    ? 匹配0次或1次
+    + 匹配1次或多次
+     需要转义的字符 \ /  [ ] () {} ? + * . | ^$
+     */
+   //一个匹配数字的正则表达式
+    var regexp_number = /^-?\d+(?:\.\d*)?(?:e[+\-]?\d+)?$/i;
+    var num = '10..0000';
+    console.log(regexp_number.test(num));
+
+    //保留两位小数的(+)数字
+    var tofix_two = /^\d+(?:\.\d{1,2})?$/i;
+    console.log(tofix_two.test('2.000'));
+
+
+
+    var getParameter=function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return -1;
+    }
+</script>
+</body>
+</html>

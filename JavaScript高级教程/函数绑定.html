@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数绑定</title>
+</head>
+<body>
+<div id="test">test</div>
+<script>
+    var module = {
+        value : "lw",
+        checkValue : function(){
+            console.log(this.value);
+        }
+    };
+    var test = document.querySelector('#test');
+    //this被绑定到dom上了
+    test.addEventListener('click',module.checkValue);//undefined;
+    //this指向module
+    test.addEventListener('click',function(){
+        module.checkValue();
+    });//lw;
+
+    //定义一个绑定函数
+    function bind(fn,context){
+        return function () {
+            console.log(fn+'--'+context);
+            return fn.apply(context,arguments);
+        }
+    };
+    test.addEventListener('click',bind(module.checkValue,module));
+    test.addEventListener('click',module.checkValue.bind(module));
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H5活动专题</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/lib.flexible.js"></script>
+    <script src="http://cdn.bootcss.com/zepto/1.1.4/zepto.js"></script>
+    <script src="js/pageSlider.js"></script>
+</head>
+<body>
+<!--DOM结构-->
+<div class="audioBox rotate">
+    <audio id="media" src="11.mp3" autoplay loop></audio>
+</div>
+
+<!--第1页-->
+<div class="section sec1 ani current" style="background-color: rgb(255, 204, 204);">
+    <ul>
+        <li class="tt">
+            2017：教师资格考试
+        </li>
+        <li class="zoomIn aa">
+            <img src="img/1.png" alt="">
+        </li>
+        <li class="bb"><img src="img/2.png" alt=""></li>
+        <li class="cc"><img src="img/3.png" alt=""></li>
+    </ul>
+</div>
+<!--第2页-->
+<div class="section sec2 next" style="background-color: rgb(74, 203, 247);">2</div>
+<!--第3页-->
+<div class="section sec3" style="background-color:#63E339;">3</div>
+<!--第4页-->
+<div class="section sec4" style="background-color:#F7D34A;">4</div>
+<!--第5页-->
+<div class="section sec5" style="background-color:#FF8ECE;">5</div>
+<!--第6页-->
+<div class="section sec6" style="background-color:#ACDCED;">6</div>
+<!--第7页-->
+<div class="section sec7" style="background-color:#ACDCED;">7</div>
+<!--第8页-->
+<div class="section sec8" style="background-color:#ACDCED;">8</div>
+<!--第9页-->
+<div class="section sec9" style="background-color:#ACDCED;">9</div>
+
+<script>
+    $(function(){
+        $('.audioBox').on('click',function(){
+            var audio = document.getElementById('media');
+            if($(this).hasClass('off')){
+                $(this).removeClass('off');
+                $(this).addClass('rotate');
+                audio.play();//audio.play();// 这个就是播放
+            } else {
+                $(this).removeClass('rotate');
+                $(this).addClass('off');
+                audio.pause();// 这个就是暂停
+            }
+        });
+        PageSlider.case();
+    });
+</script>
+
+</body>
+</html>

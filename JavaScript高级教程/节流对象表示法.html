@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节流对象表示法</title>
+</head>
+<body>
+<div id="test">test</div>
+<script>
+    var module = {
+        timeoutId : null,
+        performingProcess : function(){
+            alert(1);
+        },
+        process  : function(){
+            clearTimeout(this.timeoutId);
+            var that = this;
+            this.timeoutId = setTimeout(function(){
+                that.performingProcess();
+            },1000)
+        }
+    };
+    var btn = document.querySelector('#test');
+    btn.onclick = function(){
+        module.process();
+    };
+</script>
+</body>
+</html>

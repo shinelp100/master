@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高级定时器</title>
+</head>
+<body>
+<div id="test">test</div>
+<script>
+    var btn = document.querySelector('#test');
+    btn.onclick = function(){
+        setTimeout(function(){
+            btn.style.backgroundColor = '#f96';
+        },250)
+    };
+    var i=0 ;
+    //模拟setInterval
+    setTimeout(function(){
+        i++;
+        console.log(i);
+        setTimeout(arguments.callee,1000);
+    },1000);
+
+    //等价于上面的setTimeout本身的调用
+    setInterval(function(){
+        i++;
+        console.log(i);
+    },1000)
+</script>
+</body>
+</html>

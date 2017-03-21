@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>密封的对象</title>
+</head>
+<body>
+<script>
+    /*密封的对象*/
+    /*var person = {name:'lw'};
+    Object.seal(person);
+    person.age = 20;
+    console.log(person.age);
+    delete person.name;
+    console.log(person.name);
+    console.log(Object.isSealed(person));*/
+
+    /*冻结对象*/
+    var person = {name:'lw'};
+    Object.freeze(person);
+    person.age = 20;
+    console.log(person.age);
+    delete person.name;
+    console.log(person.name);
+    console.log(Object.isFrozen(person));
+</script>
+</body>
+</html>

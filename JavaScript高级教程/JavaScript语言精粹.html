@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript语言精粹</title>
+</head>
+<body>
+<script>
+    /*var constructor = function(scope,num){
+        console.log(this+"--"+"我是constructor的this");//指向constructor对象
+        var this_ = this;
+        var that , my;
+        my = num | {};
+        that = function(){
+            console.log(this+"--"+"我是that的this");//指向windows对象
+            console.log(this_+"--"+"我是that的this");//指向constructor对象
+            return my+scope ;
+        };
+        return that ;
+    };
+    var my =new constructor(1,1);//new 新对象
+    console.log(my());*/
+
+    /*
+    var module = function(spec){
+        var that = {};
+        that.get_name = function(){
+            return spec.name;
+        };
+        that.say = function() {
+            return spec.saying || "";
+        };
+        return that ;
+    }
+
+    var myName = module({name:"lw",saying:"hello lw"});
+    console.log(myName);*/
+
+
+    /*
+    //判断是数组的方法
+    var is_Array = function(value){
+        return value &&
+                typeof value === 'object'&&
+                typeof value.splice === 'function'&&
+                typeof value.length === 'number'&&
+                !(value.propertyIsEnumerable('length'));
+                value.constructor === Array;
+    };
+    var a=[];
+    if(a){
+        console.log(is_Array(a));
+    } else {
+        alert(a);
+    }
+     */
+
+
+    /*
+    //给数组添加方法
+    Array.prototype.method('reduce',function(f,value){
+        var i;
+        for(i=0; i<this.length;i++){
+            value = f(this(i),value);
+        }
+        return value;
+    });
+    var a = [1,2,3,4,5];
+    var add =function(a,b){
+        return a + b;
+    };
+    a.reduce(add,1);
+    */
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作用域问题</title>
+</head>
+<body>
+<iframe src="另一个作用域.html" frameborder="0">123</iframe>
+<script>
+    /*
+    iframe中定义的变量在本页面变量的作用域问题
+    alert(value instanceof Array);
+    function isArray(value) {
+        return Object.prototype.toString.call(value) == "[object Array]";
+    }
+    console.log(isArray());
+    */
+    
+    function Person(name,age,job) {
+//        console.log(this instanceof Person);
+//        this.name = name;
+//        this.age = age;
+//        this.job = job;
+        /*改造后的函数防止变量全局话*/
+        if(this instanceof Person){
+            console.log(this);
+            this.name = name;
+            this.age = age;
+            this.job = job;
+        } else {
+            return new Person(name,age,job);
+        }
+
+    };
+    var person = Person('lw','20','fe');//this指向window对象
+    console.log(person);//undefined
+    alert(window.name);
+    alert(window.age);
+    alert(window.job);
+    var person1 = new Person('lw','20','fe');//this指向Person对象
+    console.log(person1);//Person对象
+    alert(person1.name);
+    alert(person1.age);
+    alert(person1.job);
+</script>
+</body>
+</html>

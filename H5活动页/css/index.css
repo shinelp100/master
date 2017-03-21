@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.section {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FCC;
+}
+.section.current {
+  display: inline-block;
+}
+.section.next {
+  display: inline-block;
+  z-index: 2;
+}
+.section.prev {
+  display: inline-block;
+  z-index: 2;
+}
+flex-content {
+  max-width: 750px;
+  min-width: 320px;
+  width: 10rem;
+}
+.audioBox {
+  position: fixed;
+  z-index: 10;
+  width: 0.77333333rem;
+  height: 0.77333333rem;
+  top: 0.13333333rem;
+  right: 0.13333333rem;
+  border-radius: 100%;
+  background: url("http://as.eqh5.com/h5_view/images/normalmusic.svg") center center no-repeat;
+  background-size: contain;
+}
+.tt {
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 0.42666667rem;
+  text-align: center;
+  padding: 0.2rem;
+  animation: bounceInLeft 1s ease 0.5s 1 both;
+}
+.aa {
+  animation: zoomIn 2s ease 1.5s 1 both;
+}
+.aa img {
+  width: 6.26666667rem;
+  margin: 0.2rem auto;
+  display: block;
+}
+.bb {
+  animation: zoomIn 2s ease 2.5s 1 both;
+}
+.bb img {
+  width: 4.88rem;
+  margin: 0.2rem auto;
+  display: block;
+}
+.cc {
+  animation: bounceInLeft 2s ease 1s 1 both,flash 2s ease 4s 1 both;
+}
+.cc img {
+  width: 3.6rem;
+  display: block;
+  position: relative;
+  left: -0.5rem;
+}

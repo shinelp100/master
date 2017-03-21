@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>防篡改对象</title>
+</head>
+<body>
+<script>
+    var person = {name:"lw"};
+    person.age = 20;
+    console.log(Object.isExtensible(person));
+    Object.preventExtensions(person);
+    console.log(Object.isExtensible(person));
+    person.job = 'fe';
+    console.log(person);
+</script>
+</body>
+</html>

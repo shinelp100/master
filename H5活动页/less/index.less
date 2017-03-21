@@ -1,0 +1,55 @@
+html,body{ height:100%; overflow:hidden;background-color: #fff;}
+.section{ display: none; position:absolute; top:0; left:0; width:100%; height:100%; background-color:#FCC; }
+.section.current{ display:inline-block;}
+.section.next{ display:inline-block; z-index: 2;}
+.section.prev{ display:inline-block; z-index: 2;}
+flex-content{
+  max-width: 750px;
+  min-width:320px;
+  width:10rem;
+}
+.audioBox {
+  position: fixed;
+  z-index:10;
+  width:58/75rem;
+  height:58/75rem;
+  top:10/75rem;
+  right:10/75rem;
+  border-radius:100%;
+  background: url("http://as.eqh5.com/h5_view/images/normalmusic.svg") center center no-repeat;
+  background-size: contain;
+}
+.tt {
+  width:100%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  font-size: 32/75rem;
+  padding:0.2rem;
+  animation: bounceInLeft 1s ease 0.5s 1 both;
+}
+.aa {
+  animation: zoomIn 2s ease 1.5s 1 both;
+  img {
+    width:470/75rem;
+    margin: 0.2rem auto;
+    display: block;
+  }
+}
+.bb {
+  animation: zoomIn 2s ease 2.5s 1 both;
+  img {
+    width:366/75rem;
+    margin: 0.2rem auto;
+    display: block;
+  }
+}
+.cc {
+  animation:bounceInLeft 2s ease 1s 1 both,flash 2s ease 4s 1 both;
+  img {
+    width:270/75rem;
+    display: block;
+    position: relative;
+    left:-0.5rem;
+  }
+}

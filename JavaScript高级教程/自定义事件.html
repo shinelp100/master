@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义事件</title>
+</head>
+<body>
+<script>
+    function EventTarget(){
+        this.handlers = {};
+    };
+
+    EventTarget.prototype = {
+        constructor : EventTarget,
+        addHandler : function (type, handler) {
+            if(typeof this.handlers[type] == 'undefined'){
+                this.handlers[type] = [];
+            }
+            this.handlers[type].push(handler);
+        },
+        fire : function(event){
+            if(!event.target){
+                event.target = this;
+            }
+            if(this.handlers[event.type] instanceof Array){
+                var handlers = this.handlers[event.type];
+                for(var i=0 ,len=handlers.length; i<len;i++){
+                    handlers[i](event);
+                }
+            }
+        },
+        removeHandler : function (type,handler) {
+            if(this.handlers[type] instanceof Array){
+                var handlers = this.handlers[type];
+                for(var i=0 ,len=handlers.length; i<len;i++){
+                    if(handlers[i] == handler){
+                        break;
+                    }
+                }
+                handlers.splice(i,1);
+            }
+        }
+    };
+
+    function handleMessage(event){
+        alert(event.message);
+    }
+    //创建新对象
+    var target = new EventTarget();
+
+    //添加触发事件
+    target.addHandler('message',handleMessage);
+
+    //触发事件
+    target.fire({type:'message',message:'hello word'});
+
+    //解除事件
+    target.removeHandler('message',handleMessage);
+
+    //再次触发事件
+    target.fire({type:'message',message:'hello word'});
+</script>
+</body>
+</html>

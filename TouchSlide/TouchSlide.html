@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TouchSlide手滑势tab选项卡</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <script src="TouchSlide.1.1.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #000;
+            -webkit-user-select: none;
+            -webkit-text-size-adjust: none;
+            font: normal 16px/200% "微软雅黑", helvetica, arial;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .hd ul {
+            height: 50px;
+        }
+
+        .hd ul li {
+            width: 33.333%;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+        }
+        .tabBox .hd ul li.on a {
+            color: #B63B34;
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 2px solid #B63B34;
+        }
+    </style>
+</head>
+<body>
+<div id="tabBox1" class="tabBox">
+    <div class="hd">
+        <ul>
+            <li class="on"><a href="javascript:void(0)">国内</a></li>
+            <li class=""><a href="javascript:void(0)">国际</a></li>
+            <li class=""><a href="javascript:void(0)">时事</a></li>
+        </ul>
+    </div>
+    <div class="tempWrap">
+        <div class="bd" id="tabBox1-bd"><!-- 添加id，js用到 -->
+            <div class="con"><!-- 高度自适应需添加外层 -->
+                <ul>
+                    <li><a href="#">官方明确感染H7N9高危人群</a></li>
+                    <li><a href="#">台官员:将驱离进入钓岛大陆船</a></li>
+                    <li><a href="#">陈云长子吁学江泽民思想方法</a></li>
+                    <li><a href="#">央视批抗日剧目:比着俗争着二</a></li>
+                    <li><a href="#">网友:离3次结3次可避税国五条</a></li>
+                    <li><a href="#">足疗女子自称东北人引发血案</a></li>
+                    <li><a href="#">男性神秘“根浴”会所被调查</a></li>
+                    <li><a href="#">女孩一年吃掉48公里长方便面</a></li>
+                </ul>
+            </div>
+            <div class="con"><!-- 高度自适应需添加外层 -->
+                <ul>
+                    <li><a href="#">日:沈阳军区部队开赴中朝边境</a></li>
+                    <li><a href="#">印度核潜艇经我周边未被发现</a></li>
+                    <li><a href="#">中国航母战斗群重防空轻反潜</a></li>
+                    <li><a href="#">日本军车爆车胎造成一死一伤</a></li>
+                </ul>
+            </div>
+            <div class="con"><!-- 高度自适应需添加外层 -->
+                <ul>
+                    <li><a href="#">农业占GDP低政府支持力度大</a></li>
+                    <li><a href="#">林志玲:至今珍藏本山送的手绢</a></li>
+                    <li><a href="#">五粮液高管年薪超茅台近一倍</a></li>
+                    <li><a href="#">视频:朝鲜导弹反复出舱</a></li>
+                    <li><a href="#">《我是歌手》明晚决赛开战</a></li>
+                    <li><a href="#">皖新传媒一年花13亿委托理财</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    TouchSlide({slideCell: "#tabBox1",
+        endFun : function(i){
+        //i 切换页面的index
+            alert(i);
+        },
+        startFun : function(i){
+            alert(i);
+        }
+    });
+</script>
+</body>
+</html>

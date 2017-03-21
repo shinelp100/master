@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" manifest="/offline.manifest"><!--添加离线缓存文件路径-->
+<head>
+    <meta charset="UTF-8">
+    <title>在线和离线检测</title>
+</head>
+<body>
+<script>
+    if(navigator.onLine){
+        console.log('online')
+    } else {
+        console.log('offline');
+    };
+
+    //由无网络到有网络时会触发online；
+    window.addEventListener('online',function(){
+        alert('online');
+    });
+    //由有网络到无网络时会触发offline；
+    window.addEventListener('offline',function(){
+        alert('offline');
+    });
+</script>
+</body>
+</html>
