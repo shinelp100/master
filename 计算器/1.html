@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>Document</title>
+	<script src="jquery.min.js"></script>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.header{
+			background: #ebebeb;
+			padding: 7px 0 7px 25px; 
+			clear: both;
+			overflow: auto;
+			display: block;
+			content: "";
+			line-height: 30px;
+		}
+		.header img{
+			display: block;
+			float: left;
+		}
+		.header strong{
+			float: left;
+			margin-left: 10px;
+			font-weight: 900;
+			font-size: 16px;
+		}
+		section textarea{
+			border: none;
+			height: 150px;
+			resize: none; 
+			width: 100%;
+			background: #fff;
+			padding-top: 12px;
+			font-family: "微软雅黑";
+			font-size: 14px;
+			text-indent: 20px;
+		}
+		.info{
+			background: #ebebeb;
+			padding: 5px 2px; 
+			font-weight: 600;
+			font-size: 14px;
+		}
+		.list{
+			clear: both;
+			overflow: auto;
+			display: block;
+			content: "";
+			list-style: none;
+		}
+		.list li{
+			float: left;
+			width: 33%;
+			text-align: center;
+			background: #ebebeb;
+			background: #fff;
+			height: 37px;
+		}
+		.list li input{
+			border: none;
+			background: none;
+			padding: 10px 40%; 
+		}
+		#confirm_pay{
+			background: #d3d3d3;
+			color: #fff;
+			width: 100%;
+			border: none;
+			padding: 10px 0;
+			font-weight: 800;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<img src="logo.png" width="30" alt="">
+		<strong>华尚云技术服务</strong>
+	</header>
+	<section>
+		<textarea disabled="disabled" readonly="readonly" name="" id="text1" placeholder="金额￥（限额9300.00元）"></textarea>
+	</section>
+	<p class="info">郑重提醒：谨防冒充找工作、兼职、话费充值、游戏币充值、刷信誉等各种要求付款的诈骗行为。请勿上当受骗！</p>
+	<ul class="list">
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="1"/></li>
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="2"/></li>
+		<li style="border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="3"/></li>
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="4"/></li>
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="5"/></li>
+		<li style="border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="6"/></li>
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="7"/></li>
+		<li style="border-right:1px solid #ebebeb;border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="8"/></li>
+		<li style="border-bottom: 1px solid #ebebeb;"><input class="inpt1" type="button" value="9"/></li>
+		<li style="border-right:1px solid #ebebeb;background:#f1f1f1;"><input class="inpt1" id="dot" type="button" disabled value="."/></li>
+		<li style="border-right:1px solid #ebebeb;"><input class="inpt1" type="button" value="0"/></li>
+		<li style="background:#f1f1f1;"><input type="button" value="清除" id="clearBtn"/></li>
+	</ul>
+	<button id="confirm_pay">确认支付</button>
+</body>
+<script>
+	var num_val=0;
+	$(function(){
+	    var module = {
+	        flag:1,
+	        num : '',
+			storeNum:'',
+            inputNum : function(){
+	            var _this = this;
+                $('.inpt1').on('click',function(){
+                    _this.num += $(this).val();
+                    if(module.checkDot() == -1){
+					} else {
+                        $('#dot').attr("disabled", true);
+					}
+//                    _this.num = parseFloat(_this.num).toFixed(2);
+                    var tofix_two = /^\d+(?:\.\d{1,2})?$/i;
+                    if(!tofix_two.test(parseFloat(_this.num))){
+                        console.log(_this.num);
+                        _this.num = parseFloat(_this.num).toFixed(2);
+					};
+					if(parseFloat(_this.num)>9300){
+                        alert('金额不能超过9300!');
+                        _this.num = storeNum;
+                        return;
+					}
+                    $('#text1').val(_this.num);
+                    storeNum = _this.num;
+					if(_this.flag){
+                        $('#dot').attr("disabled", false);
+                        _this.flag = 0 ;
+					}
+				})
+			},
+			checkDot:function(){
+                return this.num.search(/\./g);
+			},
+            inputClear:function (){
+			    var _this = this
+			    $('#clearBtn').on('click',function(){
+                    _this.flag = 1;
+                    _this.num = '';
+                    var area_val=document.getElementById("text1");
+                    area_val.value = "";
+                    if(area_val.value == ""){
+                        confirm_pay.style.background = "#d3d3d3";
+                    }
+				})
+        	}
+		};
+        module.inputNum();
+        module.inputClear();
+	});
+</script>
+</html>

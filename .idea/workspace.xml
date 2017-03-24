@@ -1,80 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c2/cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c2/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c2/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c2/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c3/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c3/test1_session.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c3/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c3/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c3/test4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_1_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_2_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_2_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_2_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_3_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_3_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_3_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_3_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_4_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_4_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_5_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c4/test_5_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c5/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c5/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c5/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c5/test4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/dexie/Dexie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/dexie/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/dexie/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/dexie/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/dexie/test4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/localForage/localforage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/localForage/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/lockr/lockr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/lockr/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/lockr/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/lockr/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c6/lockr/test4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/data/users.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/delete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/lib/Dexie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/c7/lib/lockr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorageBook-master/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/11.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/js/lib.flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/js/pageSlider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5活动页/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/作用域问题.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/函数绑定.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/另一个作用域.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/在线和离线检测.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/密封的对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/正则方法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/自定义事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/防篡改对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TouchSlide/TouchSlide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-less/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-less/css/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/每日梳理/20170317.md" />
+    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="手滑势tab选项卡">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/QQ图片20170324100204.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue路由/Vue路由.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcg-pc/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
@@ -106,41 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="防篡改对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/防篡改对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="密封的对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/密封的对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="高级定时器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/高级定时器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="节流对象表示法.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -150,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/自定义事件.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1392">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -169,7 +73,7 @@
       <file leaf-file-name="JavaScript语言精粹.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
+            <state relative-caret-position="2175">
               <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
@@ -179,14 +83,14 @@
       <file leaf-file-name="正则方法.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/正则方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="1537">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TouchSlide.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TouchSlide.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
@@ -196,11 +100,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wcg-pc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6438">
+              <caret line="222" column="20" lean-forward="false" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vue路由.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue路由/Vue路由.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/计算器/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4263">
+              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TouchSlide.1.1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="87">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1490060683613" expanded="true" signature="2836:2871" ph="..." />
@@ -248,9 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/事件流.html" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active/less/index.css" />
         <option value="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
         <option value="$PROJECT_DIR$/baiduTemplate/active/css/index.css" />
         <option value="$PROJECT_DIR$/baiduTemplate/active/over.html" />
@@ -299,6 +232,9 @@
         <option value="$PROJECT_DIR$/JavaScript高级教程/正则方法.html" />
         <option value="$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js" />
         <option value="$PROJECT_DIR$/TouchSlide/TouchSlide.html" />
+        <option value="$PROJECT_DIR$/wcg-pc/header.php" />
+        <option value="$PROJECT_DIR$/Vue路由/Vue路由.html" />
+        <option value="$PROJECT_DIR$/计算器/1.html" />
       </list>
     </option>
   </component>
@@ -316,7 +252,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -366,8 +302,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,14 +520,10 @@
       <workItem from="1489749149644" duration="413000" />
       <workItem from="1489913463193" duration="6531000" />
       <workItem from="1489971961853" duration="14965000" />
-      <workItem from="1490058342999" duration="2515000" />
-    </task>
-    <task id="LOCAL-00006" summary="提交">
-      <created>1478586556306</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1478586556306</updated>
+      <workItem from="1490058342999" duration="4286000" />
+      <workItem from="1490160164835" duration="9396000" />
+      <workItem from="1490235324724" duration="1364000" />
+      <workItem from="1490317373950" duration="7026000" />
     </task>
     <task id="LOCAL-00007" summary="提交">
       <created>1478593802488</created>
@@ -929,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489668068304</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="手滑势tab选项卡">
+      <created>1490062302394</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1490062302394</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="735476000" />
+    <option name="totallyTimeSpent" value="755033000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -945,11 +884,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1878453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19447514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46966526" sideWeight="0.45314223" order="8" side_tool="true" content_ui="tabs" />
@@ -1007,7 +946,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git study" />
     <MESSAGE value="git study1" />
     <MESSAGE value="百度fis3" />
     <MESSAGE value="百度fis4" />
@@ -1032,7 +970,8 @@
     <MESSAGE value="事件" />
     <MESSAGE value="add 后提交" />
     <MESSAGE value="ide  更换font-family" />
-    <option name="LAST_COMMIT_MESSAGE" value="ide  更换font-family" />
+    <MESSAGE value="手滑势tab选项卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="手滑势tab选项卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,27 +980,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eventTarget/eventTarget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/financelist/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/分页/分页.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1142">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fe/src/wap/libs/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -1278,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
           <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,14 +1217,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/高级定时器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1317,7 +1231,7 @@
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1325,7 +1239,7 @@
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/自定义事件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1340,16 +1254,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/正则方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="1537">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1490060683613" expanded="true" signature="2836:2871" ph="..." />
@@ -1359,7 +1273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="2175">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
@@ -1370,6 +1284,32 @@
         <state relative-caret-position="116">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcg-pc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6438">
+          <caret line="222" column="20" lean-forward="false" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue路由/Vue路由.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算器/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4263">
+          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
