@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入框只能输入带两位小数的数字</title>
+</head>
+<body>
+<input id="number" type="text" value="" placeholder="请输入数字">
+</body>
+<script>
+    var num = document.querySelector("#number");
+    num.onkeyup = function(){
+        this.value = this.value.replace(/[^\d.]/g, ""); //清除“数字”和“.”以外的字符
+        this.value = this.value.replace(/^\./g, ""); //验证第一个字符是数字而不是.
+        this.value = this.value.replace(/\.{2,}/g, "."); //只保留第一个. 清除多余的.
+        this.value = this.value.replace(".", "$#$").replace(/\./g, "").replace("$#$", ".");
+        if(this.value ==  undefined || this.value==null || this.value=="")
+        {
+            this.value="0.0";
+        }
+        var tempStr = new String(this.value);
+        if(tempStr.indexOf('.') != tempStr.length-1)
+        {
+            var valss = parseFloat(this.value);
+            this.value = Math.round(valss*100)/100;
+        }
+    }
+
+</script>
+</html>

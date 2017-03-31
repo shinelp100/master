@@ -1,0 +1,10 @@
+@function pxToRem($n) {
+  @return $n / 75 + rem;
+}
+@mixin addVersion($attribute,$value:10px) {
+  -webkit-#{$attribute}: $value;
+  -o-#{$attribute}: $value;
+  -ms-#{$attribute}: $value;
+  -moz-#{$attribute}: $value;
+  #{$attribute}: $value;
+}

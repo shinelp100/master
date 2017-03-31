@@ -1,0 +1,128 @@
+//变量
+$blue: #1875e7;
+$side: left;
+$var: 10;
+body {
+  background: #fff;
+  border-radius: 1px;
+  color: $blue;
+  font-size: 15px;
+  border-#{$side}-radius: 5px;
+}
+
+//计算功能
+body {
+  margin: (14px/2);
+  top: 50px + 100px;
+  right: $var * 10%;
+}
+
+//qiantao
+h2 {
+  p {
+    background: $blue;
+  }
+}
+
+p {
+  border: {
+    color: #fff;
+  }
+}
+
+a {
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+//继承
+.calss1 {
+  border: 1px solid #fff;
+}
+
+.class2 {
+  @extend .calss1;
+  font-size: 120%;
+}
+
+@mixin left($value:10px) {
+  float: left;
+  margin-right: $value;
+}
+
+div {
+  @include left(20px);
+}
+
+@mixin xx($aa,$value,$num) {
+  -webkit-#{$aa}: $value#{($num)};
+  -o-#{$aa}: $value#{($num)};
+  -ms-#{$aa}:  $value#{($num)};
+  -moz-#{$aa}:  $value#{($num)};
+  #{$aa}:  $value#{($num)};
+}
+
+div {
+  @include xx(transform, translateY,10px);
+}
+
+//插入外部scss
+@import "ie.scss";
+
+//if
+$color: #f96;
+p {
+  @if 1+1 ==2 {
+    border: 1px solid $blue;
+  }
+  @if 5>6 {
+    border: 2px dotted #fff;
+  }
+  @if lightness($color) > 30% {
+    background-color: #000;
+  } @else {
+    background-color: #fff;
+  }
+}
+
+//for
+@for $i from 1 to 10 {
+  .border-#{$i} {
+    border: #{$i}px solid blue;
+  }
+}
+
+//￥自定义函数
+@import "function.scss";
+#sidebar {
+  width: pxToRem(75);
+  transform: translateY(100px);
+  @include addVersion(border-radius,pxToRem(20));
+  font-size:10px;
+}
+/*http://www.ruanyifeng.com/blog/2012/06/sass.html*/
+
+//This inspection checks references to files and directories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

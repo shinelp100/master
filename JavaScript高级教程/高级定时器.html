@@ -18,6 +18,7 @@
     setTimeout(function(){
         i++;
         console.log(i);
+        //EMS5中严谨已经禁用arguments.callee
         setTimeout(arguments.callee,1000);
     },1000);
 

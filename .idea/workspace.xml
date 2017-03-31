@@ -1,15 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="手滑势tab选项卡">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/QQ图片20170324100204.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue路由/Vue路由.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcg-pc/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算器/jquery.min.js" />
+    <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/config.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/functions.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_float.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_hacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_min.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_tag-cloud.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_appearance.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-clip.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-origin.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_border-radius.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_box-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_box-sizing.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_deprecated-support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_filter.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_flexbox.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_font-face.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_hyphenation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_images.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_inline-block.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_opacity.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_regions.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_text-shadow.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_transform.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_transition.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_user-interface.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_hover-link.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_link-colors.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_unstyled-link.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_grid-background.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_sticky-footer.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_stretching.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/4b9c32a2345512182cea15f42a80d3de1ca31997/_compass.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_css3.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_layout.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_typography.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6f2789364469e06c37005f0fd81984cce3814e05/_brightness.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6f2789364469e06c37005f0fd81984cce3814e05/_contrast.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_inline-block.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_links.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/text/_replacement.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_float.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_bullets.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_horizontal-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_inline-block-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_inline-list.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_color.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_general.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_sprites.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_tables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/ac07343fff0f1a01e33dd6025a27a8e44dde999b/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_alternating-rows-and-columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_borders.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_scaffolding.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/c4b2329049d1050b00a5008c2a99962a3c3da154/_base.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/c4b2329049d1050b00a5008c2a99962a3c3da154/_sprite-img.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_links.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_lists.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_units.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_vertical_rhythm.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_ellipsis.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_force-wrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_nowrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_replacement.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/ie.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/print.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/screen.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/compile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/screen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js常用方法/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/config.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/config.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/functions.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/functions.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/index.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/ac07343fff0f1a01e33dd6025a27a8e44dde999b/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/function.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/function.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/index.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/base.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/function.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/screen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/master.iml" afterPath="$PROJECT_DIR$/.idea/master.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" afterPath="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn/README.md" afterPath="$PROJECT_DIR$/awesome-javascript-cn/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php文件引入写法/module.php" afterPath="$PROJECT_DIR$/php文件引入写法/module.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/1.html" afterPath="$PROJECT_DIR$/calculate/1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/QQ图片20170324100204.jpg" afterPath="$PROJECT_DIR$/calculate/QQ图片20170324100204.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/jquery.min.js" afterPath="$PROJECT_DIR$/calculate/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/logo.png" afterPath="$PROJECT_DIR$/calculate/logo.png" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -40,108 +189,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="节流对象表示法.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html">
+      <file leaf-file-name="screen.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compass/sass/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="319">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="自定义事件.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/自定义事件.html">
+      <file leaf-file-name="screen.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/sass/screen.css.map">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="在线和离线检测.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/在线和离线检测.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-              <folding />
-            </state>
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaScript语言精粹.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html">
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/sass/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="正则方法.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript高级教程/正则方法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1537">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouchSlide.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcg-pc/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6438">
-              <caret line="222" column="20" lean-forward="false" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vue路由.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue路由/Vue路由.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/计算器/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4263">
-              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+            <state relative-caret-position="290">
+              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
               <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1490931206243" expanded="true" signature="5412:5424" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TouchSlide.1.1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js">
+      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1490060683613" expanded="true" signature="2836:2871" ph="..." />
-              </folding>
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/css/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1089">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/stylesheets/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/css/screen.css.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/css/print.css.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ie.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/css/ie.css.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -150,8 +308,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -165,6 +323,7 @@
       <find>6c0900</find>
       <find>$(window).height</find>
       <find>bounceInLeft</find>
+      <find>_Public_</find>
     </findStrings>
     <replaceStrings>
       <replace>data-original</replace>
@@ -184,50 +343,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baiduTemplate/common/css/base.css" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active/css/index.css" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active/over.html" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active/less/index.less" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active/index.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/节流.html" />
-        <option value="$PROJECT_DIR$/php文件引入写法/php引入文件写法.php" />
-        <option value="$PROJECT_DIR$/html5存储/html5存储.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/取消事件.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/Form表单.html" />
-        <option value="$PROJECT_DIR$/video和flash播放/video和flash播放.html" />
-        <option value="$PROJECT_DIR$/zepto/zepto.min.js" />
-        <option value="$PROJECT_DIR$/css图片模糊/图片模糊.html" />
-        <option value="$PROJECT_DIR$/clipboard/clipborad.html" />
-        <option value="$PROJECT_DIR$/eventTarget/eventTarget.html" />
-        <option value="$PROJECT_DIR$/wangcaiguLogin/login.html" />
-        <option value="$PROJECT_DIR$/zepto/touch.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/函数.html" />
-        <option value="$PROJECT_DIR$/密码.txt" />
-        <option value="$PROJECT_DIR$/zepto/parentsUntil.html" />
-        <option value="$PROJECT_DIR$/php文件引入写法/module.php" />
-        <option value="$PROJECT_DIR$/baiduTemplate/common/css/comfont.css" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active-module/index.html" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active-module/less/index.less" />
-        <option value="$PROJECT_DIR$/baiduTemplate/second.html" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active-module/less/second.less" />
-        <option value="$PROJECT_DIR$/baiduTemplate/active-module/second.html" />
-        <option value="$PROJECT_DIR$/每日梳理/20170317.md" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html" />
-        <option value="$PROJECT_DIR$/npm-less/css/index.less" />
-        <option value="$PROJECT_DIR$/npm-less/css/index.css" />
-        <option value="$PROJECT_DIR$/H5活动页/less/idnex.less" />
-        <option value="$PROJECT_DIR$/H5活动页/css/idnex.css" />
-        <option value="$PROJECT_DIR$/H5活动页/index.html" />
-        <option value="$PROJECT_DIR$/zepto/index.less" />
-        <option value="$PROJECT_DIR$/H5活动页/less/index.less" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/另一个作用域.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/作用域问题.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/函数绑定.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/防篡改对象.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/密封的对象.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/自定义事件.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/在线和离线检测.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/正则方法.html" />
         <option value="$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js" />
@@ -235,6 +350,50 @@
         <option value="$PROJECT_DIR$/wcg-pc/header.php" />
         <option value="$PROJECT_DIR$/Vue路由/Vue路由.html" />
         <option value="$PROJECT_DIR$/计算器/1.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html" />
+        <option value="$PROJECT_DIR$/webpack打包/src/wap/index/js/a.js" />
+        <option value="$PROJECT_DIR$/webpack打包/src/wap/index/js/b.js" />
+        <option value="$PROJECT_DIR$/webpack打包/src/wap/index/index.html" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/js/module.js" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/index.html" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/js/bundle.js" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/js/a.js" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/js/b.js" />
+        <option value="$PROJECT_DIR$/webpack/src/wap/index/js/webpack.config.js" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回、.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回.html" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/index.css" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/index.sass" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/index.less" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/less/index1.css" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/less/index.min.css" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/less/config.less" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/less/index.less" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/less/functions.less" />
+        <option value="$PROJECT_DIR$/lessc编译/index.html" />
+        <option value="$PROJECT_DIR$/lessc编译/less.min.css" />
+        <option value="$PROJECT_DIR$/lessc编译/less/config.less" />
+        <option value="$PROJECT_DIR$/lessc编译/less/index.less" />
+        <option value="$PROJECT_DIR$/lessc编译/css/index.min.css" />
+        <option value="$PROJECT_DIR$/lessc编译/less/functions.less" />
+        <option value="$PROJECT_DIR$/sass编译/sass/index.sass" />
+        <option value="$PROJECT_DIR$/sass编译/sass/index.scss" />
+        <option value="$PROJECT_DIR$/sass编译/sass/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/sass编译/sass/sass/index.scss" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/sass/function.scss" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/css/index.css.map" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/js常用方法/index.html" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/css/index.css" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/sass/index.css" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/sass/index.scss" />
+        <option value="$PROJECT_DIR$/sassTransform/sass/config.rb" />
+        <option value="$PROJECT_DIR$/compass/stylesheets/screen.css" />
+        <option value="$PROJECT_DIR$/compass/config.rb" />
+        <option value="$PROJECT_DIR$/compass/css/screen.css" />
+        <option value="$PROJECT_DIR$/compass/sass/screen.scss" />
       </list>
     </option>
   </component>
@@ -261,16 +420,19 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>SassScssResolvedByNameOnly</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -300,6 +462,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fis3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -307,8 +497,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/compass/config.rb" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$1" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -324,18 +514,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\master\baiduTemplate\active-module" />
-      <recent name="D:\work\master\baiduTemplate\active-module\images" />
-      <recent name="D:\work\master\baiduTemplate\active\img" />
-      <recent name="D:\work\master\baiduTemplate\funding\js" />
-      <recent name="D:\work\master\baiduTemplate" />
+      <recent name="D:\work\master\compass" />
+      <recent name="D:\work\master\compass\sass" />
+      <recent name="D:\work\master\compass\stylesheets" />
+      <recent name="D:\work\master\JavaScript高级教程\less" />
+      <recent name="D:\work\master\webpack\src\wap\index\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\sassTransform\sass\sass" />
+      <recent name="D:\work\master\sassTransform\sass\css" />
+      <recent name="D:\work\master\lessc编译" />
       <recent name="D:\work\master\TouchSlide" />
       <recent name="D:\work\master\H5活动页\img" />
-      <recent name="D:\work\master\H5活动页" />
-      <recent name="D:\work\master\H5活动页\css" />
-      <recent name="D:\work\master\H5活动页\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -398,6 +588,12 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+  </component>
+  <component name="SFStoredExecutionPersistentComponent">
+    <executions>
+      <execution name="Default" sourceToExecute="" />
+    </executions>
+    <lastSelectedExecutionName>Default</lastSelectedExecutionName>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -523,14 +719,14 @@
       <workItem from="1490058342999" duration="4286000" />
       <workItem from="1490160164835" duration="9396000" />
       <workItem from="1490235324724" duration="1364000" />
-      <workItem from="1490317373950" duration="7026000" />
-    </task>
-    <task id="LOCAL-00007" summary="提交">
-      <created>1478593802488</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1478593802488</updated>
+      <workItem from="1490317373950" duration="8029000" />
+      <workItem from="1490582796194" duration="2778000" />
+      <workItem from="1490667355917" duration="9683000" />
+      <workItem from="1490749432016" duration="12308000" />
+      <workItem from="1490835742446" duration="2266000" />
+      <workItem from="1490838083631" duration="24982000" />
+      <workItem from="1490922961857" duration="7383000" />
+      <workItem from="1490930376848" duration="889000" />
     </task>
     <task id="LOCAL-00008" summary="提交">
       <created>1478595755993</created>
@@ -868,11 +1064,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490062302394</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="计算器">
+      <created>1490348751990</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1490348751990</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="755033000" />
+    <option name="totallyTimeSpent" value="816325000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -887,30 +1090,30 @@
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19447514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46966526" sideWeight="0.45314223" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47089398" sideWeight="0.5468578" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20606695" sideWeight="0.42762432" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47089398" sideWeight="0.5468578" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38598326" sideWeight="0.5723757" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44769874" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20176406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44802496" sideWeight="0.51267916" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.49779493" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.49779493" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +1149,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git study1" />
     <MESSAGE value="百度fis3" />
     <MESSAGE value="百度fis4" />
     <MESSAGE value="百度fis3 + require.js" />
@@ -971,7 +1173,8 @@
     <MESSAGE value="add 后提交" />
     <MESSAGE value="ide  更换font-family" />
     <MESSAGE value="手滑势tab选项卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="手滑势tab选项卡" />
+    <MESSAGE value="计算器" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,342 +1183,381 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fe/src/wap/libs/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="1588" column="65" lean-forward="false" selection-start-line="1588" selection-start-column="65" selection-end-line="1588" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fe/dist/v2/libs/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2031">
-          <caret line="1588" column="65" lean-forward="false" selection-start-line="1588" selection-start-column="65" selection-end-line="1588" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css图片模糊/图片模糊.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/less/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ucenter/myIncome.html">
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/index.css" />
+    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+        <state relative-caret-position="232">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wap/src/campaigns/introduce/index.html">
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/index.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="177" column="22" lean-forward="false" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/second.html">
+    <entry file="file://$PROJECT_DIR$/lessc编译/less.min.css" />
+    <entry file="file://$PROJECT_DIR$/lessc编译/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/webpack/src/wap/index/js/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="145">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/images/bg-color.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/images/bg-title.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/lessc编译/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/images/bg-red.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/config.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/images/call_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/images/wallet.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日梳理/20170317.md">
+    <entry file="file://$PROJECT_DIR$/lessc编译/css/functions.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/css/second.css">
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessc编译/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/stylesheets/ie.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/index.html">
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/stylesheets/print.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baiduTemplate/active-module/less/second.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="2381" column="32" lean-forward="false" selection-start-line="2381" selection-start-column="26" selection-end-line="2381" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStorageBook-master/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStorageBook-master/c3/test1.html">
+    <entry file="file://$PROJECT_DIR$/sass编译/sass/index.scss" />
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/functions.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessc编译/less/functions.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/print.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/function.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/function.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/ie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/index.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStorageBook-master/c2/test1.html">
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/index.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStorageBook-master/c2/cookies.js">
+    <entry file="file://$PROJECT_DIR$/php文件引入写法/module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5宣传活动页面/index.html" />
-    <entry file="file://$PROJECT_DIR$/H5活动页/css/idnex.css" />
-    <entry file="file://$PROJECT_DIR$/npm-less/css/index.less">
+    <entry file="file://$PROJECT_DIR$/js常用方法/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="290">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/css/index.css">
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/function.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/js/lib.flexible.js">
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/stylesheets/ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/sass/print.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-less/css/index.css">
+    <entry file="file://$PROJECT_DIR$/sassTransform/sass/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/stylesheets/print.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/js/pageSlider.js">
+    <entry file="file://$PROJECT_DIR$/compass/css/screen.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6061">
-          <caret line="219" column="32" lean-forward="false" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5452">
-          <caret line="0" column="16769" lean-forward="false" selection-start-line="0" selection-start-column="16769" selection-end-line="0" selection-end-column="16769" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/img/1.png">
-      <provider selected="true" editor-type-id="images">
+      <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/img/2.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/compass/css/print.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/img/3.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/compass/css/ie.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zepto/index.less" />
-    <entry file="file://$PROJECT_DIR$/zepto/index.css" />
-    <entry file="file://$PROJECT_DIR$/H5活动页/index.html">
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5活动页/less/index.less">
+    <entry file="file://$PROJECT_DIR$/compass/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="580">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/另一个作用域.html">
+    <entry file="file://$PROJECT_DIR$/config.rb" />
+    <entry file="file://$PROJECT_DIR$/compass/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/作用域问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/函数绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/防篡改对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/密封的对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/高级定时器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html">
+    <entry file="file://$PROJECT_DIR$/compass/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="-1089">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/自定义事件.html">
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/在线和离线检测.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-          <folding />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/正则方法.html">
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1490060683613" expanded="true" signature="2836:2871" ph="..." />
+            <marker date="1490931206243" expanded="true" signature="5412:5424" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/JavaScript语言精粹.html">
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TouchSlide/TouchSlide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcg-pc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6438">
-          <caret line="222" column="20" lean-forward="false" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue路由/Vue路由.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/计算器/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4263">
-          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>

@@ -1,0 +1,14 @@
+.fs(@size) {
+  font-size: 0;
+  .loop(@counter) when (@counter > 0) {
+    .loop ((@counter - 1));
+    @mediaminwidth: extract(@screens, @counter);
+    @media screen and (min-width: unit(@mediaminwidth, px)) {
+      & {
+        font-size: unit(ceil(@size * @mediaminwidth / @basescreen), px);
+      }
+    }
+  }
+
+  .loop(length(@screens));
+}
