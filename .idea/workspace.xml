@@ -3,162 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/config.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/functions.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_float.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_min.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/0566aa7e6890098cbc897faf149d47fabe459035/_tag-cloud.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_animation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_appearance.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-clip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-origin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_background-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_box-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_box-sizing.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_deprecated-support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_flexbox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_font-face.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_hyphenation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_regions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_text-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_transform.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_transition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/2b820cd55bed731e964625f641856887ae1e2080/_user-interface.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_hover-link.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_link-colors.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/308834bf4dbf4e611849005c9b265234ca42b981/_unstyled-link.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_grid-background.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_sticky-footer.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/379ea14552b47260b998aa23f66aa3c8d75a0304/_stretching.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/3f0e738f5369bfc806ea2174afee5bae372d2fbf/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/4b9c32a2345512182cea15f42a80d3de1ca31997/_compass.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_css3.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_layout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6f2789364469e06c37005f0fd81984cce3814e05/_brightness.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/6f2789364469e06c37005f0fd81984cce3814e05/_contrast.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_links.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_lists.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/text/_replacement.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_float.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_bullets.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_horizontal-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_inline-block-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/760cd78e59fc964c13c6c10207b9023ca35a9d2e/_inline-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_general.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_sprites.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/84eacba7e356d0e4d0deda8582165865de31964b/_tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/ac07343fff0f1a01e33dd6025a27a8e44dde999b/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_alternating-rows-and-columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_borders.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/b0f49d451bd63cf104c9c2922a81b02f4871307c/_scaffolding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/c4b2329049d1050b00a5008c2a99962a3c3da154/_base.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/c4b2329049d1050b00a5008c2a99962a3c3da154/_sprite-img.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_links.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_lists.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_units.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e3f939d5f0c34287d2b3c842f63a53f8f890743c/_vertical_rhythm.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_ellipsis.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_force-wrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_nowrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/.sass-cache/e5f9cda522f3fe81d9a84d655b73a4bed812af67/_replacement.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/ie.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/print.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/css/screen.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/compile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/ie.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/sass/screen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/stylesheets/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js常用方法/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/config.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/config.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/functions.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/functions.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessc编译/less/index.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/2ce5040a121532225837dedf1eb0ed9a4485cbe6/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/6caaa76f5567813569d086e1e40b46984b9f7f2a/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/.sass-cache/ac07343fff0f1a01e33dd6025a27a8e44dde999b/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/function.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/function.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/index.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/function.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/ie.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/sass/screen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sassTransform/sass/stylesheets/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/src/wap/index/js/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/less/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/less/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/master.iml" afterPath="$PROJECT_DIR$/.idea/master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" afterPath="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn/README.md" afterPath="$PROJECT_DIR$/awesome-javascript-cn/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php文件引入写法/module.php" afterPath="$PROJECT_DIR$/php文件引入写法/module.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/1.html" afterPath="$PROJECT_DIR$/calculate/1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/QQ图片20170324100204.jpg" afterPath="$PROJECT_DIR$/calculate/QQ图片20170324100204.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/jquery.min.js" afterPath="$PROJECT_DIR$/calculate/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/计算器/logo.png" afterPath="$PROJECT_DIR$/calculate/logo.png" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -189,117 +39,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="screen.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/compass/sass/screen.scss">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/less/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/sass/screen.css.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/sass/screen.css">
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/css/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-              <folding>
-                <marker date="1490931270777" expanded="true" signature="5412:5424" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
-        <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="10" column="30" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/config.rb">
+      <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/less/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="406">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/css/screen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1089">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/stylesheets/screen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/css/screen.css.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/css/print.css.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ie.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compass/css/ie.css.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -343,12 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript高级教程/在线和离线检测.html" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/正则方法.html" />
-        <option value="$PROJECT_DIR$/TouchSlide/TouchSlide.1.1.js" />
-        <option value="$PROJECT_DIR$/TouchSlide/TouchSlide.html" />
-        <option value="$PROJECT_DIR$/wcg-pc/header.php" />
-        <option value="$PROJECT_DIR$/Vue路由/Vue路由.html" />
         <option value="$PROJECT_DIR$/计算器/1.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/高级定时器.html" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/节流对象表示法.html" />
@@ -391,9 +151,15 @@
         <option value="$PROJECT_DIR$/sassTransform/sass/sass/index.scss" />
         <option value="$PROJECT_DIR$/sassTransform/sass/config.rb" />
         <option value="$PROJECT_DIR$/compass/stylesheets/screen.css" />
-        <option value="$PROJECT_DIR$/compass/config.rb" />
         <option value="$PROJECT_DIR$/compass/css/screen.css" />
+        <option value="$PROJECT_DIR$/compass/config.rb" />
+        <option value="$PROJECT_DIR$/compass/sass/screen.css" />
         <option value="$PROJECT_DIR$/compass/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/less/css/inde.css" />
+        <option value="$PROJECT_DIR$/less/css/index.css" />
+        <option value="$PROJECT_DIR$/less/less/base.less" />
+        <option value="$PROJECT_DIR$/less/css/index.min.css" />
+        <option value="$PROJECT_DIR$/less/less/index.less" />
       </list>
     </option>
   </component>
@@ -472,7 +238,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fis3" />
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +256,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,7 +272,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/compass/config.rb" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$1" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -514,11 +288,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\master\less\less" />
+      <recent name="D:\work\master\less\base" />
       <recent name="D:\work\master\compass" />
       <recent name="D:\work\master\compass\sass" />
       <recent name="D:\work\master\compass\stylesheets" />
-      <recent name="D:\work\master\JavaScript高级教程\less" />
-      <recent name="D:\work\master\webpack\src\wap\index\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\master\sassTransform\sass\sass" />
@@ -726,7 +500,7 @@
       <workItem from="1490835742446" duration="2266000" />
       <workItem from="1490838083631" duration="24982000" />
       <workItem from="1490922961857" duration="7383000" />
-      <workItem from="1490930376848" duration="994000" />
+      <workItem from="1490930376848" duration="17659000" />
     </task>
     <task id="LOCAL-00008" summary="提交">
       <created>1478595755993</created>
@@ -1075,7 +849,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="816430000" />
+    <option name="totallyTimeSpent" value="833095000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1088,15 +862,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20606695" sideWeight="0.42762432" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598326" sideWeight="0.43038675" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47089398" sideWeight="0.5468578" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598326" sideWeight="0.5723757" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25627616" sideWeight="0.5696133" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44769874" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31380752" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1183,58 +957,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/less/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessc编译/less/index.css" />
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/less/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessc编译/less/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessc编译/less.min.css" />
-    <entry file="file://$PROJECT_DIR$/lessc编译/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/webpack/src/wap/index/js/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript高级教程/匿名函数的返回.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessc编译/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessc编译/less/config.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessc编译/css/functions.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1313,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,6 +1112,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,6 +1120,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,6 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,6 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,13 +1152,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/sass/print.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1460,6 +1180,82 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb" />
+    <entry file="file://$PROJECT_DIR$/compass/sass/compile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3480">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/sass/print.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/compass/css/print.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1482,64 +1278,74 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/stylesheets/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb" />
-    <entry file="file://$PROJECT_DIR$/compass/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1089">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css.map">
+    <entry file="file://$PROJECT_DIR$/less/css/base.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compass/sass/screen.css">
+    <entry file="file://$PROJECT_DIR$/less/less/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <marker date="1490931270777" expanded="true" signature="5412:5424" ph="{...}" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compass/sass/screen.scss">
+    <entry file="file://$PROJECT_DIR$/less/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/css/inde.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/css/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/less/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/less/--">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,24 @@
+@import "base";
+//编译rem函数 指令 lessc --functions --clean-css less/index.less css/index.css
+//编译时时监听指令 watcher-lessc --clean-css -i less/index.less -o less/index.css
+
+//带参数混合
+.border-radius (@radius:10px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+body {
+  background: @blue;
+  .fs(24);
+  height:rem(20);
+  width:rem(900);
+  padding:rem(10);
+  margin:rem(20);
+  border-radius: 5px;
+  border:1px solid #ddd;
+  //.border-radius(5px);
+}
+
+
+

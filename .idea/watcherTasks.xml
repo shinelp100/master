@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions" suppressed-tasks="Less">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="--no-color --group-css-media-queries --clean-css=&quot;advanced&quot; $FileName$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -26,15 +26,15 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="--no-cache --update $UnixSeparators($FilePath$)$" />
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="$UnixSeparators($FilePath$)$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="scss" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Compass SCSS" />
-      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="output" value="$FileParentDir$/css/$FileNameWithoutExtension$.min.css: $FileParentDir$/css/$FileNameWithoutExtension$.css.map" />
       <option name="outputFilters">
         <array />
       </option>

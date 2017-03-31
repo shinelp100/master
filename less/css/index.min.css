@@ -1,0 +1,12 @@
+body {
+    background: #00f;
+    font-size: .32rem;
+    height: .26666667rem;
+    width: 12rem;
+    padding: .13333333rem;
+    margin: .26666667rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
