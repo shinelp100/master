@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq颜色选择器</title>
+    <script src="../zepto/jquery-1.11.1.min.js"></script>
+    <script src="jquery.colorpicker.js"></script>
+</head>
+<body>
+<input type="text" name="" value="你可已选择喜爱的颜色" id="colorPicker">
+<script>
+    $('#colorPicker').colorpicker({
+//        fillcolor:true,/
+        success:function(o,color){
+            $("#cp3text").css("color",color);
+        }
+    })
+</script>
+</body>
+</html>

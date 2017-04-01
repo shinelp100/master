@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面向对象方法</title>
+</head>
+<body>
+<script>
+    var fn = function(name,sex){
+        this.name = name;
+        this.sex = sex;
+        this.addfn = function () {
+            console.log('全局方法');
+        }
+        console.log(this);
+    };
+    fn.prototype = {
+        getname : function(){
+            var num =1;
+            console.log(this);
+        },
+        getsex : function(){
+            console.log(this.sex)
+        }
+    }
+//    var lw = new fn('lw','男');
+//    lw.addfn();
+//    lw.getname();
+
+
+    /*定义一个全局的对象*/
+    Function.prototype.method =function(name,fn){
+        this.prototype[name] = fn;
+        return this;
+    };
+    var addMethod = function(name,sex){
+        this.name = name;
+        this.sex = sex;
+        console.log(this);
+    };
+    addMethod.method('getName',function(){
+        console.log(this);
+    }).method('getSex',function(){
+      console.log(this);
+    });
+    var lw = new addMethod('lw','男');
+    console.log(lw.name);
+    console.log(lw.sex);
+    lw.getName();
+</script>
+</body>
+</html>

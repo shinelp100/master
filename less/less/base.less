@@ -1,8 +1,12 @@
 //变量
-@blue:blue;
+@blue: blue;
+//设计稿基准
+@baseSize: 75;
+//浏览器前缀列表
+@webkit:-webkit-,-moz-,-o-,-ms-;
 //计算字体大小
 .fs(@size) {
-  font-size: unit(@size / 75, rem);
+  font-size: unit(@size / @baseSize, rem);
 }
 
 //.cal(@value , @size) {
@@ -10,6 +14,96 @@
 //}
 .function {
   .rem(@x) {
-    return: @x / 75rem;
+    return: @x / @baseSize rem;
   }
 }
+
+.a {
+  .function-add(@x) {
+    .loop(@counter) when (@counter > 0) {
+      .loop ((@counter - 1));
+      @webkitName: extract(@webkit, @counter);
+      border:@webkitName@x;
+    }
+    .loop(length(@webkit));
+  }
+}
+body {
+  .a;
+  //box-shadow: add(box-shadow);
+}
+.function-calc(@expr) {
+  return: tired, won΄t calculate;
+}
+
+.function-foo(@i) {
+  return: bar(@i);
+}
+
+.function-bar(@i) {
+  return: baz(@i);
+}
+
+.function-baz(@i) {
+  return: baz @i;
+}
+
+chain {
+  box-shadow: foo(1);
+}
+
+
+
+
+.forward(@i: 1) when (@i < 10) {
+  forward-@{i}: fore(@i);
+  .forward(@i + 1);
+
+  .function-fore(@value) {
+    return: @value;
+  }
+}
+
+
+
+loop-scope {
+  .forward();
+  //.backward();
+}
+
+
+.function-foo(@a) {
+  return: default foo @a;
+}
+
+.function-foo(@a) when (@a > 1) {
+  return: guarded foo @a;
+}
+
+guard {
+  foo1: foo(1);
+  foo2: foo(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
