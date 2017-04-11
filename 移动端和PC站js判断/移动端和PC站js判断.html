@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onload = function(){
+
+//判定移动端或者PC端
+
+        function IsPC(){
+
+            var userAgentInfo = navigator.userAgent;
+
+            var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+
+            var flag = true;
+
+            for (var v = 0; v < Agents.length; v++) {
+
+                console.log(userAgentInfo.indexOf(Agents[v]));
+
+                if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+
+            }
+
+            return flag;
+
+        }
+
+        if(IsPC()){
+
+            alert("PC浏览页面");
+
+        } else {
+
+            alert("移动端浏览页面");
+
+        }
+
+    }
+</script>
+</body>
+</html>

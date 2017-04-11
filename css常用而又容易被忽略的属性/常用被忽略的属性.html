@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用被忽略的css属性和common.js方法</title>
+    <style>
+        body {
+            user-select: none;
+        }
+        * {
+            /*使用CSS transforms 或者 animations时可能会有页面闪烁的bug*/
+            -webkit-backface-visibility: hidden;
+
+            -webkit-tap-highlight-color: rgba(0,0,0,0);/*transparent*/
+            /*禁止长按链接与图片弹出菜单*/
+            -webkit-touch-callout: none;
+        }
+        div {
+            perspective: 400px;
+            height:500px;
+            /*流式布局居中*/
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            box-sizing: border-box;
+        }
+        p {
+            width: calc(100% - 10rem);
+        }
+        .btn {
+            position: relative;
+        }
+        .btn::before{
+            content:"";
+            position:absolute;
+            top:-50px;
+            right:-50px;
+            bottom:-50px;
+            left:-50px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p id="p1">我是测试是否可以选中的文本</p>
+    <button class="btn">submit</button>
+</div>
+<script>
+    // 返回字符串的实际长度, 一个汉字算2个长度
+    String.prototype.strlen = function () {
+        return this.replace(/[^\x00-\xff]/g, "**").length;
+    };
+    console.log(document.querySelector("#p1").innerHTML.toString().strlen());
+
+    //替换全部
+    String.prototype.replaceAll = function (s1, s2) {
+        return this.replace(new RegExp(s1, "gm"), s2);
+    };
+    //字符串去空格
+    String.prototype.trim = function () {
+        return this.replace(/(^\s*)|(\s*$)/g, "");
+    }
+    //去除字符串所有空格
+    String.prototype.trimAll = function () {
+        return this.replace(/\s+/g, "");
+    };
+    //删除数组中存在重复的元素
+    function getUnique(someArray) {
+        tempArray = someArray.slice(0); //复制数组到临时数组
+        for (var i = 0; i < tempArray.length; i++) {
+            for (var j = i + 1; j < tempArray.length;) {
+                if (tempArray[j] == tempArray[i])
+                //后面的元素若和待比较的相同，则删除并计数；
+                //删除后，后面的元素会自动提前，所以指针j不移动
+                {
+                    tempArray.splice(j, 1);
+                }
+                else {
+                    j++;
+                }
+                //不同，则指针移动
+            }
+        }
+        return tempArray;
+    };
+    Array.prototype.getUnique = function(someArray){
+        var tempArray = someArray.slice(0);//slice() 方法可从已有的数组中返回选定的元素。
+        for(var i = 0; i<tempArray.length;i++){
+            for(var j= i+1;j<tempArray.length;){
+                if(tempArray[j] == tempArray[i]){
+                    tempArray.splice(j,1);
+                }else {
+                    j++;
+                }
+            }
+        }
+        return tempArray;
+    }
+    var arr = [1,1,1,2,1,1,2,1,2,2,1,5,88,8,8,85,44];
+    console.log(getUnique(arr));
+
+    //判断某个值是否在数组中
+    Array.prototype.inArray = function (e) {
+        for (i = 0; i < this.length; i++) {
+            if (this[i] == e)
+                return true;
+        }
+        return false;
+    }
+    //格式化数字
+    function number_format(number, decimals, dec_point, thousands_sep) {
+        /*
+         * 参数说明：
+         * number：要格式化的数字
+         * decimals：保留几位小数
+         * dec_point：小数点符号
+         * thousands_sep：千分位符号
+         */
+        number = (number + '').replace(/[^0-9+-Ee.]/g, '');
+        var n = !isFinite(+number) ? 0 : +number,
+            prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+            sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+            dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+            s = '',
+            toFixedFix = function (n, prec) {
+                var k = Math.pow(10, prec);
+                return '' + Math.ceil(n * k) / k;
+            };
+
+        s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+        var re = /(-?\d+)(\d{3})/;
+        while (re.test(s[0])) {
+            s[0] = s[0].replace(re, "$1" + sep + "$2");
+        }
+
+        if ((s[1] || '').length < prec) {
+            s[1] = s[1] || '';
+            s[1] += new Array(prec - s[1].length + 1).join('0');
+        }
+        return s.join(dec);
+    }
+    console.log(number_format(100050120.2255,2,".",3));
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面向对象的思想</title>
+</head>
+<body>
+<script>
+    function Lecture(name,teacher){
+        this.name = name;
+        this.teacher = teacher;
+    };
+    Lecture.prototype.display = function(){
+        return this.teacher + "is teaching" + this.name;
+    };
+    
+    function Schedule(lectures) {
+        this.lectures = lectures;
+    };
+    Schedule.prototype.display = function(){
+        var str = "";
+        for(var i=0;i<this.lectures.length; i++){
+            str += this.lectures[i] + " ";
+        }
+        return str;
+    };
+    var mySchedule = new Schedule([
+        new Lecture('lw','math'),
+        new Lecture('ml','English'),
+        new Lecture('yy','chinese')
+    ]);
+    console.log(mySchedule.display());
+
+</script>
+</body>
+</html>

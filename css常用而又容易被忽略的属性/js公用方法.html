@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js公用方法</title>
+    <style>
+        #box {
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">我收调试的小尾巴我收调试的小尾巴我收调试的小尾巴我收调试的小尾巴我收调试的小尾巴我收调试的小尾巴我收调试的小尾巴</div>
+<script>
+    //超出隐藏公用方法
+    function strOverHidden(str, maxNum, appendStr) {
+        var len = str.length;
+        var appLen = appendStr.length;
+        if (len > maxNum) {
+            return str.substr(0, maxNum) + appendStr;
+        }
+        return str;
+    }
+    var str = strOverHidden(document.querySelector('#box').innerHTML,8,'...');
+    document.querySelector('#box').innerHTML = str;
+
+    var getUnique = function(someArray){
+        var tempArray = someArray.slice(0);//slice() 方法可从已有的数组中返回选定的元素。
+        for(var i = 0; i<tempArray.length;i++){
+            for(var j= i+1;j<tempArray.length;){
+                if(tempArray[j] == tempArray[i]){
+                    tempArray.splice(j,1);
+                }else {
+                    j++;
+                }
+            }
+        }
+        return tempArray;
+    };
+    var arr = [1,1,1,2,1,1,2,1,2,2,1,5,88,8,8,85,44];
+    console.log(getUnique(arr));
+    var a = "aaaaaa";
+    console.log(a.slice(0));
+</script>
+</body>
+</html>

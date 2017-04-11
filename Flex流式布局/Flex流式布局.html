@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex流式布局</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+        }
+        .container {
+            display:-webkit-flex;/*safari*/
+            display:flex;
+            /*flex-direction:column;*/
+            /*flex-wrap:wrap;*/
+            flex-flow:row wrap;
+            justify-content:space-around;
+            height:300px;
+            align-items:center;
+            align-content:flex-end;
+        }
+        .item {
+            order:0;
+        }
+        .item1 {
+            height:80px;
+            width:10%;
+            background-color: #f96;
+            flex-shrink:0;
+        }
+        .item2 {
+            height:40px;
+            width:10%;
+            background-color: #aaa;
+            flex-grow:2;
+        }
+        .item3 {
+            height:100px;
+            width:10%;
+            background-color: #e83428;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item1 item">2</div>
+    <div class="item2 item">1</div>
+    <div class="item3 item">12</div>
+    <div class="item1 item">43</div>
+    <div class="item2 item"></div>
+    <div class="item1 item">43</div>
+    <div class="item2 item"></div>
+</div>
+</body>
+</html>
