@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history.pushState</title>
+</head>
+<body>
+<button id="btn">我是测试无刷新的按钮</button>
+<div id="container"><a href="page-1.html">点击我跳转到第二页</a>哈啊啊啊啊啊啊啊啊啊啊啊啊啊</div>
+<script src="../zepto/jquery-1.11.1.min.js"></script>
+<script>
+    /*var btn = document.querySelector("#btn");
+    btn.onclick=function(){
+        history.pushState(null, null, "b.html");
+        btn.setAttribute("disabled","disabled");
+    };
+    window.addEventListener("popstate", function() {
+        history.replaceState(null, null, "c.html");
+    });*/
+    history.replaceState(null, null, "c.html");
+    console.log(history.state);
+    function anchorClick(link) {
+        var linkSplit = link.split('/').pop();
+        $.get('api/' + linkSplit, function(data) {
+            $('#content').html(data);
+        });
+    }
+
+    $('#container').on('click', 'a', function(e) {
+        window.history.pushState(null, null, $(this).attr('href'));
+        anchorClick($(this).attr('href'));
+        e.preventDefault();
+    });
+
+    window.addEventListener('popstate', function(e) {
+        anchorClick(location.pathname);
+    });
+
+    var n=0;
+    setTimeout(function(){
+        n++;
+        console.log(n);
+        console.log(arguments.callee);
+//        arguments.callee();
+    },1000)
+</script>
+</body>
+</html>

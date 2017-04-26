@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻公告</title>
+    <link rel="stylesheet" href="../common/css/normalize.css">
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="../template/css/index.min.css">
+</head>
+<body>
+<!------------------------------    南金交公用头部开始         ######################-->
+<div class="njfae-header-box">
+    <div class="njfae-top-box">
+        <div class="njfae-top njfae-wrapper clearfix">
+            <div class="lf njfae-connect">联系电话：025-8570-8888（9:00--18:00）</div>
+            <div class="rg njfae-entry clearfix">
+                <a class="lf njfae-header-login" href="">登录</a>
+                <i class="lf njfae-lline">|</i>
+                <a class="lf njfae-header-register" href="">注册</a>
+                <a class="lf njfae-header-query" href="">分销平台用户查询入口</a>
+            </div>
+        </div>
+    </div>
+    <div class="njfae-nav-box">
+        <div class="njfae-nav njfae-wrapper clearfix">
+            <img class="lf njfae-log" src="../template/img/njfae-logo.png" alt="">
+            <ul class="rg">
+                <li class="lf"><a class="njfae-active" href="">首页</a></li>
+                <li class="lf"><a href="">新闻动态</a></li>
+                <li class="lf"><a href="">产品中心</a></li>
+                <li class="lf"><a href="">会员服务</a></li>
+                <li class="lf"><a href="">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!------------------------------        南京交公用头部结束   ---------------------------->
+
+
+<!----------------------     content 开始      ----------------- ----->
+<div class="njfae-wrapper njfae-body clearfix">
+    <!-----   左边栏开始      ----->
+    <link rel="stylesheet" href="../left-nav/css/left-nav-0.min.css">
+    <div class="left-nav lf">
+        <!-- 新闻动态 -->
+        <h5>新闻动态</h5>
+        <h6>News</h6>
+        <ul>
+            <li><a href="" class="news-01"><span class="icon"></span><i>中心广告</i></a></li>
+            <li><a href="" class="news-02"><span class="icon"></span><i>中心动态</i></a></li>
+            <li><a href="" class="news-03"><span class="icon"></span><i>行业关注</i></a></li>
+        </ul>
+    </div>
+    <!-------   左边栏结束      ------->
+    <!-------   右边栏开始      ------->
+    <link rel="stylesheet" href="css/notices.min.css">
+    <div class="right-content rg">
+        <!--新闻公告开始（总共6条）-->
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号成富65富65号成富65号成富65号成号成富65号成富65号成富65号成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号富65号成富65号成富65号成成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号富65号成富65号成成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号富65号成富65号成成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <a href="" class="clearfix">
+            <p class="notices-title lf">【成立公告】定向融资工具•宁富65号富65号成富65号成成立公告</p>
+            <span class="rg notices-time text-align-ct">2017-3-10</span>
+        </a>
+        <!--新闻公告结束-->
+        <!----------------------------------分页开始----------------------------------->
+        <script src="../libs/jquery-1.11.1.min.js"></script>
+        <script src="../libs/jquery.pagination.js"></script>
+        <style>
+            #prjlistPage{
+                width:100%;
+                height: 75px;
+                background: #fff;
+                margin: auto;
+                text-align:right;
+            }
+            .pagination{
+                height: 27px;
+                margin:0 auto;
+                padding:24px 0;
+                text-align: center;
+                display: inline-block;
+            }
+            .prePage,.nextPage{
+                width:20px;
+                height:20px;
+                border: 1px solid #999;
+                border-radius: 3px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .pagination .prePage:link,.pagination .prePage:visited{
+                color: #999;
+            }
+            .pagination .nextPage:link,.pagination .nextPage:visited{
+                color: #999;
+            }
+            .pagination a:link,.pagination a:visited{
+                color: #999;
+            }
+            .pagination a:hover{
+                color:#f44336;
+                border-color:#f44336;
+            }
+            .pagination a:active{
+                background-color:#0eb6ec;
+                color:#fff;
+            }
+            .pages_new{
+                width:20px;
+                height:20px;
+                border:1px solid #999;
+                border-radius: 3px;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+            }
+            .pagination a,.pagination span{
+                float: left;
+                margin-right: 3px;
+                text-decoration: none;
+                line-height: 22px;
+            }
+            .pagination .nextPage{margin-right: 0;}
+            .pagination span{color: #999;}
+            .current_new{
+                width:22px;
+                height:22px;
+                border:0;
+                border-radius: 3px;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                background-color:#f44336;
+
+            }
+            .pagination .first,.pagination .last{
+                border:1px solid #bababa;
+                border-radius: 3px;
+                font-size: 14px;
+                line-height: 25px;
+                text-align: center;
+                width:64px;
+                height:25px;
+            }
+            .pagination .current_new{
+                color:#fff;
+            }
+        </style>
+        <div id="prjlistPage" style="">
+            <div id="projectListPagination" class="pagination ">
+
+            </div>
+        </div>
+        <script>
+            //初始化函数 参数num_entries为数据总量  pageSize为每一页显示的条数
+            function initPagination (num_entries) {
+                var pageIndex1 = 0;     //页面索引初始值
+                var pageSize = 6;     //每页显示条数初始化，修改显示条数，
+                $("#projectListPagination").pagination(num_entries, {
+                    num_edge_entries: 1,        //两侧首尾分页条目数
+                    num_display_entries: 4,    //连续分页主体部分分页条目数
+                    callback: PageCallback,
+                    items_per_page: pageSize,  //显示条数
+                    current_page: pageIndex1,   //当前页索引
+                    prev_show: false,    //是否总是显示上一页按钮
+                    prev_text: '<',       //下一页按钮里text
+                    next_text: '>'       //下一页按钮里text
+                });
+            }
+            //翻页调用
+            function PageCallback(pageindex1, jq){
+//        InitTable(pageindex1,0);
+            }
+            //请求数据
+            //    InitTable(1,1);
+            //    function InitTable(pageindex1, flag){
+            //        var page_Num = parseInt(pageindex1)+1;
+            //
+            //        $.ajax({
+            //            type: "get",
+            //            url: '',
+            //            data:{},
+            //            dataType: 'json',
+            //            success:function (data) {
+            //请求成功后填入数据
+            //            }
+            //        })
+            //
+            //    }
+            initPagination(100)
+        </script>
+    </div>
+    <!-------    右边栏结束      ------->
+
+</div>
+<!----------------------     content 结束      ----------------- ----->
+
+<!------------------------------        南京交公用尾部开始       ---------------------------->
+
+<div class="njfae-footer-box">
+    <div class="njfae-footer njfae-wrapper clearfix">
+        <ul class="njfae-footer-detail lf">
+            <li class="njfae-footer-title">服务热线</li>
+            <li>TEL：025-8570-8888</li>
+            <li>工作时间：9:00-18:00</li>
+            <li class="njfae-footer-title njfae-footer-margin">投诉邮箱</li>
+            <li>nanjingfae@njfae.cn</li>
+            <li class="njfae-footer-title njfae-footer-margin">地址</li>
+            <li>南京市太平南路450号斯亚财富中心8F</li>
+        </ul>
+        <div class="njfae-footer-about rg">
+            <div class="lf njfae-footer-ma">
+                <dl>
+                    <dt class="njfae-footer-about-title njfae-footer-about-special">
+                        微信公众号
+                    </dt>
+                    <dd><img src="../template/img/njfae-ma.png" alt=""></dd>
+                </dl>
+            </div>
+            <div class="lf njfae-footer-connect">
+                <ul>
+                    <li class="njfae-footer-about-title">新闻动态</li>
+                    <li><a href="">中心公告</a></li>
+                    <li><a href="">中心动态</a></li>
+                    <li><a href="">行业关注</a></li>
+                </ul>
+            </div>
+            <div class="lf njfae-footer-connect">
+                <ul>
+                    <li class="njfae-footer-about-title">帮助中心</li>
+                    <li><a href="">交易指引</a></li>
+                    <li><a href="">服务协议</a></li>
+                    <li><a href="">投诉流程图</a></li>
+                </ul>
+            </div>
+            <div class="lf njfae-footer-connect">
+                <ul>
+                    <li class="njfae-footer-about-title">会员服务</li>
+                    <li><a href="">机构会员</a></li>
+                    <li><a href="">会员规则</a></li>
+                </ul>
+            </div>
+            <div class="lf njfae-footer-connect">
+                <ul>
+                    <li class="njfae-footer-about-title">关于我们</li>
+                    <li><a href="">中心简介</a></li>
+                    <li><a href="">组织架构</a></li>
+                    <li><a href="">合作伙伴</a></li>
+                    <li><a href="">招贤纳士</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="njfae-file text-align-ct">版权所有 © 2014-2015 苏ICP备15001775号-1</div>
+</div>
+<!---------------------------   南京交公用尾部结束  ---------------------------->
+</body>
+</html>

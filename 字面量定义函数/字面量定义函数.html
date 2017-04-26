@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字面量定义函数</title>
+</head>
+<body>
+<ul>
+    <li>111111111111</li>
+    <li>222222222222</li>
+    <li>333333333333</li>
+</ul>
+<script src="../zepto/jquery-1.11.1.min.js"></script>
+<script>
+$(function(){
+    /*var oUL = $('ul').on('click',function(event){
+        console.log($(event.target).context.nodeName);
+        if($(event.target).context.nodeName == 'LI'){
+            alert($(event.target).html());
+        }
+    });*/
+
+    var oUL = $('ul li').on('click',function(event){
+        return $(this).html();
+    });
+    console.log(oUL);
+    oUL.each(function(){
+        console.log(this.innerHTML);
+    })
+})
+</script>
+</body>
+</html>

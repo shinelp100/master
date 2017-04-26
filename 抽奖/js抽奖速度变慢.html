@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js抽奖</title>
+    <script src="js/lib.flexible.js"></script>
+    <script src="js/zepto.min.js"></script>
+</head>
+<body>
+<style>
+    table{
+        width:100%;
+        text-align: center;
+        line-height:1rem;
+        border:1px solid #ddd;
+    }
+    td{
+        border:1px solid #ddd;
+        width:33.33%;
+    }
+    .selected {
+        border:1px solid #f96;
+        background-color: #f96;
+        color: #fff;
+    }
+</style>
+<table border="0" cellspacing="0" cellpadding="0" >
+    <tr>
+        <td class="gift1 selected">1</td>
+        <td class="gift2">2</td>
+        <td class="gift3">3</td>
+    </tr>
+    <tr>
+        <td class="gift8">8</td>
+        <td class="btn">抽奖</td>
+        <td class="gift4">4</td>
+    </tr>
+    <tr>
+        <td class="gift7">7</td>
+        <td class="gift6">6</td>
+        <td class="gift5">5</td>
+    </tr>
+</table>
+<script>
+    var timer,num =5;
+    $(function(){
+        var module = {
+            circle : 0,
+            acceleration : 100,
+            i : 1,
+            giftPosition : num,
+            start : function () {
+                $('.btn').off('click');
+                setTimeout(getGift,this.acceleration)
+            }
+        };
+        function getGift(){
+            if(module.i>8){
+                module.i = 1;
+                module.circle++;
+                if(module.circle>8){
+                    module.acceleration += 150;
+                }
+            }
+            $('table tr td').removeClass('selected');
+            $('.gift'+module.i).addClass('selected');
+            module.i++;
+            timer = setTimeout(getGift,module.acceleration);
+            if(module.circle>8 && module.giftPosition==module.i){
+                clearTimeout(timer);
+                $('.btn').on('click',function(){
+                    module.circle = 0;
+                    module.acceleration = 50;
+                    module.i = module.giftPosition;
+                    module.start();
+                });
+            }
+        }
+        $('.btn').on('click',function(){
+            module.start();
+        });
+    });
+</script>
+</body>
+</html>

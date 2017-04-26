@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟prototype面向对象的函数</title>
+</head>
+<body>
+<script>
+    var Class = {
+        creat : function(){
+            return function(){
+                this.initialize.apply(this,arguments);
+            }
+        }
+    };
+
+    //给对象添加属性和方法
+    Object.extend = function(destination,source){
+        for(var property in source){
+            destination[property] = source[property];
+        }
+        return destination;
+    };
+    console.log(Class.creat());
+
+    var myObj = {'name':'lw','mes':[{'age':20},{'sex':'boy'}]};
+    var myObj1 = {'name':'lw1','mes':[{'age':21},{'sex':'boy1'}]};
+    console.log(Object.extend(myObj,myObj1));//给destination对象拓展属性source
+
+
+    //给string 的 prototype添加额外的属性（方法）
+    Object.extend (String.prototype, {
+        stripTags:function(){
+            return this.replace(/<\/?[^>]+>/gi,'');
+        },
+        toArray:function(){
+            return this.split("")
+        }
+    });
+    var a = "<b><i>hello</i> word!".stripTags();
+    console.log(a);
+    var b = "abcdefg".toArray()[3];
+    console.log(b);
+</script>
+</body>
+</html>
