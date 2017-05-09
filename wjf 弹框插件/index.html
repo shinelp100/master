@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wdjf弹框插件</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/lib.flexible.js"></script>
+</head>
+<body>
+<button class="btn">点击添加default</button>
+<button class="btn1">点击添加完整</button>
+<button class="btn2">弹框确定按钮仅仅是关闭</button>
+<script src="js/zepto.min.js"></script>
+<script src="js/pop.js"></script>
+<script>
+    $('.btn').on('click',function () {
+        var msg = "*请输入正确的手机号码";
+
+        /*options配置可选参数  callback配置成功回调值可以是  空（如果为空则要配置btn_href：链接地址） "close",和成功回调函数*/
+        var module = poptpl.popComponent({
+            title : "我是测试的小尾巴",
+            btnMsg : "确定",
+            beforePop : function(){
+                alert("我是弹框出来之前出现");
+            },
+            afterPop : function(){
+                alert("我是弹框关闭之后出现");
+            }
+        },callback);
+
+        function callback(){
+            poptpl.errorMsg("*我是错误信息");
+            setTimeout(function(){
+                poptpl.confirmBtn();
+            },2000);
+        }
+    });
+
+    $('.btn1').on('click',function () {
+        var msg = "*请输入正确的手机号码";
+
+        /*options配置可选参数  callback配置成功回调值可以是  空（如果为空则要配置btn_href：链接地址） "close",和成功回调函数*/
+        var module = poptpl.popComponent({
+            title : "我是测试的小尾巴",
+            btnMsg : "确定",
+            btnHref:"https:www.baidu.com"
+        });
+
+    });
+
+    $('.btn2').on('click',function () {
+        var msg = "*请输入正确的手机号码";
+
+        /*options配置可选参数  callback配置成功回调值可以是  空（如果为空则要配置btn_href：链接地址） "close",和成功回调函数*/
+        var module = poptpl.popComponent({
+            title : "确认按钮仅仅是关闭功能",
+            btnMsg : "关闭"
+        },'close');
+    });
+</script>
+</body>
+</html>

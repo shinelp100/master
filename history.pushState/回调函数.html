@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回调函数</title>
+</head>
+<body>
+我是无刷新的第二页
+<script>
+    function callback() {
+        alert("我是callback函数");
+    }
+    var num = 12;
+    //执行回掉的方法
+    -function (num,callback) {
+        if(num) return ;
+        console.log(num+"---"+typeof callback);
+        if(typeof callback === "function"){
+            callback();
+        }
+    }(0,callback);
+
+    //创建一个xhr对象
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET","file.js",true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4){
+            if(xhr.status == 200){
+                console.log(xhr.responseText);
+            }
+        }
+    }
+    //动态创建一个脚本
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src=url;
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+</body>
+</html>

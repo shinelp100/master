@@ -3,9 +3,11 @@
  */
 // src/main.js
 import foo from './foo';
-import answer from 'the-answer';
+import jquery from './jquery';
+// import answer from 'the-answer';
 
 export default () => {
-    console.log('the answer is ' + answer);
+    // console.log('the answer is ' + answer);
     console.log('foo=' + foo);
+    jquery(body).css({backgroundColor:"#f96"});
 }
