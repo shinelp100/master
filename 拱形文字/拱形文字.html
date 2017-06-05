@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拱形文字</title>
+</head>
+<body>
+<svg>
+    <!--<path id="myTextPath" d="M100,50 a1,5 -90 0,1 180,0" fill="transparent"/>-->
+    <path id="myTextPath" d="M10 60 Q 60 0,150 50" stroke="black" fill="transparent"/>
+    <text x="10" y="200" style="stroke: #000000;">
+        <textPath xlink:href="#myTextPath">我是测试的小尾巴</textPath>
+    </text>
+
+    <!--允许不闭合。可以想像成是椭圆的某一段，共七个参数：-->
+
+    <!--A RX,RY,XROTATION,FLAG1,FLAG2,X,Y-->
+
+
+
+    <!--RX,RY指所在椭圆的半轴大小-->
+    <!--XROTATION指椭圆的X轴与水平方向顺时针方向夹角，可以想像成一个水平的椭圆绕中心点顺时针旋转XROTATION的角度。-->
+    <!--FLAG1只有两个值，1表示大角度弧线，0为小角度弧线。-->
+    <!--FLAG2只有两个值，确定从起点至终点的方向，1为顺时针，0为逆时针-->
+    <!--X,Y为终点坐标-->
+
+</svg>
+</body>
+</html>
