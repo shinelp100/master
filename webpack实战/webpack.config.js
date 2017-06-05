@@ -4,6 +4,7 @@
 
 /*多个target目标时生成对应文件*/
 var path = require("path");
+var webpack = require("webpack");
 
 var app = {
     entry: {
@@ -12,6 +13,20 @@ var app = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].js"
+    },
+    module:{
+        rules : [
+            {
+                test: /\.js?$/,
+                include: [
+                    path.resolve(__dirname, "example")
+                ],
+                exclude: [
+                    path.resolve(__dirname, "example/css")
+                ],
+                loader: "babel-loader"
+            }
+        ]
     }
 };
 var appTarget = {

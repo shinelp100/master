@@ -15,7 +15,7 @@ var poptpl = {
             popTopHas :true,
             /*是否有图片*/
             popTopHasImg : false,
-            popTopImg : "img/invite.png",
+            popTopImg : "",
             /*是否有title*/
             popTopHasDiv : true,
             popTopColor : " #fe5a00",

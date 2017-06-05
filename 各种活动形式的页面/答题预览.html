@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://hd.dlp.duiba.com.cn/preview/question.html -->
+<html data-dpr="1" style="font-size: 200px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <title>答题预览</title>
+  <script>!function(e,i){var t=e.documentElement,n=navigator.userAgent.match(/iphone|ipod|ipad/gi),a=n?Math.min(i.devicePixelRatio,3):1,m="orientationchange"in window?"orientationchange":"resize";t.dataset.dpr=a;for(var d,l,c=!1,o=e.getElementsByTagName("meta"),r=0;r<o.length;r++)l=o[r],"viewport"==l.name&&(c=!0,d=l);if(c)d.content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no";else{var o=e.createElement("meta");o.name="viewport",o.content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no",t.firstElementChild.appendChild(o)}var s=function(){var e=t.clientWidth;e/a>640&&(e=640*a),window.remScale=e/640,t.style.fontSize=200*(e/640)+"px"};s(),e.addEventListener&&i.addEventListener(m,s,!1)}(document,window);</script><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./答题预览_files/index.html_aio_9ff1ef1.css">
+<style>.main{background-image:url(//yun.duiba.com.cn/upload/4Pwt71474270962040.png);}</style>)<style>body{background-color:#29063a;}</style>)<style>.record{background-image:url(//yun.duiba.com.cn/upload/L9ylf1474270999056.png);}</style>)<style>.swiper-container{background-color:#430b5c;}</style>)<style>.swiper-container .tag{background-image:url(//yun.duiba.com.cn/upload/a03z51474271038436.png);}</style>)<style>.apple{color:#fff;}</style>)<style>.rule .text{color:#9460ac;}</style>)<style>.tips{background-image:url(//yun.duiba.com.cn/upload/BjPYQ1474271038460.png);}</style>)<style>.start{background-image:url(//yun.duiba.com.cn/upload/LWzi21474271038341.png);}</style>)<style>.start.disabled{background-image:url(//yun.duiba.com.cn/upload/BYBQP1474271038327.png);}</style>)<style>.next-question{background-image:url(//yun.duiba.com.cn/upload/BUO8X1474271038426.png);}</style>)<style>.next-question.disabled{background-image:url(//yun.duiba.com.cn/upload/roDbh1474271038417.png);}</style>)<style>.submit{background-image:url(//yun.duiba.com.cn/upload/k9Dgt1474271038334.png);}</style>)<style>.submit.disabled{background-image:url(//yun.duiba.com.cn/upload/tpjTc1474271038329.png);}</style>)<style>.result-container .noPrize .again{background-image:url(//yun.duiba.com.cn/upload/Fp8ks1474271038319.png);}</style>)<style>.result-container .prize .getPrize{background-image:url(//yun.duiba.com.cn/upload/gaCXS1474271038346.png);}</style>)<style>.text-question .question-title{color:#ffea00;}</style>)<style>.text-question .text-groups .group.cur{border-color:#ffea00;}</style>)<style>.text-question .text-groups .group.cur{color:#ffea00;}</style>)<style>.img-question .group.cur{color:#ffea00;}</style>)<style>.img-question .group .icon-box .iconfont{color:#ffea00;}</style>)<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+	<div id="db-content">
+    <div class="main">
+      <div class="home-container">
+        <div class="tips"></div>
+        <div class="start"><div class="loading"></div></div>
+        <div class="status">今日剩余<span>1次</span>免费机会</div>
+      </div>
+      <div class="questions-container">
+        <script id="main" type="text/html">
+          {{each}}
+            {{if $value.type=='image'}}
+              <div class="img-question" data-index="{{$index}}" data-id="{{$value.id}}">
+                <div class="question-title">{{$index+1}}.{{$value.name}}</div>
+                {{if $value.options.length==2 || $value.options.length==4}}
+                  <div class="img-groups two">
+                {{else if $value.options.length==5}}
+                  <div class="img-groups five">
+                {{else}}
+                  <div class="img-groups">
+                {{/if}}
+                  {{each $value.options}}
+                    <div class="group" data-id="{{$value.optionId}}">
+                      <div class="img-box">
+                        <img src="{{$value.option}}">
+                      </div>
+                      <div class="icon-box">
+                        <div class="icon-bg"></div>
+                        <i class="icon iconfont">&#xe64c;</i>
+                      </div>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            {{else if $value.type=='text'}}
+              <div class="text-question" data-index="{{$index}}" data-id="{{$value.id}}">
+                <div class="question-title">{{$index+1}}.{{$value.name}}</div>
+                <div class="text-groups">
+                  {{each $value.options}}
+                    {{if $index==0}}
+                      <div class="group" data-id="{{$value.optionId}}">A:{{$value.option}}<i class="icon iconfont">&#xe64c;</i></div>
+                    {{else if $index==1}}
+                      <div class="group" data-id="{{$value.optionId}}">B:{{$value.option}}<i class="icon iconfont">&#xe64c;</i></div>
+                    {{else if $index==2}}
+                      <div class="group" data-id="{{$value.optionId}}">C:{{$value.option}}<i class="icon iconfont">&#xe64c;</i></div>
+                    {{else if $index==3}}
+                      <div class="group" data-id="{{$value.optionId}}">D:{{$value.option}}<i class="icon iconfont">&#xe64c;</i></div>
+                    {{/if}}
+                  {{/each}}
+                </div>
+              </div>
+            {{/if}}
+          {{/each}}
+        </script>
+        <div class="next-question disabled"></div>
+        <div class="submit disabled"><div class="loading"></div></div>
+      </div>
+      <div class="result-container">
+        <div class="noPrize">
+          <div class="result"></div>
+          <div class="tip"></div>
+          <div class="cry"></div>
+          <div class="again"></div>
+        </div>
+        <div class="prize">
+          <div class="result"></div>
+          <div class="tip">恭喜你，快来领取奖品吧！</div>
+          <div class="prize-img"><img src="http://hd.dlp.duiba.com.cn/preview/question.html"></div>
+          <div class="prize-name"></div>
+          <div class="line"></div>
+          <div class="getPrize"></div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container swiper-container-horizontal" style="cursor: -webkit-grab;">
+      <div class="swiper-wrapper" style="transform: translate3d(30px, 0px, 0px); transition-duration: 0ms;">
+        <div class="swiper-slide swiper-slide-active" data-type="coupon" data-itemid="1" style="margin-right: 30px;">
+          <div class="prize-img-box">
+            <img class="prize-img" src="./答题预览_files/thank.png" alt="海南樱桃一箱">
+          </div>
+          <p class="prize-name">海南樱桃一箱</p>
+        </div>
+        <div class="swiper-slide swiper-slide-next" data-type="object" data-itemid="2" style="margin-right: 30px;">
+          <div class="prize-img-box">
+            <img class="prize-img" src="./答题预览_files/alipay.png" alt="本地有机草莓1kg">
+          </div>
+          <p class="prize-name">本地有机草莓1kg</p>
+        </div>
+        <div class="swiper-slide" data-type="virtual" data-itemid="3" style="margin-right: 30px;">
+          <div class="prize-img-box">
+            <img class="prize-img" src="./答题预览_files/qb.png" alt="橙子6个">
+          </div>
+          <p class="prize-name">橙子6个</p>
+        </div>
+        <div class="swiper-slide" data-type="virtual" data-itemid="3" style="margin-right: 30px;">
+          <div class="prize-img-box">
+            <img class="prize-img" src="./答题预览_files/qb.png" alt="橙子6个">
+          </div>
+          <p class="prize-name">橙子6个</p>
+        </div>
+      </div>
+      <div class="swiper-scrollbar"><div class="swiper-scrollbar-drag" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; width: 599.881px;"></div></div>
+      <div class="tag"></div>
+    </div>
+    <div class="rule">
+      <div class="title">【 活动规则 】</div>
+      <div class="text"><h3>活动说明</h3><p>这里填写活动的相关说明</p></div>
+    </div>
+    <p class="apple" style="display: none;">*兑换项与活动和设备生产商Apple Inc.公司无关</p>
+	</div>
+  <div class="prize-modal">
+    <div class="prize-modal-dialog">
+      <div class="close"></div>
+      <div class="result"></div>
+      <div class="tip">恭喜你，快来领取奖品吧！</div>
+      <div class="prize-info">
+        <img class="left" src="http://hd.dlp.duiba.com.cn/preview/question.html">
+        <div class="right">
+          <div class="prize-name"></div>
+          <div class="validate"></div>
+          <div class="codePassword">
+            <p class="couponCode"></p>
+            <p class="couponPassword"></p>
+          </div>
+        </div>
+      </div>
+      <div class="use-rule">
+        <div class="use-rule-wrapper"></div>
+      </div>
+      <p class="ordernum"></p>
+      <p class="tel">客服热线：400-700-6533</p>
+      <div class="use"></div>
+    </div>
+  </div><script type="text/javascript" src="./答题预览_files/index.html_aio_7b5a1ab.js.下载"></script>
+<script>function getToken(getordeid,$modal){$.ajax({url:"/ctoken/getToken.do",type:"get",dataType:"json",success:function(res){if(res.success){var data={activityId:CFG.actId};eval(res.token);var key="token";data.token=window[key],againOrderId&&(data.againOrderId=againOrderId),getordeid&&getordeid(data)}else $(".start .loading").hide(),$modal({type:"alert",title:result.message,trueButton:"知道了"})},error:function(){$(".start .loading").hide(),$modal({type:"alert",title:"网络错误",trueButton:"知道了"})}})}var CFG={actId:"1",unitName:"积分",doJoin:"/newQuestions/doJoin",quireOrder:"/newQuestions/quireOrder",submit:"/newQuestions/submit",styleConfig:"/newQuestions/getStyleConfig",getElement:"/hdtool/getElement",getPrizeDescription:"/newQuestions/getPrizeDescription",getLuckyInfo:"/question/luckyOrderStatus",hdType:"admin",hdToolId:"1",appType:"credits",preview:!1},isShouGongKe=!1,againOrderId=null;</script>
+
+
+</body></html>

@@ -1,0 +1,6 @@
+@import "../../libs/commonCss/base.css";
+
+body {
+    color: #f96;
+    background: url("../img/list-1.png") #ff9966 center no-repeat;
+}
