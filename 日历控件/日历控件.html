@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历控件</title>
+    <style>
+        .cur_day {
+            color: #f96;
+        }
+    </style>
+</head>
+<body>
+<div class="calendar" id="calendar"></div>
+<script src="../zepto/jquery-1.11.1.min.js"></script>
+<script src="index.js"></script>
+<script>
+    var signList=[{"signDay":"09"},{"signDay":"11"},{"signDay":"12"}];
+    calUtil.init(signList);
+</script>
+</body>
+</html>

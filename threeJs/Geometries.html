@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>makeLine</title>
+    <style>
+        body { margin: 0; }
+        canvas { width: 100%; height: 100% }
+    </style>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/three.js/r83/three.js"></script>
+<script>
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+
+    var MAX_POINTS = 500;
+
+//    var scene = new THREE.Scene();
+    // geometry
+    var geometry = new THREE.BufferGeometry();
+
+    // attributes
+    var positions = new Float32Array( MAX_POINTS * 3 ); // 3 vertices per point
+    geometry.addAttribute( 'position', new THREE.BufferAttribute( positions, 3 ) );
+
+    // draw range
+    var drawCount = 2; // draw the first 2 points, only
+    geometry.setDrawRange( 0, drawCount );
+
+    // material
+    var material = new THREE.LineBasicMaterial( { color: 0xff0000, linewidth: 2 } );
+
+    // line
+    var line = new THREE.Line( geometry,  material );
+    scene.add( line );
+
+    var positions = line.geometry.attributes.position.array;
+
+    var x, y, z, index;
+    x = y = z = index = 0;
+
+    for ( var i = 0, l = MAX_POINTS; i < l; i ++ ) {
+
+        positions[ index ++ ] = x;
+        positions[ index ++ ] = y;
+        positions[ index ++ ] = z;
+
+        x += ( Math.random() - 0.5 ) * 30;
+        y += ( Math.random() - 0.5 ) * 30;
+        z += ( Math.random() - 0.5 ) * 30;
+
+    }
+</script>
+</body>
+</html>

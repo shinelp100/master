@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c0544379-a62c-47fa-9041-a04315fdb771" name="lw-aly" url="http://bxu2359030634.my3w.com">
-        <fileTransfer host="bxu2359030634.my3w.com" port="21" rootFolder="/htdocs/master">
+      <webServer id="c0544379-a62c-47fa-9041-a04315fdb771" name="lw-aly" url="http://lianglovejie.com/master">
+        <fileTransfer host="lianglovejie.com" port="21" rootFolder="/htdocs/master">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

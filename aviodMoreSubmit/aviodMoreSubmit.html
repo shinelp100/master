@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>防止按钮重复提交</title>
+    <script SRC="../zepto/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="target" data-click="true">
+    我是测试的防止重复点击的按钮
+</div>
+<button id="btn">reset</button>
+<script>
+$(function(){
+    //target1,target2都是jq对象
+    function AvoidDuplicateSubmission(target1,target2,callback){
+        if(target1 instanceof jQuery && target2 instanceof jQuery){
+            target1.on('click',avoidMoreSubmit);
+            function avoidMoreSubmit(){
+                if(!!$(this).data('click')){
+                    $(this).data({'click':false});
+                    callback();
+                }
+            }
+            target2.on('click',function(){
+                target1.data({'click':true});
+            })
+        } else {
+            console.log("target is not correct obj");return
+        }
+    }
+    AvoidDuplicateSubmission($("#target"),$("#btn"),function(){
+        //防止按钮的重复提交
+        console.log(1);
+    });
+})
+</script>
+</body>
+</html>

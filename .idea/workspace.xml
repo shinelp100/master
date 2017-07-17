@@ -3,8 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/拱形文字/拱形文字.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS实现盒子的内圆角/CSS实现盒子的内圆角.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aviodMoreSubmit/aviodMoreSubmit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3 3D旋转/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js方法集锦/AvoidDuplicateSubmission.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/threeJs/Geometries.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/原生ajax请求/原生ajax封装.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/原生ajax请求/原生ajax请求.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/日历控件/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/日历控件/日历控件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果/翻拍效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/翻牌效果异步/翻拍效果.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn/README.md" afterPath="$PROJECT_DIR$/awesome-javascript-cn/README.md" />
     </list>
@@ -37,106 +58,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack_pro/webpack.config.js">
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="406">
+              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="htreeJs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threeJs/htreeJs.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="348">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="makeLine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threeJs/makeLine.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3 3D旋转/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="783">
+              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="拱形文字.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/拱形文字/拱形文字.html">
+      <file leaf-file-name="翻拍效果.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/翻牌效果/翻拍效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="2058">
+              <caret line="355" column="38" lean-forward="true" selection-start-line="355" selection-start-column="38" selection-end-line="355" selection-end-column="38" />
               <folding>
-                <element signature="n#style#0;n#text#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4593#4972#0" expanded="false" />
+                <element signature="e#4981#5365#0" expanded="false" />
+                <element signature="e#5374#5761#0" expanded="false" />
+                <element signature="e#5770#6157#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creatingText.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threeJs/creatingText.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Detector.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threeJs/Detector.js">
+      <file leaf-file-name="zepto.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/zepto.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="刮刮卡.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/各种活动形式的页面/刮刮卡.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4292">
-              <caret line="148" column="24" lean-forward="false" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="方形大转盘.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/各种活动形式的页面/方形大转盘.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-preview.html_aio_f740a11.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/各种活动形式的页面/圆形大转盘_files/index-preview.html_aio_f740a11.js">
+      <file leaf-file-name="日历控件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/日历控件/日历控件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78242">
-              <caret line="2698" column="22" lean-forward="false" selection-start-line="2698" selection-start-column="22" selection-end-line="2698" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fix_viewPoints.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/各种活动形式的页面/fix_viewPoints.js">
+      <file leaf-file-name="CSS实现盒子的内圆角.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS实现盒子的内圆角/CSS实现盒子的内圆角.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="493">
+              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="原生ajax封装.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/原生ajax请求/原生ajax封装.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aviodMoreSubmit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aviodMoreSubmit/aviodMoreSubmit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <element signature="e#376#891#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvoidDuplicateSubmission.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js方法集锦/AvoidDuplicateSubmission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc;n#AvoidDuplicateSubmission#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,19 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setTimeout</find>
-      <find>.mask</find>
-      <find>Router</find>
-      <find>window.MinRouter</find>
-      <find>extractParams</find>
-      <find>getRegExp</find>
-      <find>alert</find>
-      <find>exports</find>
-      <find>.popMiddle input</find>
-      <find>popError</find>
-      <find>.popMiddle</find>
-      <find>popBtm_msg</find>
-      <find>close</find>
       <find>.popError</find>
       <find>alt</find>
       <find>_</find>
@@ -185,9 +200,26 @@
       <find>htmlWebpackPlugin</find>
       <find>second</find>
       <find>window.remScale</find>
+      <find>showMonth</find>
+      <find>signList</find>
+      <find>console.log</find>
+      <find>getDaysInmonth</find>
+      <find>bulidCal</find>
+      <find>ifHasSigned</find>
+      <find>px</find>
+      <find>shuffle</find>
+      <find>rotateY</find>
+      <find>2160deg</find>
+      <find>28800deg</find>
+      <find>720</find>
+      <find>gift</find>
     </findStrings>
     <replaceStrings>
       <replace>data-original</replace>
+      <replace>1440deg</replace>
+      <replace>288000deg</replace>
+      <replace>720</replace>
+      <replace>720000</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\work\master</dir>
@@ -205,17 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webpack_pro/src/active/active20170524/css/index.css" />
-        <option value="$PROJECT_DIR$/webpack_pro/package.json" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/extend.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/dist/second/app.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/toObject.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/second/js/index.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/toNumber.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/toString.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/makeMap.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/remove.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/hasOwn.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/cached.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/toArray.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/jsObject.js" />
@@ -256,6 +277,17 @@
         <option value="$PROJECT_DIR$/threeJs/creatingText.html" />
         <option value="$PROJECT_DIR$/threeJs/makeLine.html" />
         <option value="$PROJECT_DIR$/拱形文字/拱形文字.html" />
+        <option value="$PROJECT_DIR$/threeJs/Geometries.html" />
+        <option value="$PROJECT_DIR$/原生ajax请求/原生ajax封装.js" />
+        <option value="$PROJECT_DIR$/原生ajax请求/原生ajax请求.html" />
+        <option value="$PROJECT_DIR$/日历控件/index.js" />
+        <option value="$PROJECT_DIR$/日历控件/日历控件.html" />
+        <option value="$PROJECT_DIR$/CSS实现盒子的内圆角/CSS实现盒子的内圆角.html" />
+        <option value="$PROJECT_DIR$/防止按钮重复提交/防止按钮重复提交.html" />
+        <option value="$PROJECT_DIR$/aviodMoreSubmit/aviodMoreSubmit.html" />
+        <option value="$PROJECT_DIR$/js方法集锦/AvoidDuplicateSubmission.js" />
+        <option value="$PROJECT_DIR$/css3 3D旋转/index.html" />
+        <option value="$PROJECT_DIR$/翻牌效果/翻拍效果.html" />
       </list>
     </option>
   </component>
@@ -283,8 +315,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="width" value="1873" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -323,6 +355,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -335,38 +368,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="拱形文字" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threeJs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,11 +399,11 @@
       <recent name="D:\work\master\webpack_pro\src\index" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master" />
+      <recent name="D:\work\master\翻牌效果\images" />
+      <recent name="D:\work\master\日历控件" />
       <recent name="D:\work\master\threeJs" />
       <recent name="D:\work\master\webpack_pro" />
-      <recent name="D:\work\master\webpack_pro\src\html" />
-      <recent name="D:\work\master\webpack实战" />
-      <recent name="D:\work\master\webpack_pro\src\libs" />
     </key>
   </component>
   <component name="RunManager">
@@ -650,7 +654,19 @@
       <workItem from="1496278894025" duration="8382000" />
       <workItem from="1496369735163" duration="4549000" />
       <workItem from="1496639508826" duration="2237000" />
-      <workItem from="1496645521852" duration="5324000" />
+      <workItem from="1496645521852" duration="8462000" />
+      <workItem from="1496711933846" duration="8162000" />
+      <workItem from="1497246528949" duration="1254000" />
+      <workItem from="1498617742891" duration="665000" />
+      <workItem from="1498790810226" duration="648000" />
+      <workItem from="1498808052000" duration="6522000" />
+      <workItem from="1499044227789" duration="34000" />
+      <workItem from="1499394526110" duration="2421000" />
+      <workItem from="1499669729444" duration="13548000" />
+      <workItem from="1499735374454" duration="1212000" />
+      <workItem from="1499752219752" duration="8315000" />
+      <workItem from="1499826275656" duration="3980000" />
+      <workItem from="1500273606971" duration="470000" />
     </task>
     <task id="LOCAL-00008" summary="提交">
       <created>1478595755993</created>
@@ -999,7 +1015,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1176358000" />
+    <option name="totallyTimeSpent" value="1226727000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1011,19 +1027,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1873" height="1092" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25745857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17965727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20453289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598326" sideWeight="0.43038675" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4707113" sideWeight="0.5468578" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20176406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30962342" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3077731" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1102,37 +1118,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/html/index/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/html/second/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/module/build/node_modules/core-js/library/modules/_html.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/active/active20170524/js/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/second/index.js" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/active/active20170524/index.js" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/active/active20170524/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/second/js/index.css" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/src/active/active20170524/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/second/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/index/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/src/active/active20170524/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/second/js/index.css" />
     <entry file="file://$PROJECT_DIR$/webpack_pro/dist/second/js/index.js" />
     <entry file="file://$PROJECT_DIR$/webpack_pro/dist/active/active20170524/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1298,15 +1288,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/各种活动形式的页面/圆形大转盘_files/index-preview.html_aio_f740a11.js" />
+    <entry file="file://$PROJECT_DIR$/webpack_pro/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/拱形文字/拱形文字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/各种活动形式的页面/刮刮卡.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4292">
+        <state relative-caret-position="829">
           <caret line="148" column="24" lean-forward="false" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,18 +1317,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/各种活动形式的页面/圆形大转盘_files/index-preview.html_aio_f740a11.js." />
     <entry file="file://$PROJECT_DIR$/各种活动形式的页面/圆形大转盘_files/index-preview.html_aio_f740a11.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78242">
+        <state relative-caret-position="29">
           <caret line="2698" column="22" lean-forward="false" selection-start-line="2698" selection-start-column="22" selection-end-line="2698" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,23 +1331,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/webpack.config.js">
+    <entry file="file://$USER_HOME$/Desktop/index.js" />
+    <entry file="file://$PROJECT_DIR$/原生ajax请求/原生ajax请求.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="609">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threeJs/Detector.js">
+    <entry file="file://$PROJECT_DIR$/threeJs/htreeJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threeJs/Geometries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threeJs/makeLine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1357,32 +1367,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threeJs/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日历控件/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS实现盒子的内圆角/CSS实现盒子的内圆角.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threeJs/htreeJs.html">
+    <entry file="file://$PROJECT_DIR$/原生ajax请求/原生ajax封装.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="1044">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threeJs/makeLine.html">
+    <entry file="file://$PROJECT_DIR$/aviodMoreSubmit/aviodMoreSubmit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/拱形文字/拱形文字.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="551">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#text#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#376#891#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js方法集锦/AvoidDuplicateSubmission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc;n#AvoidDuplicateSubmission#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3 3D旋转/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日历控件/日历控件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/翻牌效果/翻拍效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="355" column="38" lean-forward="true" selection-start-line="355" selection-start-column="38" selection-end-line="355" selection-end-column="38" />
+          <folding>
+            <element signature="e#4593#4972#0" expanded="false" />
+            <element signature="e#4981#5365#0" expanded="false" />
+            <element signature="e#5374#5761#0" expanded="false" />
+            <element signature="e#5770#6157#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D旋转</title>
+    <style>
+        .rotate {
+            width:200px;
+            height: 200px;
+            background: red;
+            margin: 0 auto;
+            position: absolute;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transition: .8s ease-in-out;
+            -moz-transition: .8s ease-in-out;
+            -webkit-perspective: 800px;
+            -moz-perspective: 800px;
+        }
+        .rotate:hover {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            z-index: 2;
+            -webkit-perspective: 100px;
+            -moz-perspective: 100px;
+            background-color: #f96;
+        }
+    </style>
+</head>
+
+<body>
+<div class="rotate"></div>
+</body>
+</html>
