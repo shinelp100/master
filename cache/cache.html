@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cache</title>
+</head>
+<body>
+<!--<script src="../zepto/zepto.min.js"></script>-->
+<!--<link rel="stylesheet" href="../active/index.css">-->
+<script>
+    /*function createScript (baseUrl) {
+        const timestamp=new Date().getTime();
+        var oScript = document.createElement('script');
+        oScript.src= baseUrl + '?v=' + timestamp;
+        oScript.type = 'text/javascript';
+        document.getElementsByTagName("head")[0].appendChild(oScript);
+    }
+    createScript('../zepto/zepto.min.js');
+
+    function createLink (baseUrl) {
+        const timestamp=new Date().getTime();
+        var oLink = document.createElement('link');
+        oLink.href= baseUrl + '?v=' + timestamp;
+        oLink.rel = 'stylesheet';
+        document.getElementsByTagName("head")[0].appendChild(oLink);
+    }
+    createLink('../active/index.css');*/
+
+    function createTag (baseUrl,type) {
+        const timestamp=new Date().getTime();
+        var oTag = document.createElement(type);
+        if(type=="link"){
+            oTag.href= baseUrl + '?v=' + timestamp;
+            oTag.rel = 'stylesheet';
+        } else if(type=="script") {
+            oTag.src= baseUrl + '?v=' + timestamp;
+            oTag.type = 'text/javascript';
+        }
+        document.getElementsByTagName("head")[0].appendChild(oTag);
+    }
+    createTag("../active/index.css","link");
+    createTag("../zepto/zepto.min.js","script");
+</script>
+
+</body>
+</html>

@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9c3dcfdd-cd17-4612-9e0f-e82cdfc75a45" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/awesome-javascript-cn/1486199086(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/axios.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue原码解析/once.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/removeCache.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn" afterPath="$PROJECT_DIR$/awesome-javascript-cn" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesome-javascript-cn/README.md" afterPath="$PROJECT_DIR$/awesome-javascript-cn/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue原码解析/once.html" afterPath="$PROJECT_DIR$/vue原码解析/once.html" />
     </list>
     <list id="382b4b5b-cacb-4203-b6e4-07ed4d2d8aff" name="Revert: 提交 (1e5e77befdb4dd4d41bab5c9dd05c697abea4930)" comment="" />
     <list id="f65b881f-fa18-453f-ab00-afbf2f710d27" name="Revert: Revert: svg 提交" comment="返回这次提交" />
@@ -39,115 +39,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.html">
+      <file leaf-file-name="ios滑动卡顿.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="232">
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3 3D旋转/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="翻拍效果.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/翻牌效果/翻拍效果.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="336" column="27" lean-forward="false" selection-start-line="336" selection-start-column="27" selection-end-line="336" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#4593#4972#0" expanded="false" />
-                <element signature="e#4981#5365#0" expanded="false" />
-                <element signature="e#5374#5761#0" expanded="false" />
-                <element signature="e#5770#6157#0" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="once.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue原码解析/once.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zepto.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zepto/zepto.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="日历控件.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/日历控件/日历控件.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="原生ajax封装.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/原生ajax请求/原生ajax封装.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aviodMoreSubmit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aviodMoreSubmit/aviodMoreSubmit.html">
+      <file leaf-file-name="jq颜色选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq颜色选取插件/jq颜色选择器.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
-              <folding>
-                <element signature="e#376#891#0" expanded="false" />
-              </folding>
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvoidDuplicateSubmission.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js方法集锦/AvoidDuplicateSubmission.js">
+      <file leaf-file-name="cache.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache/cache.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-              <folding>
-                <element signature="n#!!doc;n#AvoidDuplicateSubmission#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1189">
+              <caret line="41" column="48" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="41" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeCache.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache/removeCache.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculate/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,14 +96,13 @@
       <list>
         <option value="tsconfig.json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.popError</find>
       <find>alt</find>
       <find>_</find>
       <find>options.errorMsg</find>
@@ -196,6 +132,7 @@
       <find>28800deg</find>
       <find>720</find>
       <find>gift</find>
+      <find>vue\345\216\237\347\240\201\350\247\243\346\236\220/once.html</find>
     </findStrings>
     <replaceStrings>
       <replace>data-original</replace>
@@ -220,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/toArray.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/jsObject.js" />
-        <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/looseEqual.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/looseIndexOf.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/commonJs/once.js" />
         <option value="$PROJECT_DIR$/webpack_pro/src/libs/lib.flexible.js" />
@@ -271,6 +205,9 @@
         <option value="$PROJECT_DIR$/css3 3D旋转/index.html" />
         <option value="$PROJECT_DIR$/翻牌效果/翻拍效果.html" />
         <option value="$PROJECT_DIR$/vue原码解析/once.html" />
+        <option value="$PROJECT_DIR$/cache/cache.html" />
+        <option value="$PROJECT_DIR$/cache/removeCache.js" />
+        <option value="$USER_HOME$/Desktop/贷款合同 - 副本.htm" />
       </list>
     </option>
   </component>
@@ -339,7 +276,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,8 +288,65 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jq颜色选取插件" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios滑动卡顿问题" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,19 +367,19 @@
     <property name="js.eslint.nodeInterpreter" value="project" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\master\cache" />
+      <recent name="D:\work\master" />
+      <recent name="D:\work\master\翻牌效果\images" />
+      <recent name="D:\work\master\日历控件" />
+      <recent name="D:\work\master\threeJs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\master\webpack_pro" />
       <recent name="D:\work\master\webpack_pro\dev" />
       <recent name="D:\work\master\webpack_pro\src" />
       <recent name="D:\work\master\webpack_pro\src\second" />
       <recent name="D:\work\master\webpack_pro\src\index" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\master" />
-      <recent name="D:\work\master\翻牌效果\images" />
-      <recent name="D:\work\master\日历控件" />
-      <recent name="D:\work\master\threeJs" />
-      <recent name="D:\work\master\webpack_pro" />
     </key>
   </component>
   <component name="RunManager">
@@ -655,7 +648,11 @@
       <workItem from="1500859355253" duration="2805000" />
       <workItem from="1500875169490" duration="1899000" />
       <workItem from="1500944930038" duration="865000" />
-      <workItem from="1500950440905" duration="1416000" />
+      <workItem from="1500950440905" duration="3651000" />
+      <workItem from="1501031960540" duration="631000" />
+      <workItem from="1501143350793" duration="3696000" />
+      <workItem from="1501204445810" duration="533000" />
+      <workItem from="1501207997076" duration="1074000" />
     </task>
     <task id="LOCAL-00008" summary="提交">
       <created>1478595755993</created>
@@ -1004,7 +1001,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1238315000" />
+    <option name="totallyTimeSpent" value="1246484000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1016,19 +1013,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1873" height="1092" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1873" height="1092" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17965727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22001106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23106688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598326" sideWeight="0.43038675" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4707113" sideWeight="0.5468578" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20176406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3067227" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3067227" sideWeight="0.51267916" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1112,42 +1109,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/active/active20170524/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/dist/active/active20170524/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/src/index/js/index.css" />
-    <entry file="file://$PROJECT_DIR$/webpack_pro/src/libs/commonJs/check_mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/src/index/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack_pro/src/second/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack_pro/dist/img/banner.78fd154a1af5da570fce7397a3f94f82.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1379,50 +1340,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3 3D旋转/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/翻牌效果/翻拍效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="336" column="27" lean-forward="false" selection-start-line="336" selection-start-column="27" selection-end-line="336" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4593#4972#0" expanded="false" />
-            <element signature="e#4981#5365#0" expanded="false" />
-            <element signature="e#5374#5761#0" expanded="false" />
-            <element signature="e#5770#6157#0" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue原码解析/once.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="754">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1430,9 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1440,15 +1358,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/翻牌效果/翻拍效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="336" column="27" lean-forward="false" selection-start-line="336" selection-start-column="27" selection-end-line="336" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3 3D旋转/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/原生ajax请求/原生ajax封装.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
+        <state relative-caret-position="863">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,9 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="34" column="7" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="e#376#891#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1466,9 +1407,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="n#!!doc;n#AvoidDuplicateSubmission#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios滑动卡顿问题/ios滑动卡顿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq颜色选取插件/jq颜色选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/cache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="41" column="48" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="41" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/贷款合同 - 副本.htm" />
+    <entry file="file://$PROJECT_DIR$/cache/removeCache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculate/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
